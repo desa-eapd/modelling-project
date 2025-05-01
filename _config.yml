@@ -81,7 +81,7 @@ exclude:
 # -------------------
 # Theme Config
 # --------------------
-title: "Jekyll Advance"
+title: "UN DESA"
 category_dir: category
 
 colors:
@@ -119,8 +119,8 @@ fonts:
   logo: "Lato"
 
 logo:
-  logo_text: "Jekyll Advance"
-  logo_image: assets/images/logo/logo.png
+  logo_text: "UN DESA"
+  #logo_image: assets/images/logo/logo.png
   logo_image_mobile: assets/images/logo/logo-mobile.png
   logo_image_invert: assets/images/logo/logo-invert.png
   logo_image_invert_mobile: assets/images/logo/logo-invert-mobile.png
