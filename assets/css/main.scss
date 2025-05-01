@@ -45,5 +45,8 @@ html[data-bs-theme='dark'] {
   --color-logo-text: {{ site.colors.logo_text_dark | default: "#F4F4F5" }};
   --color-header-text: {{ site.colors.header_text_dark | default: "#F4F4F5" }};
 }
-
+.grid-header-align-center {
+  text-align: center;
+  margin-bottom: 2rem;
+}
 @import 'style';

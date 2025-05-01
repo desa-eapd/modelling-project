@@ -23,8 +23,9 @@ hero:
 models_cards:
   enabled: true
   heading: "Key Tools for Policy Insights"
-  sub_heading: ""
   align: center
+  sub_heading: ""
+  
   cards:
     - title: "Designing Sustainable Economic Policies"
       description: "How can tax and spending policies shape a better future?"
