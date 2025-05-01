@@ -22,7 +22,7 @@ hero:
 intro:
   enabled: true
   align: center
-  heading: "Understanding CLEWS"
+  heading: "Key Tools for Policy Insights"
 
 models_cards:
   enabled: true
