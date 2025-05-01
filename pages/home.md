@@ -2,14 +2,14 @@
 layout: home
 permalink: "/"
 title: "UN DESA Modelling Tools"
-description: "Explore cutting-edge modelling frameworks developed by the United Nations Department of Economic and Social Affairs."
+description: "Explore the core modelling frameworks: OG-Core, CLEWs, and WEFM for integrated policy insights."
 header_transparent: true
 meta_title: UN DESA Modelling Tools
 
 hero:
   enabled: true
   heading: "UN DESA Modelling Tools"
-  sub_heading: "Explore OG-Core, CLEWs, and WEFM — our advanced modelling systems for sustainable development and integrated policy analysis."
+  sub_heading: "Explore OG-Core, CLEWs, and WEFM — advanced modelling systems for sustainable development and integrated policy analysis."
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: true
@@ -19,39 +19,35 @@ hero:
   fullscreen_desktop: false
   height: "660px"
 
-models:
+models_cards:
   enabled: true
-  heading: "Explore Our Core Models"
-  sub_heading: "These tools help guide evidence-based policy development through integrated systems analysis."
+  heading: "Key Tools for Policy Insights"
+  sub_heading: ""
   cards:
-    - title: "OG-Core"
-      description: "A dynamic overlapping generations model for economic projections and policy simulation."
+    - title: "Designing Sustainable Economic Policies"
+      description: "How can tax and spending policies shape a better future?"
       url: "/og-core"
-      image: "/assets/images/models/og-core.jpg"
-    - title: "CLEWs"
-      description: "Climate, Land, Energy, and Water systems modelling for integrated planning."
+      button_text: "Explore OG-Core"
+      icon: "/assets/images/icons/ogcore-icon.svg"
+    - title: "Optimizing Resource Management"
+      description: "How do climate, land, energy, and water use decisions impact sustainability?"
       url: "/clews"
-      image: "/assets/images/models/clews.jpg"
-    - title: "WEFM"
-      description: "World Energy Forecasting Model for long-term energy planning and scenario analysis."
+      button_text: "Explore CLEWs"
+      icon: "/assets/images/icons/clews-icon.svg"
+    - title: "Forecasting Economic Trends & Policy Impacts"
+      description: "How can we prepare for economic shifts and global uncertainties?"
       url: "/wefm"
-      image: "/assets/images/models/wefm.jpg"
+      button_text: "Explore WEFM"
+      icon: "/assets/images/icons/wefm-icon.svg"
 
-outro:
+posts:
   enabled: true
-  align: center
-  heading: Ready to Dive Deeper?
-  sub_heading: "Visit each model section to explore features, documentation, and real-world applications."
-  buttons:
-    enabled: true
-    list:
-      - text: "Visit OG-Core"
-        url: "/og-core"
-        size: "large"
-      - text: "Visit CLEWs"
-        url: "/clews"
-        size: "large"
-      - text: "Visit WEFM"
-        url: "/wefm"
-        size: "large"
+  heading: "Latest News & Events"
+  sub_heading: ""
+  limit: 4
+  columns: 4
+  sort: "date"
+  view_more_button_text: "Read All News"
+  view_more_button_link: "/news"
+  prevent_click: false
 ---
