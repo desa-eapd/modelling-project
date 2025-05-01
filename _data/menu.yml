@@ -3,7 +3,7 @@ main:
     url: /
     weight: 0
   - name: About the Project
-    url: /about_the_project/
+    url: /about-the-project/
     weight: 1
   - name: OG-Core
     url: /og-core/
