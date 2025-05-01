@@ -5,7 +5,7 @@ title: "UN DESA Modelling Tools"
 description: "Explore the core modelling frameworks: OG-Core, CLEWs, and WEFM for integrated policy insights."
 header_transparent: false
 header_color_mode: dark
-meta_title: UN DESA Modelling Tools
+meta_title: "UN DESA Modelling Tools"
 
 hero:
   enabled: true
@@ -22,7 +22,7 @@ hero:
 models_cards:
   enabled: true
   heading: "Key Tools for Policy Insights"
-  align: center
+  align: "center"
   sub_heading: ""
   cards:
     - title: "Designing Sustainable Economic Policies"
