@@ -17,7 +17,7 @@ hero:
   background_image: "/assets/images/gen/home/V2banner.png"
   fullscreen_mobile: true
   fullscreen_desktop: false
-  height: "660px"
+  height: "500px"
 
 models_cards:
   enabled: true
