@@ -1,15 +1,15 @@
 ---
 layout: home
 permalink: "/"
-title: "Jekyll Advance"
-description: "Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
+title: "UN DESA Modelling Tools"
+description: "Explore cutting-edge modelling frameworks developed by the United Nations Department of Economic and Social Affairs."
 header_transparent: true
-meta_title: Jekyll Advance - Premium Jekyll Theme
+meta_title: UN DESA Modelling Tools
 
 hero:
   enabled: true
-  heading: "Jekyll Advance"
-  sub_heading: "Built using highly configurable sections, Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
+  heading: "UN DESA Modelling Tools"
+  sub_heading: "Explore OG-Core, CLEWs, and WEFM — our advanced modelling systems for sustainable development and integrated policy analysis."
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: true
@@ -18,68 +18,40 @@ hero:
   fullscreen_mobile: true
   fullscreen_desktop: false
   height: "660px"
-  buttons:
-    enabled: false
 
-services:
+models:
   enabled: true
-  heading: "Our Services"
-  limit: 6
-  sort: "weight"
-  view_more_button_text: "View All Services"
-  view_more_button_link: "/services"
-  prevent_click: false
-
-intro:
-  enabled: true
-  align: left
-  image: "/assets/images/gen/content/content-5-thumbnail.webp"
-  heading: "We've helped hundreds of people grow their business online."
-  sub_heading: "Our software empowers customers and retailers to work from anywhere in the world, on the go, or at home."
-  buttons:
-    enabled: true
-    list:
-      - text: "About Us"
-        url: "/about"
-        size: large
-        outline: false
-        style: "primary"
-
-partners:
-  enabled: true
-  limit: 5
-  sort: "weight"
-
-projects:
-  enabled: true
-  heading: "Our Projects"
-  limit: 2
-  columns: 2
-  sort: "weight"
-  view_more_button_text: "View All Projects"
-  view_more_button_link: "/projects"
-  prevent_click: false
+  heading: "Explore Our Core Models"
+  sub_heading: "These tools help guide evidence-based policy development through integrated systems analysis."
+  cards:
+    - title: "OG-Core"
+      description: "A dynamic overlapping generations model for economic projections and policy simulation."
+      url: "/og-core"
+      image: "/assets/images/models/og-core.jpg"
+    - title: "CLEWs"
+      description: "Climate, Land, Energy, and Water systems modelling for integrated planning."
+      url: "/clews"
+      image: "/assets/images/models/clews.jpg"
+    - title: "WEFM"
+      description: "World Energy Forecasting Model for long-term energy planning and scenario analysis."
+      url: "/wefm"
+      image: "/assets/images/models/wefm.jpg"
 
 outro:
   enabled: true
   align: center
-  heading: Get Started Today
-  sub_heading: "Save time and money using this premium Jekyll theme."
+  heading: Ready to Dive Deeper?
+  sub_heading: "Visit each model section to explore features, documentation, and real-world applications."
   buttons:
     enabled: true
     list:
-      - text: "Contact Us"
-        url: "/contact"
+      - text: "Visit OG-Core"
+        url: "/og-core"
         size: "large"
-
-posts:
-  enabled: true
-  heading: "News & Events"
-  sub_heading: ""
-  limit: 3
-  columns: 3
-  sort: "weight"
-  view_more_button_text: "View All News"
-  view_more_button_link: "/news"
-  prevent_click: false
+      - text: "Visit CLEWs"
+        url: "/clews"
+        size: "large"
+      - text: "Visit WEFM"
+        url: "/wefm"
+        size: "large"
 ---
