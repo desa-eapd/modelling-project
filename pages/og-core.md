@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: og-core
 title: "OG-Core"
 permalink: "/og-core/"
 description: "OG-Core is a dynamic overlapping generations model used for long-term economic projections and policy analysis."
