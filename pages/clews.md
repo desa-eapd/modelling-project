@@ -11,7 +11,7 @@ hero:
   enabled: true
   heading: "CLEWS: Climate, Land, Energy & Water Systems"
   sub_heading: "A powerful framework for integrated resource planning, helping governments align strategies with sustainability goals."
-  text_color: "#000000"
+  text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: true
   background_image: "/assets/images/gen/home/CLEWs.png"
@@ -44,7 +44,7 @@ outro:
     **Link to download**: [muio.5.0.0.setup.exe](https://www.dropbox.com/scl/fi/8l8ysyiw4r98uctcndf42/muio.5.0.0.setup.exe?rlkey=qci1w8eei2barkh3cb8mw538p&st=drv8lvqe&dl=0)
   buttons:
     enabled: false
-    
+
 projects:
   enabled: true
   heading: "CLEWS in Action"
