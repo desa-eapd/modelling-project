@@ -19,7 +19,7 @@ hero:
   #background_image_blend_mode: overlay
   fullscreen_mobile: true
   fullscreen_desktop: false
-  height: "660px"
+  height: "500px"
 
 intro:
   enabled: true
