@@ -4,14 +4,15 @@ title: "WEFM"
 permalink: "/wefm/"
 description: "The World Economic Forecasting Model (WEFM) supports scenario-based macroeconomic forecasting and long-term planning."
 
-header_transparent: true
+header_transparent: false
+header_color_mode: dark
 meta_title: WEFM – United Nations Modelling Tool
 
 hero:
   enabled: true
   heading: "WEFM: World Economic Forecasting Model"
   sub_heading: "Supporting long-term macroeconomic and policy forecasting through integrated modelling techniques."
-  text_color: "#FFFFFF"
+  text_color: "#000000"
   background_color: "#1d2830"
   background_gradient: true
   background_image: "/assets/images/gen/home/WEFM.jpeg"

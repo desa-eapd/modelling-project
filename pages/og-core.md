@@ -3,8 +3,8 @@ layout: og-core
 title: "OG-Core"
 permalink: "/og-core/"
 description: "OG-Core is a dynamic overlapping generations model used for long-term economic projections and policy analysis."
-
-header_transparent: true
+header_transparent: false
+header_color_mode: dark
 meta_title: OG-Core – United Nations Modelling Tool
 
 hero:
