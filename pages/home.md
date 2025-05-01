@@ -17,6 +17,14 @@ hero:
   background_image: "/assets/images/gen/home/V2banner.png"
   fullscreen_mobile: true
   fullscreen_desktop: false
+  buttons:
+    enabled: true
+    list:
+      - text: "Learn More About The Project"
+        url: "/about-the-project/"
+        external: false
+        size: large
+        style: "primary"
   height: "580px"
 
 models_cards:
