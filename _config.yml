@@ -9,7 +9,6 @@ highlighter: rouge
 
 # Plugins
 plugins:
-  - jekyll-environment-variables
   - jekyll-paginate
 
 paginate: 6
