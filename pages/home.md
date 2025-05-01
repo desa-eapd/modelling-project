@@ -15,7 +15,6 @@ hero:
   background_color: "#1d2830"
   background_gradient: true
   background_image: "/assets/images/gen/home/V2banner.png"
-  #background_image_blend_mode: overlay
   fullscreen_mobile: true
   fullscreen_desktop: false
   height: "660px"
@@ -30,7 +29,6 @@ models_cards:
   heading: ""
   align: center
   sub_heading: ""
-  
   cards:
     - title: "Designing Sustainable Economic Policies"
       description: "How can tax and spending policies shape a better future?"
@@ -54,7 +52,7 @@ posts:
   sub_heading: ""
   limit: 3
   columns: 3
-  sort: "weight" # 'date'
+  sort: "weight"
   view_more_button_text: "View All Posts"
   view_more_button_link: "/news"
   prevent_click: false
