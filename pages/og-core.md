@@ -22,8 +22,8 @@ hero:
 
 intro:
   enabled: true
-  align: left
-  image: "/assets/images/gen/og-core/ogcore-intro.jpg"
+  align: center
+  #image: "/assets/images/gen/og-core/ogcore-intro.jpg"
   heading: "Strengthening National Capacities"
   sub_heading: |
     The Core Overlapping Generations Macroeconomy Model (OG-CORE) is an advanced quantitative tool developed to assist governments in analyzing and strategizing economic policies through rigorous "what-if" scenario analysis. OG-CORE is a powerful, flexible, and open-source tool to assess the impact of economic policies, including on population groups and generations across time. The model is particularly useful to study taxation and spending policies, social protection and pension systems, transfers, savings behavior, technological progress, and the effect of demographic changes. This model is used effectively for policy analysis in the United States, Malaysia, India, the United Kingdom, Italy, Germany, Latvia, and within the European Union.
