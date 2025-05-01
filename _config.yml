@@ -12,7 +12,7 @@ plugins:
   - jekyll-paginate
 
 paginate: 6
-paginate_path: "/blog/page/:num"
+paginate_path: "/news/page/:num"
 
 # Collections
 collections_dir: collections
@@ -28,7 +28,7 @@ collections:
     permalink: /:collection/:path/
   posts:
     output: true
-    permalink: /blog/:path/
+    permalink: /news/:path/
 
 # Pages
 defaults:
@@ -78,7 +78,6 @@ exclude:
   - LICENSE
   - netlify.toml
 
-
 # -------------------
 # Theme Config
 # --------------------
@@ -86,7 +85,6 @@ title: "Jekyll Advance"
 category_dir: category
 
 colors:
-  #light-mode colors
   primary_bg: "#2b3af7"
   primary_bg_2: "#424ff8"
   primary_bg_3: "#702bf7"
@@ -99,7 +97,6 @@ colors:
   logo_text: "#2b3af7"
   header_text: "#0d042b"
 
-  # dark-mode colors
   primary_bg_dark: "#2b3af7"
   primary_bg_2_dark: "#424ff8"
   primary_bg_3_dark: "#702bf7"
@@ -115,7 +112,7 @@ colors:
 fonts:
   use_google_fonts: false
   google_fonts_url: "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Code+Pro&family=Source+Sans+3:wght@300;400;700&display=swap"
-  use_self_hosted_fonts: true # font files must be placed in /assets/fonts folder and the @font-face definitions must be added to /assets/css/fonts.css
+  use_self_hosted_fonts: true
   heading: "Lato"
   base: "'Source Sans 3'"
   monospace: "'Source Code Pro'"
@@ -136,7 +133,7 @@ logo:
   show_logo_text_on_mobile: false
   show_logo_text_on_desktop: false
 
-header: 
+header:
   fixed: true
 
 open_graph:
@@ -156,36 +153,36 @@ cookie_banner:
   show_manage_cookies_at_bottom: true
 
 analytics:
-  disable_analytics_on_localhost: false # prevents polluting analytics data while developing but enabling can be useful
-  google_analytics_id: "" # G-XXXXXXXXXX
-  gtm_id: "" # GTM-XXXXXXXX
-  plausible_data_domain: "" # mywebsite.com
-  umami_data_website_id: "" # ddd14336-5fb0-4cdd-8f32-e1bfa906cc2b
-  umami_src: "" # https://analytics.eu.umami.is/script.js
+  disable_analytics_on_localhost: false
+  google_analytics_id: ""
+  gtm_id: ""
+  plausible_data_domain: ""
+  umami_data_website_id: ""
+  umami_src: ""
 
 comments:
   commento:
-    enabled: false # you must have a commento account and be on the correct domain. does not work locally.
+    enabled: false
   disqus:
-    shortname: "zerostatic" # Your disqus shortcode for example "zerostatic". leave this blank ie "" to disable.
+    shortname: "zerostatic"
 
 newsletter:
   mailchimp:
-    form_action_url: https://zerostatic.us21.list-manage.com/subscribe/post?u=798e19886b83aaab346734382&amp;id=f1c526a772&amp;f_id=0027e3e6f0
+    form_action_url: "https://zerostatic.us21.list-manage.com/subscribe/post?u=798e19886b83aaab346734382&amp;id=f1c526a772&amp;f_id=0027e3e6f0"
     form_title: "Let's keep in touch"
 
-contact_form: 
+contact_form:
   use_netlify_form: true
   use_formspree_form: false
-  formspree_endpoint: https://formspree.io/f/moqyklqv
+  formspree_endpoint: "https://formspree.io/f/moqyklqv"
   netlify_form_name: "contact"
 
-menu: 
+menu:
   show_dropdown_items_in_mobile_menu: false
   show_social_media_in_mobile_menu: true
 
 footer:
-  enable_footer: true # show/hide the entire footer
+  enable_footer: true
   footer_title: "Jekyll Advance"
   footer_description: "Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
   enable_social_media_icons: true
@@ -198,12 +195,10 @@ footer:
   footer_tertiary_menu_title: "Other"
 
 bottom:
-  enable_bottom: false # show/hide the entire bottom (below the footer)
-  
+  enable_bottom: false
 
 sidebar:
   enable_sidebar_services: true
   enable_breadcrumbs_services: true
   enable_sidebar_projects: false
   enable_breadcrumbs_projects: true
-
