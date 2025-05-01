@@ -13,7 +13,7 @@ hero:
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: true
-  background_image: "/assets/images/gen/home/home-1-large.webp"
+  background_image: "/assets/images/gen/home/V2banner.png"
   background_image_blend_mode: overlay
   fullscreen_mobile: true
   fullscreen_desktop: false
