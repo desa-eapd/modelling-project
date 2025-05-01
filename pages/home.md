@@ -11,13 +11,13 @@ hero:
   enabled: true
   heading: "UN DESA Modelling Tools"
   sub_heading: "Explore OG-Core, CLEWs, and WEFM — advanced modelling systems for sustainable development & integrated policy analysis."
-  text_color: "#DC143C"
+  text_color: "#000000"
   background_color: "#1d2830"
   background_gradient: true
   background_image: "/assets/images/gen/home/V2banner.png"
   fullscreen_mobile: true
   fullscreen_desktop: false
-  height: "500px"
+  height: "580px"
 
 models_cards:
   enabled: true
