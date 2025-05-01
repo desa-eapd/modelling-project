@@ -2,7 +2,7 @@
 # Jekyll Config
 # --------------------
 baseurl: "/UNDESA-modelling"
-url: "https://github.com/desa-eapd"
+url: "https://desa-eapd.github.io"
 permalink: pretty
 markdown: kramdown
 highlighter: rouge
