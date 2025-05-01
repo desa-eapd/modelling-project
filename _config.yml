@@ -198,10 +198,8 @@ footer:
   footer_tertiary_menu_title: "Other"
 
 bottom:
-  enable_bottom: true # show/hide the entire bottom (below the footer)
-  enable_bottom_menu: true # if enabled, the bottom menu can be edited in `_data/menu.yml`
-  copyright_text: "© 2023 Zerostatic Themes"
-  show_rss_icon: true
+  enable_bottom: false # show/hide the entire bottom (below the footer)
+  
 
 sidebar:
   enable_sidebar_services: true
