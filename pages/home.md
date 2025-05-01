@@ -19,14 +19,9 @@ hero:
   fullscreen_desktop: false
   height: "660px"
 
-intro:
-  enabled: true
-  align: center
-  heading: "Key Tools for Policy Insights"
-
 models_cards:
   enabled: true
-  heading: ""
+  heading: "Key Tools for Policy Insights"
   align: center
   sub_heading: ""
   cards:
