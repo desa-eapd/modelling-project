@@ -22,7 +22,7 @@ hero:
 
 intro:
   enabled: true
-  align: left
+  align: center
   image: "/assets/images/gen/clews/clews-intro.jpg"
   heading: "Understanding CLEWS"
   sub_heading: |
