@@ -14,7 +14,7 @@ hero:
   text_color: "000000"
   background_color: "#1d2830"
   background_gradient: true
-  background_image: "/assets/images/gen/OG-Core.png"
+  background_image: "/assets/images/gen/home/OG-Core.png"
   background_image_blend_mode: overlay
   fullscreen_mobile: true
   fullscreen_desktop: false
