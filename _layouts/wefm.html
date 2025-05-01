@@ -1,0 +1,81 @@
+---
+layout: default
+body_classes: page-wefm
+---
+
+{% if page.hero.enabled %}
+  {% include framework/hero.html
+    heading=page.hero.heading
+    sub_heading=page.hero.sub_heading
+    background_image=page.hero.background_image
+    background_image_blend_mode=page.hero.background_image_blend_mode
+    background_color=page.hero.background_color
+    background_gradient=page.hero.background_gradient
+    text_color=page.hero.text_color
+    fullscreen_mobile=page.hero.fullscreen_mobile
+    fullscreen_desktop=page.hero.fullscreen_desktop
+    height=page.hero.height
+    buttons=page.hero.buttons
+  %}
+{% endif %}
+
+{% if page.intro.enabled %}
+<div class="section">
+  <div class="container">
+    {% include framework/info.html
+      heading=page.intro.heading
+      sub_heading=page.intro.sub_heading
+      align=page.intro.align
+      image=page.intro.image
+      buttons=page.intro.buttons
+    %}
+  </div>
+</div>
+{% endif %}
+
+{% if page.projects.enabled %}
+  {% assign cards = site.projects | sort: page.projects.sort | default: 'date' %}
+  {% assign columns = page.projects.columns | default: 3 %}
+  {% capture col_classes %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
+  <div class="section section-base-bg-2">
+    <div class="container">
+      <div class="row">
+        {% include framework/grid-header.html
+          heading=page.projects.heading
+          sub_heading=page.projects.sub_heading
+          align="center"
+        %}
+        {% for card in cards limit: page.projects.limit %}
+          <div class="col-12 col-md-4 {{ col_classes }} mb-4">
+            {% include theme/cards/card-projects.html
+              title=card.title
+              description=card.description
+              thumbnail=card.thumbnail
+              url=card.url
+              weight=card.weight
+            %}
+          </div>
+        {% endfor %}
+        {% include framework/grid-footer.html
+          view_more_button_text=page.projects.view_more_button_text
+          view_more_button_link=page.projects.view_more_button_link
+          align="center"
+        %}
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{% if page.outro.enabled %}
+<div class="section">
+  <div class="container">
+    {% include framework/info.html
+      heading=page.outro.heading
+      sub_heading=page.outro.sub_heading
+      align=page.outro.align
+      image=page.outro.image
+      buttons=page.outro.buttons
+    %}
+  </div>
+</div>
+{% endif %}
