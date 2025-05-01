@@ -14,8 +14,8 @@ hero:
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: true
-  background_image: "/assets/images/gen/wefm/wefm-banner.jpg"
-  background_image_blend_mode: overlay
+  background_image: "/assets/images/gen/home/WEFM.jpeg"
+  #background_image_blend_mode: overlay
   fullscreen_mobile: true
   fullscreen_desktop: false
   height: "660px"
