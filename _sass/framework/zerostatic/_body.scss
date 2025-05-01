@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: var(--font-family-base);
+  font-size: 18px;
+  color: var(--color-base-text);
+  background: var(--color-base-bg);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.page {
+  .wrapper {
+    flex: 1;
+  }
+}
+
+.container {
+  padding-left: $grid-gutter-width;
+  padding-right: $grid-gutter-width;
+}
+
+// Tweaks for dark mode
+html[data-bs-theme="dark"] {
+}

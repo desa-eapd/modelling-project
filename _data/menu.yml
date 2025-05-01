@@ -1,0 +1,81 @@
+main:
+  - name: Home
+    url: /
+    weight: 1
+  - name: Services
+    url: /services/
+    weight: 1
+    child:
+      - name: "Web Development"
+        url: /services/web-development/
+      - name: "UX"
+        url: /services/user-experience/
+      - name: "Branding"
+        url: /services/branding/
+      - name: "Web Design"
+        url: /services/web-design/
+      - name: "SEO"
+        url: /services/seo/
+      - name: "Software Engineering"
+        url: /services/software-engineering/
+  - name: Projects
+    url: /projects/
+    weight: 2
+    child:
+      - name: "Book Design"
+        url: /projects/book-design/
+      - name: "Special Edition"
+        url: /projects/special-edition/
+      - name: "Master System"
+        url: /projects/master-system/
+      - name: "Clothing Range"
+        url: /projects/clothing-range/
+  - name: Blog
+    url: /blog/
+    weight: 4
+  - name: About
+    url: /about/
+    weight: 5
+  - name: Buy Now
+    url: https://www.zerostatic.io/theme/jekyll-advance/
+    weight: 6
+footer_primary:
+  - name: Home
+    url: /
+    weight: 1
+  - name: Services
+    url: /services/
+    weight: 2
+  - name: Projects
+    url: /projects/
+    weight: 3
+  - name: Team
+    url: /team/
+    weight: 4
+footer_secondary:
+  - name: Blog
+    url: /blog/
+    weight: 1
+  - name: About
+    url: /about/
+    weight: 2
+  - name: Contact
+    url: /contact/
+    weight: 3
+footer_tertiary:
+  - name: Privacy Policy
+    url: /privacy-policy/
+    weight: 1
+  - name: Terms and Conditions
+    url: /terms-and-conditions/
+    weight: 2
+  - name: Buy Now
+    url: https://www.zerostatic.io/theme/jekyll-advance/
+    weight: 3
+bottom:
+  - name: Privacy Policy
+    url: /privacy-policy/
+    weight: 3
+  - name: Terms and Conditions
+    url: /terms-and-conditions/
+    weight: 4

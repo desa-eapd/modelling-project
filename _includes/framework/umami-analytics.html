@@ -1,0 +1,11 @@
+{% if jekyll.environment != "production" and site.analytics.disable_analytics_on_localhost %}
+  <!-- no analytics on localhost, it can pollute the data -->
+{% else %}
+    {% assign env_umami_data_website_id = site.env.UMAMI_DATA_WEBSITE_ID %}
+    {% assign env_umami_src = site.env.UMAMI_SRC %}
+    {% if env_umami_data_website_id and env_umami_src %}
+        <script async defer src="{{ env_umami_src }}" data-website-id="{{ env_umami_data_website_id }}"></script>
+    {% elsif site.analytics.umami_data_website_id and site.analytics.umami_src and site.analytics.umami_data_website_id != '' %}%}
+        <script async defer src="{{ site.analytics.umami_src }}" data-website-id="{{ site.analytics.umami_data_website_id }}"></script>
+    {% endif %}
+{% endif %}
