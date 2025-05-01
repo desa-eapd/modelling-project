@@ -10,7 +10,7 @@ meta_title: CLEWS – United Nations Modelling Tool
 hero:
   enabled: true
   heading: "CLEWS"
-  sub_heading: "Climate, Land, Energy & Water Systems. A powerful framework for integrated resource planning, helping governments align strategies with sustainability goals."
+  sub_heading: "A powerful framework for integrated resource planning, helping governments align strategies with sustainability goals."
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: true
@@ -18,7 +18,7 @@ hero:
   #background_image_blend_mode: overlay
   fullscreen_mobile: true
   fullscreen_desktop: false
-  height: "500px"
+  height: "580px"
 
 intro:
   enabled: true
