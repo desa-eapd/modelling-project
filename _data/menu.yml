@@ -1,4 +1,7 @@
 main:
+  - name: Home
+    url: /
+    weight: 0
   - name: About the Project
     url: /about/
     weight: 1
