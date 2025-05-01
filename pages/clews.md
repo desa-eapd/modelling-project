@@ -45,16 +45,6 @@ outro:
   buttons:
     enabled: false
 
-projects:
-  enabled: true
-  heading: "CLEWS in Action"
-  sub_heading: "See how CLEWS is applied to optimize national and regional planning strategies."
-  limit: 3
-  columns: 3
-  sort: "weight"
-  view_more_button_text: "View All Projects"
-  view_more_button_link: "/projects/"
-  prevent_click: false
 
 
 ---
