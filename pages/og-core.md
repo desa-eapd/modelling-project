@@ -39,7 +39,7 @@ intro:
         url: "/og-course-info.md"
         external: false
         size: large
-        style: "dark"
+        style: "primary"
 
 projects:
   enabled: true
