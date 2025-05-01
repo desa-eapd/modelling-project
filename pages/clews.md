@@ -23,7 +23,6 @@ hero:
 intro:
   enabled: true
   align: center
-  image: "/assets/images/gen/clews/clews-intro.jpg"
   heading: "Understanding CLEWS"
   sub_heading: |
     Climate, Land, Energy and Water systems (CLEWS) models are tools for simultaneous consideration of food, energy and water security. They are designed to assess how production and use of these resources may contribute to climate change, and how climate change may affect these resource systems.
