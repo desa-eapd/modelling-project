@@ -20,9 +20,14 @@ hero:
   fullscreen_desktop: false
   height: "660px"
 
+intro:
+  enabled: true
+  align: center
+  heading: "Understanding CLEWS"
+
 models_cards:
   enabled: true
-  heading: "Key Tools for Policy Insights"
+  heading: ""
   align: center
   sub_heading: ""
   
