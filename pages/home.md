@@ -45,12 +45,12 @@ models_cards:
 
 posts:
   enabled: true
-  heading: "Latest News & Events"
+  heading: "Latest News And Events"
   sub_heading: ""
-  limit: 4
-  columns: 4
-  sort: "date"
-  view_more_button_text: "Read All News"
+  limit: 3
+  columns: 3
+  sort: "weight" # 'date'
+  view_more_button_text: "View All Posts"
   view_more_button_link: "/news"
   prevent_click: false
 ---
