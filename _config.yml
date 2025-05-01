@@ -1,8 +1,8 @@
 # -------------------
 # Jekyll Config
 # --------------------
-baseurl: ""
-url: "https://jekyll-advance.netlify.app"
+baseurl: "/UNDESA-modelling"
+url: "https://github.com/desa-eapd"
 permalink: pretty
 markdown: kramdown
 highlighter: rouge
