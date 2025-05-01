@@ -23,7 +23,7 @@ hero:
 
 intro:
   enabled: true
-  align: left
+  align: center
   image: "/assets/images/gen/wefm/wefm-intro.jpg"
   heading: "Global Macroeconomic Scenarios for Informed Decision-Making"
   sub_heading: |
