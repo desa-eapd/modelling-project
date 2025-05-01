@@ -11,10 +11,10 @@ hero:
   enabled: true
   heading: "OG-Core: Dynamic Fiscal Policy Modelling"
   sub_heading: "Explore how tax, spending, and demographic shifts shape long-term macroeconomic outcomes through an open-source overlapping generations framework."
-  text_color: "#FFFFFF"
+  text_color: "000000"
   background_color: "#1d2830"
   background_gradient: true
-  background_image: "/assets/images/gen/og-core/ogcore-banner.jpg"
+  background_image: "/assets/images/gen/OG-Core.png"
   background_image_blend_mode: overlay
   fullscreen_mobile: true
   fullscreen_desktop: false
