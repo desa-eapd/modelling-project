@@ -5,12 +5,12 @@ title: "UN DESA Modelling Tools"
 description: "Explore the core modelling frameworks: OG-Core, CLEWs, and WEFM for integrated policy insights."
 header_transparent: false
 header_color_mode: dark
-meta_title: "UN DESA Modelling Tools"
+meta_title: "Rebuilding Better and Greener from the COVID-19 Pandemic"
 
 hero:
   enabled: true
-  heading: "UN DESA Modelling Tools"
-  sub_heading: "Explore OG-Core, CLEWs, and WEFM — advanced modelling systems for sustainable development & integrated policy analysis."
+  heading: "Rebuilding Better and Greener from the COVID-19 Pandemic"
+  sub_heading: "Strengthening policymaking for a sustainable future through data-driven simulations."
   text_color: "#000000"
   background_color: "#1d2830"
   background_gradient: true
