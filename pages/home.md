@@ -28,17 +28,17 @@ models_cards:
       description: "How can tax and spending policies shape a better future?"
       url: "/og-core"
       button_text: "Explore OG-Core"
-      icon: "/assets/images/icons/ogcore-icon.svg"
+      icon: "/assets/images/icons/ogcore-icon.png"
     - title: "Optimizing Resource Management"
       description: "How do climate, land, energy, and water use decisions impact sustainability?"
       url: "/clews"
       button_text: "Explore CLEWs"
-      icon: "/assets/images/icons/clews-icon.svg"
+      icon: "/assets/images/icons/clews-icon.png"
     - title: "Forecasting Economic Trends & Policy Impacts"
       description: "How can we prepare for economic shifts and global uncertainties?"
       url: "/wefm"
       button_text: "Explore WEFM"
-      icon: "/assets/images/icons/wefm-icon.svg"
+      icon: "/assets/images/icons/wefm-icon.png"
 
 posts:
   enabled: true
