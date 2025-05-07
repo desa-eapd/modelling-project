@@ -8,11 +8,13 @@ header_transparent: true
 hero:
   enabled: true
   heading: "Latest News & Events"
+  sub_heading: |
+    [Newsletter 1.0](/https://nyeinchan85.github.io/PDF_project_test/assets/newsletters/PDF%20Newsletter%202_Sept%20%202024.pdf)
   text_color: "#FFFFFF"
   background_color: ""
   background_gradient: true
   background_image: false
-  background_image_blend_mode: overlay # "overlay", "multiply", "screen"
+  background_image_blend_mode: overlay
   fullscreen_mobile: false
   fullscreen_desktop: false
   height: "330px"
@@ -26,7 +28,7 @@ hero:
         size: large
         outline: true
         style: "light"
----
+
 
 {% if page.hero.enabled %}
   {% include framework/hero.html 
