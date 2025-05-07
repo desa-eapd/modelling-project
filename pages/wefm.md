@@ -27,28 +27,18 @@ intro:
   image: "/assets/images/gen/wefm/wefm-intro.jpg"
   heading: "Global Macroeconomic Scenarios for Informed Decision-Making"
   sub_heading: |
-    WEFM is a powerful model used for economic forecasting and scenario planning. It allows simulation of macroeconomic variables including GDP, inflation, employment, investment, and trade in response to a variety of policy and external shocks.
+    World Economic Forecasting Model (WEFM) is used for globally consistent short-term projections at 
+    country level developed for the Development Analysis and Policy Division of the United Nations Department of Economic and Social Affairs. The model allows users to specify alternative assumptions about the future economic context and policy responses in different groups of countries and trace macro-economic outcomes over short, medium and long-term timescales. It is a model of the world economy design to simulate the macroeocnomic impacts on countries and regions of exogenous shocks to the global economy, the potential effects of 'sea changes' in market confidence (such as reversals in financial market confidence following asset price bubbles), changes in international regulation of trade and finance and the international spill-over effects of major policy changes in major economies
   buttons:
     enabled: true
     list:
-      - text: "WEFM Methodology"
-        url: "/wefm-methodology/"
+      - text: "World Economic Forecasting Model"
+        url: "https://www.un.org/development/desa/dpad/wp-content/uploads/sites/45/publication/2016_Apr_WorldEconomicForecastingModel.pdf"
         external: false
         size: large
         style: "primary"
 
-projects:
-  enabled: true
-  heading: "WEFM in Action"
-  sub_heading: "Explore how WEFM supports economic forecasting across regions and policy contexts."
-  limit: 3
-  columns: 3
-  sort: "weight"
-  view_more_button_text: "View All Projects"
-  view_more_button_link: "/projects/"
-  prevent_click: false
-
-outro:
+Outro:
   enabled: true
   align: left
   heading: "National Applications"
