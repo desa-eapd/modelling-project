@@ -6,7 +6,7 @@ description: "The World Economic Forecasting Model (WEFM) supports scenario-base
 
 header_transparent: false
 header_color_mode: dark
-meta_title: WEFM – United Nations Modelling Tool
+meta_title: "WEFM – United Nations Modelling Tool"
 
 hero:
   enabled: true
@@ -16,7 +16,7 @@ hero:
   background_color: "#1d2830"
   background_gradient: true
   background_image: "/assets/images/gen/home/WEFM.jpeg"
-  #background_image_blend_mode: overlay
+  # background_image_blend_mode: overlay
   fullscreen_mobile: true
   fullscreen_desktop: false
   height: "580px"
@@ -27,8 +27,7 @@ intro:
   image: "/assets/images/gen/wefm/wefm-intro.jpg"
   heading: "Global Macroeconomic Scenarios for Informed Decision-Making"
   sub_heading: |
-    World Economic Forecasting Model (WEFM) is used for globally consistent short-term projections at 
-    country level developed for the Development Analysis and Policy Division of the United Nations Department of Economic and Social Affairs. The model allows users to specify alternative assumptions about the future economic context and policy responses in different groups of countries and trace macro-economic outcomes over short, medium and long-term timescales. It is a model of the world economy design to simulate the macroeocnomic impacts on countries and regions of exogenous shocks to the global economy, the potential effects of 'sea changes' in market confidence (such as reversals in financial market confidence following asset price bubbles), changes in international regulation of trade and finance and the international spill-over effects of major policy changes in major economies
+    The World Economic Forecasting Model (WEFM) is used to produce globally consistent short-term projections at the country level. It was developed by the Development Analysis and Policy Division of the United Nations Department of Economic and Social Affairs. The model allows users to specify alternative assumptions about future economic contexts and policy responses across groups of countries and to trace macroeconomic outcomes over short-, medium-, and long-term timescales. WEFM is designed to simulate the macroeconomic impacts on countries and regions of exogenous shocks to the global economy, including potential effects of major shifts in market confidence (such as reversals following asset price bubbles), changes in international trade and financial regulation, and the spillover effects of significant policy changes in major economies.
   buttons:
     enabled: true
     list:
@@ -38,12 +37,12 @@ intro:
         size: large
         style: "primary"
 
-Outro:
+outro:
   enabled: true
   align: left
   heading: "National Applications"
   sub_heading: |
-    WEFM has been used in diverse policy contexts to model employment policies, industrial scenarios, and fiscal sustainability. It helps decision-makers plan for economic resilience and structural transformation.
+    WEFM has been applied in diverse policy contexts to model employment strategies, industrial development scenarios, and fiscal sustainability. It supports decision-makers in planning for economic resilience and structural transformation.
   buttons:
     enabled: false
 ---
