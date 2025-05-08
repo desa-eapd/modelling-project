@@ -5,7 +5,7 @@ date: 2025-05-01
 header_transparent: false
 permalink: "/about-the-project/"
 description: "Capacity development for policy modelling through WEFM, OG-Core, CLEWS, and microsimulation tools."
-image: "/assets/images/gen/content/content-6.webp"
+image: "/assets/images/gen/content/about.png"
 
 hero:
   enabled: false
@@ -47,7 +47,7 @@ The adoption of these tools is expected to improve decision-making and national 
 - Policy documents developed using simulation results.
 - Support for national engagement in regional and global policy dialogues.
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/content-7.webp" title="Capacity Building in Action" caption="Training teams in national policy simulation tools." alt="Workshop Image" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/action.jpg" title="Capacity Building in Action" caption="Training teams in national policy simulation tools." alt="Workshop Image" %}
 
 ## Partnerships
 
