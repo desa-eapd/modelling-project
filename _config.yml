@@ -130,8 +130,8 @@ logo:
   logo_image_mobile_width: "34px"
   show_logo_image_on_mobile: false
   show_logo_image_on_desktop: false
-  show_logo_text_on_mobile: true
-  show_logo_text_on_desktop: true
+  show_logo_text_on_mobile: false
+  show_logo_text_on_desktop: false
 
 header:
   fixed: true
