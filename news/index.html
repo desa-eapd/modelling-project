@@ -34,19 +34,43 @@ hero:
 
 
 {% if page.hero.enabled %}
-  {% include framework/hero.html 
-    heading=page.hero.heading
-    sub_heading=page.hero.sub_heading
-    background_image=page.hero.background_image
-    background_image_blend_mode=page.hero.background_image_blend_mode
-    background_color=page.hero.background_color
-    background_gradient=page.hero.background_gradient
-    text_color=page.hero.text_color
-    fullscreen_mobile=page.hero.fullscreen_mobile
-    fullscreen_desktop=page.hero.fullscreen_desktop
-    height=page.hero.height
-    buttons=page.hero.buttons
-  %}
+  <section class="hero-section" style="
+    {% if page.hero.background_color %}background-color: {{ page.hero.background_color }};{% endif %}
+    {% if page.hero.background_image %}background-image: url('{{ page.hero.background_image }}'); background-size: cover; background-position: center;{% endif %}
+    {% if page.hero.text_color %}color: {{ page.hero.text_color }};{% endif %}
+    height: {{ page.hero.height | default: '300px' }};
+  ">
+    <div class="container text-center py-5">
+      <h1>{{ page.hero.heading }}</h1>
+      <div class="lead mb-4">{{ page.hero.sub_heading }}</div>
+
+      {% if page.hero.buttons.enabled %}
+        <div class="hero-buttons">
+          {% for button in page.hero.buttons.list %}
+            <a href="{{ button.url }}"
+              class="btn btn-{{ button.style | default: 'primary' }} btn-{{ button.size | default: 'medium' }} {% if button.outline %}btn-outline{% endif %}"
+              {% if button.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+              {{ button.text }}
+            </a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </section>
+{% else %}
+  <div class="section">
+    <div class="container">
+      {% include framework/title.html
+        fa_icon=page.fa_icon
+        icon=page.icon
+        title=page.title
+        description=page.description
+        image=page.image
+      %}
+    </div>
+  </div>
+{% endif %}
+
 {% else %}
   <div class="section">
     <div class="container">
