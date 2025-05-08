@@ -47,7 +47,15 @@ The adoption of these tools is expected to improve decision-making and national 
 - Policy documents developed using simulation results.
 - Support for national engagement in regional and global policy dialogues.
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/action.jpg" title="Capacity Building in Action" caption="Training teams in national policy simulation tools." alt="Workshop Image" %}
+{% include framework/shortcodes/figure.html
+   src="/assets/images/gen/content/action.jpg"
+   alt="Workshop Image"
+   title="Capacity Building in Action"
+   caption="Training teams in national policy simulation tools."
+   link="/assets/images/gen/content/action.jpg"
+   target="_blank"
+%}
+
 
 ## Partnerships
 
