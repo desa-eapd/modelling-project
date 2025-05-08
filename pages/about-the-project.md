@@ -12,16 +12,16 @@ hero:
   heading: "About the Project"
   sub_heading: |
     Capacity development through <a href="https://desa-eapd.github.io/modelling-project/assets/PDF-Project-Brochure.pdf" target="_blank" rel="noopener noreferrer">integrated economic and environmental modelling tools</a>.
-  background_image: "/assets/images/gen/content/about.jpg"
+  background_image: "/assets/images/gen/content/about_cover.jpg"
   background_color: "#1d2830"
-  background_gradient: true
+  background_gradient: "gradient"  # use class or remove if unsupported
   background_image_blend_mode: false
   full_height_mobile: false
   buttons:
     enabled: false
   height: "700px"
-
 ---
+
 # Background
 
 Policymakers in developing countries face numerous challenges in achieving sustainable development and advancing the UN Sustainable Development Goals (SDGs). These challenges are compounded by global crises in food, energy, and finance, which have hindered progress.
