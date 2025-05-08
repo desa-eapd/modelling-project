@@ -12,11 +12,12 @@ hero:
   heading: "About the Project"
   sub_heading: |
     Capacity development through <a href="https://desa-eapd.github.io/modelling-project/assets/PDF-Project-Brochure.pdf" target="_blank" rel="noopener noreferrer">integrated economic and environmental modelling tools</a>.
-  background_image: false
+  background_image: "/assets/images/gen/content/about.png"
   background_image_blend_mode: false
   full_height_mobile: false
   buttons:
     enabled: false
+
 
 ---
 # Background
