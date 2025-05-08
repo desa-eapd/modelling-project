@@ -41,17 +41,6 @@ intro:
         size: large
         style: "primary"
 
-projects:
-  enabled: true
-  heading: "Use Cases & Applications"
-  sub_heading: "Real-world examples of how OG-Core is applied in different contexts."
-  limit: 3
-  columns: 3
-  sort: "weight"
-  view_more_button_text: "View All Projects"
-  view_more_button_link: "/projects/"
-  prevent_click: false
-
 outro:
   enabled: true
   align: left
