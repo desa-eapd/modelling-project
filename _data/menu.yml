@@ -28,3 +28,6 @@ bottom:
   - name: "Economic Analysis and Policy Division (EAPD), Department of Economic and Social Affairs (DESA)<br>United Nations • 2025 • A project by UN DESA"
     url: ""
     weight: 1
+  - name: 'This project is funded by the <a href="https://www.un.org/en/peace-and-development-trust-fund" target="_blank" rel="noopener noreferrer">United Nations Peace and Development Trust Fund</a>.'
+    url: ""
+    weight: 2
