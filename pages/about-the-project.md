@@ -8,14 +8,16 @@ description: "Capacity development for policy modelling through WEFM, OG-Core, C
 image: "/assets/images/gen/content/about.png"
 
 hero:
-  enabled: false
+  enabled: true
   heading: "About the Project"
-  sub_heading: "Capacity development through integrated economic and environmental modelling tools."
+  sub_heading: |
+    Capacity development through <a href="https://desa-eapd.github.io/modelling-project/assets/PDF-Project-Brochure.pdf" target="_blank" rel="noopener noreferrer">integrated economic and environmental modelling tools</a>.
   background_image: false
   background_image_blend_mode: false
   full_height_mobile: false
   buttons:
     enabled: false
+
 ---
 # Background
 
@@ -48,13 +50,14 @@ The adoption of these tools is expected to improve decision-making and national 
 - Support for national engagement in regional and global policy dialogues.
 
 {% include framework/shortcodes/figure.html
-   src="/assets/images/gen/content/action.jpg"
+   src="/assets/images/gen/content/action.JPG"
    alt="Workshop Image"
    title="Capacity Building in Action"
    caption="Training teams in national policy simulation tools."
-   link="/assets/images/gen/content/action.jpg"
+   link="/assets/images/gen/content/action.JPG"
    target="_blank"
 %}
+
 
 
 ## Partnerships
