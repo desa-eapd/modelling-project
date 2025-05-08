@@ -17,7 +17,7 @@ hero:
   full_height_mobile: false
   buttons:
     enabled: false
-
+  height: "660px"
 
 ---
 # Background
