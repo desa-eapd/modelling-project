@@ -13,7 +13,7 @@ hero:
   heading: "WEFM: World Economic Forecasting Model"
   sub_heading: "Supporting long-term macroeconomic and policy forecasting through integrated modelling techniques."
   text_color: "#000000"
-  background_color: "#1d2830"
+  background_color: ""
   background_gradient: true
   background_image: "/assets/images/gen/home/WEFM.jpeg"
   # background_image_blend_mode: overlay
