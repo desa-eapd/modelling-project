@@ -12,7 +12,7 @@ hero:
   heading: "CLEWS"
   sub_heading: "A powerful framework for integrated resource planning, helping governments align strategies with sustainability goals."
   text_color: "#FFFFFF"
-  background_color: "#1d2830"
+  background_color: ""
   background_gradient: true
   background_image: "/assets/images/gen/home/CLEWs.png"
   #background_image_blend_mode: overlay
