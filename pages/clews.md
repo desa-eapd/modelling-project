@@ -29,6 +29,23 @@ intro:
 
     By comparing different technologies and value chains, the model can identify pressure points and indicate synergies and trade-offs to reach development goals. CLEWS can analyze policy decisions on issues such as climate action, competition for water and agricultural modernization.
   buttons:
+    enabled: true
+    list:
+      - text: "Clews Model"
+        url: ""
+        external: true
+        size: large
+        style: "primary"
+      - text: "Clews Course"
+        url: "https://zenodo.org/records/14680763"
+        external: false
+        size: large
+        style: "primary"
+      - text: "Training Workshop Material"
+        url: ""
+        external: false
+        size: large
+        style: "primary"  buttons:
     enabled: false
 
 outro:
