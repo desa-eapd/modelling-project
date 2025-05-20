@@ -39,7 +39,7 @@ outro:
     <div style="text-align: center;">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/9Kg_mXQMSt0" frameborder="0" allowfullscreen></iframe>
     </div>
-    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1082400727?h=c3e77d85ab&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="#TRIP2019_ SkyTalks Session 2_ De La Rue, Entrust Datacard, Idemia"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1082976352?h=736a05dc1a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Introductory Workshop in Zambia"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
   buttons:
     enabled: false
 
