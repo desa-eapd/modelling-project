@@ -36,7 +36,7 @@ intro:
         size: large
         style: "primary"
       - text: "OG Course"
-        url: "/og-course-info.md"
+        url: "https://eapd-drb.github.io/UN-OG-Training/"
         external: false
         size: large
         style: "primary"
