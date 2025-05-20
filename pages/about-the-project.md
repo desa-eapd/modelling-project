@@ -5,7 +5,7 @@ date: 2025-05-01
 header_transparent: false
 permalink: "/about-the-project/"
 description: "Capacity development for policy modelling through WEFM, OG-Core, CLEWS, and microsimulation tools."
-image: "/assets/images/gen/content/about.jpg"
+image: "/assets/images/gen/content/about_bg.png"
 
 hero:
   enabled: false
