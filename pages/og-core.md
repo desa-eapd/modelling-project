@@ -40,6 +40,11 @@ intro:
         external: false
         size: large
         style: "primary"
+      - text: "Training Workshop Material"
+        url: "/og-course-info.md"
+        external: false
+        size: large
+        style: "primary"  
 
 outro:
   enabled: true
