@@ -5,7 +5,7 @@ permalink: "/clews/"
 description: "CLEWS integrates Climate, Land, Energy and Water systems to support sustainable development strategies."
 header_transparent: false
 header_color_mode: dark
-meta_title: CLEWS – United Nations Modelling Tool
+meta_title: "CLEWS – United Nations Modelling Tool"
 
 hero:
   enabled: true
@@ -15,7 +15,6 @@ hero:
   background_color: ""
   background_gradient: true
   background_image: "/assets/images/gen/home/CLEWs.png"
-  #background_image_blend_mode: overlay
   fullscreen_mobile: true
   fullscreen_desktop: false
   height: "580px"
@@ -32,7 +31,7 @@ intro:
     enabled: true
     list:
       - text: "Clews Model"
-        url: ""
+        url: "#"  # Replace with actual URL when ready
         external: true
         size: large
         style: "primary"
@@ -42,24 +41,28 @@ intro:
         size: large
         style: "primary"
       - text: "Training Workshop Material"
-        url: ""
+        url: "#"  # Replace with actual URL when ready
         external: false
         size: large
-        style: "primary"  buttons:
-    enabled: false
+        style: "primary"
 
 outro:
   enabled: true
   align: center
   heading: "CLEWS Training Resources"
   sub_heading: |
-    <div style="text-align: center;">
+    <div style="text-align: center; margin-bottom: 30px;">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/9Kg_mXQMSt0" frameborder="0" allowfullscreen></iframe>
     </div>
-    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1082976352?h=736a05dc1a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Introductory Workshop in Zambia"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <div style="padding:56.25% 0 0 0;position:relative;">
+      <iframe src="https://player.vimeo.com/video/1082976352?h=736a05dc1a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+              style="position:absolute;top:0;left:0;width:100%;height:100%;"
+              title="Introductory Workshop in Zambia">
+      </iframe>
+    </div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
   buttons:
     enabled: false
-
-
-
 ---
