@@ -51,9 +51,16 @@ outro:
   align: center
   heading: "CLEWS Training Resources"
   sub_heading: |
-    <div style="text-align: center; margin-bottom: 30px;">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/9Kg_mXQMSt0" frameborder="0" allowfullscreen></iframe>
+    <div style="padding:56.25% 0 0 0;position:relative; margin-bottom: 30px;">
+      <iframe
+      src="https://www.youtube.com/embed/9Kg_mXQMSt0"
+      frameborder="0"
+      allowfullscreen
+      style="position:absolute;top:0;left:0;width:100%;height:100%;"
+      title="YouTube Video">
+       </iframe>
     </div>
+
     <div style="padding:56.25% 0 0 0;position:relative;">
       <iframe src="https://player.vimeo.com/video/1082976352?h=736a05dc1a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
               frameborder="0"
