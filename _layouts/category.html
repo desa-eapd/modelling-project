@@ -33,6 +33,9 @@ body_classes: page-category
             url=post.url 
             style="row"
           %}
+          {% if post.repo %}
+            <p class="text-muted small mt-2">Repository: {{ post.repo }}</p>
+          {% endif %}
         </div>
       </div>
     {% endfor %}
