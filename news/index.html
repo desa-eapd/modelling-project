@@ -37,4 +37,95 @@ hero:
     height: {{ page.hero.height | default: '300px' }};
     padding-top: 6rem;
   ">
-    <div class="container text-
+    <div class="container text-center py-5" style="padding-top: 15rem;">
+      <h1>{{ page.hero.heading }}</h1>
+      <div class="lead mb-4">{{ page.hero.sub_heading }}</div>
+
+      {% if page.hero.buttons.enabled %}
+        <div class="hero-buttons">
+          {% for button in page.hero.buttons.list %}
+            <a href="{{ button.url }}"
+              class="btn btn-{{ button.style | default: 'primary' }} btn-{{ button.size | default: 'medium' }} {% if button.outline %}btn-outline{% endif %}"
+              {% if button.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+              {{ button.text }}
+            </a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </section>
+{% else %}
+  <div class="section">
+    <div class="container">
+      {% include framework/title.html
+        fa_icon=page.fa_icon
+        icon=page.icon
+        title=page.title
+        description=page.description
+        image=page.image
+      %}
+    </div>
+  </div>
+{% endif %}
+
+{% assign post_pages = site.posts %}
+
+<div class="section strip-base">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-8">
+        <div class="row">
+          {% for post in paginator.posts %}
+            <div class="col-12 mb-3 mb-md-9">
+              {% include theme/cards/card-posts.html
+                style="row"
+                date=post.date
+                title=post.title
+                description=post.description 
+                thumbnail=post.thumbnail 
+                url=post.url
+                categories=post.categories
+                show_read_more=false
+              %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-3">
+        <div class="sidebar">
+
+          <!-- Newsletters Section -->
+          <h5>Newsletters</h5>
+          <ul>
+            <li>
+              <a href="https://nyeinchan85.github.io/PDF_project_test/assets/newsletters/PDF%20Newsletter%202_Sept%20%202024.pdf" target="_blank">
+                Newsletter 1.0 (Sept 2024)
+              </a>
+            </li>
+            <!-- Add more newsletters here as needed -->
+          </ul>
+
+          <!-- Categories Section -->
+          <h5>Categories</h5>
+          <ul>
+            {% for category in site.categories %}
+              {% capture category_name %}{{ category | first }}{% endcapture %}
+              <li>
+                <a href="/category/{{ category_name | slugify }}">{{ category_name | camelcase }}</a>
+                <span>({{ category[1].size }})</span>
+              </li>
+            {% endfor %}
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        {% include framework/paginator.html %}
+      </div>
+    </div>
+  </div>
+</div>
