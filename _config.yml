@@ -202,3 +202,7 @@ sidebar:
   enable_breadcrumbs_services: true
   enable_sidebar_projects: false
   enable_breadcrumbs_projects: true
+
+darkmode:
+  enable_dark_mode: true
+  show_dark_mode_toggle_in_footer: true
