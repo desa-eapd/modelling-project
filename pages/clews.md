@@ -31,7 +31,7 @@ intro:
     enabled: true
     list:
       - text: "Clews Model"
-        url: "#"  
+        url: "#"
         external: true
         size: large
         style: "primary"
@@ -41,7 +41,7 @@ intro:
         size: large
         style: "primary"
       - text: "Training Workshop Material"
-        url: "#"  
+        url: "#"
         external: false
         size: large
         style: "primary"
@@ -50,29 +50,28 @@ outro:
   enabled: true
   align: center
   heading: "What is CLEWs?"
-  sub_heading: >
-    <div style="padding:56.25% 0 0 0;position:relative; margin-bottom: 30px;">
+  sub_heading: |
+    <div style="padding:56.25% 0 0 0; position:relative; margin-bottom: 30px;">
       <iframe
         src="https://www.youtube.com/embed/9Kg_mXQMSt0"
         frameborder="0"
         allowfullscreen
-        style="position:absolute;top:0;left:0;width:100%;height:100%;"
+        style="position:absolute; top:0; left:0; width:100%; height:100%;"
         title="YouTube Video">
       </iframe>
     </div>
 
     <h2 style="margin-top: 3rem; margin-bottom: 1rem;">Introductory Workshop in Zambia</h2>
 
-    <div style="padding:56.25% 0 0 0;position:relative;">
+    <div style="padding:56.25% 0 0 0; position:relative;">
       <iframe
-        title="vimeo-player"
         src="https://player.vimeo.com/video/1086915730?h=0331661007"
         frameborder="0"
         allowfullscreen
-        style="position:absolute;top:0;left:0;width:100%;height:100%;">
+        style="position:absolute; top:0; left:0; width:100%; height:100%;"
+        title="Vimeo Video">
       </iframe>
     </div>
   buttons:
     enabled: false
-
 ---
