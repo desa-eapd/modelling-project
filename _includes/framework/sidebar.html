@@ -7,7 +7,7 @@
         <ul>
           {% for item in items %}
             <li>
-              <a {% if item.url==page.url %} class="active" {% endif %} href="{{ item.url }}">{{ item.title }}</a>
+              <a {% if item.url==page.url %} class="active" {% endif %} href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
             </li>
           {% endfor %}
         </ul>
@@ -17,7 +17,7 @@
         <ul>
           {% for item in items %}
             <li>
-              <a {% if item.url==page.url %} class="active" {% endif %} href="{{ item.url }}">{{ item.title }}</a>
+              <a {% if item.url==page.url %} class="active" {% endif %} href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
             </li>
           {% endfor %}
         </ul>
@@ -33,7 +33,7 @@
         {% for item in pages %}
           {% if item.layout == "basic" %}
             <li>
-              <a {% if item.url==page.url %} class="active" {% endif %} href="{{ item.url }}">{{ item.title }}</a>
+              <a {% if item.url==page.url %} class="active" {% endif %} href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
             </li>
           {% endif %}
         {% endfor %}
