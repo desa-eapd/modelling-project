@@ -31,7 +31,7 @@ intro:
     enabled: true
     list:
       - text: "Clews Model"
-        url: "#"  # Replace with actual URL when ready
+        url: "#"  
         external: true
         size: large
         style: "primary"
@@ -41,7 +41,7 @@ intro:
         size: large
         style: "primary"
       - text: "Training Workshop Material"
-        url: "#"  # Replace with actual URL when ready
+        url: "#"  
         external: false
         size: large
         style: "primary"
@@ -49,27 +49,29 @@ intro:
 outro:
   enabled: true
   align: center
-  heading: "CLEWS Training Resources"
+  heading: "What is CLEWs?"
   sub_heading: |
     <div style="padding:56.25% 0 0 0;position:relative; margin-bottom: 30px;">
       <iframe
-      src="https://www.youtube.com/embed/9Kg_mXQMSt0"
-      frameborder="0"
-      allowfullscreen
-      style="position:absolute;top:0;left:0;width:100%;height:100%;"
-      title="YouTube Video">
-       </iframe>
-    </div>
-
-    <div style="padding:56.25% 0 0 0;position:relative;">
-      <iframe src="https://player.vimeo.com/video/1082976352?h=736a05dc1a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-              frameborder="0"
-              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-              style="position:absolute;top:0;left:0;width:100%;height:100%;"
-              title="Introductory Workshop in Zambia">
+        src="https://www.youtube.com/embed/9Kg_mXQMSt0"
+        frameborder="0"
+        allowfullscreen
+        style="position:absolute;top:0;left:0;width:100%;height:100%;"
+        title="YouTube Video">
       </iframe>
     </div>
-    <script src="https://player.vimeo.com/api/player.js"></script>
+
+    <h3 style="margin-top: 2rem;">Introductory Workshop in Zambia</h3>
+
+    <div style="padding:56.25% 0 0 0;position:relative;">
+      <iframe
+        title="vimeo-player"
+        src="https://player.vimeo.com/video/1086915730?h=0331661007"
+        frameborder="0"
+        allowfullscreen
+        style="position:absolute;top:0;left:0;width:100%;height:100%;">
+      </iframe>
+    </div>
   buttons:
     enabled: false
 ---
