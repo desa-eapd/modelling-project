@@ -48,7 +48,7 @@ intro:
 
 outro:
   enabled: true
-  align: left
+  align: center
   heading: "All Country Projects"
   sub_heading: |
     - Are context-specific, implemented in close communication with national partners to address specific national needs and interests.  
