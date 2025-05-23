@@ -12,11 +12,12 @@
 
     <link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet">
 
-    {% if site.darkmode.enable_dark_mode != false %}
-      <script>
-          localStorage.getItem('darkMode') === 'true' && document.documentElement.setAttribute('data-bs-theme', 'dark');
-      </script>
-    {% endif %}
+    <script>
+      // Always clear and force light theme
+      localStorage.removeItem('darkMode');
+      document.documentElement.removeAttribute('data-bs-theme');
+    </script>
+
 
     {% if site.cookie_banner.enabled %}
       {% include framework/cookie-consent.html %}
