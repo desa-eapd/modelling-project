@@ -9,7 +9,6 @@
     {% include framework/og-meta-tags.html %}
     {% include framework/feed.html %}
     {% include framework/favicon.html %}
-    {% include framework/dark-mode-switcher.html %}
 
     <link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet">
 
@@ -32,7 +31,7 @@
 
 {% include framework/menu-main-mobile.html %}
 {% include framework/header.html %}
-
+{% include framework/dark-mode-switcher.html %}
 <div id="wrapper" class="wrapper">     
   {{ content }}
 </div>
@@ -54,6 +53,5 @@
 {% include framework/google-analytics.html %}
 {% include framework/plausible-analytics.html %}
 {% include framework/umami-analytics.html %}
-{% include framework/dark-mode-switcher.html %}
 </body>
 </html>
