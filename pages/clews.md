@@ -61,7 +61,7 @@ outro:
       </iframe>
     </div>
 
-    <h3 style="margin-top: 2rem;">Introductory Workshop in Zambia</h3>
+    <h1 style="margin-top: 5rem;">Introductory Workshop in Zambia</h1>
 
     <div style="padding:56.25% 0 0 0;position:relative;">
       <iframe
