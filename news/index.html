@@ -30,18 +30,6 @@ hero:
     <div class="container text-center py-5" style="padding-top: 15rem;">
       <h1>{{ page.hero.heading }}</h1>
       <div class="lead mb-4">{{ page.hero.sub_heading }}</div>
-
-      {% if page.hero.buttons.enabled %}
-        <div class="hero-buttons">
-          {% for button in page.hero.buttons.list %}
-            <a href="{{ button.url }}"
-              class="btn btn-{{ button.style | default: 'primary' }} btn-{{ button.size | default: 'medium' }} {% if button.outline %}btn-outline{% endif %}"
-              {% if button.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
-              {{ button.text }}
-            </a>
-          {% endfor %}
-        </div>
-      {% endif %}
     </div>
   </section>
 {% else %}
@@ -93,7 +81,6 @@ hero:
                 Newsletter 1.0 (Sept 2024)
               </a>
             </li>
-            <!-- Add more newsletters here as needed -->
           </ul>
 
           <!-- Categories Section -->
@@ -102,7 +89,7 @@ hero:
             {% for category in site.categories %}
               {% capture category_name %}{{ category | first }}{% endcapture %}
               <li>
-                <a href="/category/{{ category_name | slugify }}">{{ category_name | camelcase }}</a>
+                <a href="{{ site.baseurl }}/category/{{ category_name | slugify }}">{{ category_name | camelcase }}</a>
                 <span>({{ category[1].size }})</span>
               </li>
             {% endfor %}
