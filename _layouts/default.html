@@ -11,14 +11,6 @@
     {% include framework/favicon.html %}
 
     <link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet">
-
-    <script>
-      // Always clear and force light theme
-      localStorage.removeItem('darkMode');
-      document.documentElement.removeAttribute('data-bs-theme');
-    </script>
-
-
     {% if site.cookie_banner.enabled %}
       {% include framework/cookie-consent.html %}
     {% endif %}
@@ -31,7 +23,6 @@
 
 {% include framework/menu-main-mobile.html %}
 {% include framework/header.html %}
-{% include framework/dark-mode-switcher.html %}
 <div id="wrapper" class="wrapper">     
   {{ content }}
 </div>

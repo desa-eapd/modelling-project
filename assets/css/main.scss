@@ -32,18 +32,4 @@
   --button-border-radius: 5px;
 }
 
-html[data-bs-theme='dark'] {
-  --color-primary-bg: {{ site.colors.primary_bg_dark | default: site.colors.primary_bg }};
-  --color-primary-bg-2: {{ site.colors.primary_bg_2_dark | default: site.colors.primary_bg_2 }};
-  --color-primary-bg-3: {{ site.colors.primary_bg_3_dark | default: site.colors.primary_bg_3 }};
-  --color-primary-text: {{ site.colors.primary_text_dark | default: site.colors.primary_text }};
-  --color-base-bg: {{ site.colors.base_bg_dark | default: "#121418" }};
-  --color-base-bg-2: {{ site.colors.base_bg_2_dark | default: "#1d2026" }};
-  --color-base-bg-3: {{ site.colors.base_bg_3_dark | default: "#24272d" }};
-  --color-base-text: {{ site.colors.base_text_dark | default: "#F4F4F5" }};
-  --color-base-text-2: {{ site.colors.base_text_2_dark | default: "#D1D5DB" }};
-  --color-logo-text: {{ site.colors.logo_text_dark | default: "#F4F4F5" }};
-  --color-header-text: {{ site.colors.header_text_dark | default: "#F4F4F5" }};
-}
-
 @import 'style';
