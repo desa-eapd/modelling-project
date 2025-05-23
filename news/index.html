@@ -6,6 +6,7 @@ description: "The latest news and events"
 header_transparent: false
 header_color_mode: dark
 
+
 hero:
   enabled: true
   heading: "Latest News & Events"
@@ -28,15 +29,15 @@ hero:
         outline: false
         style: "primary"
 ---
-
 {% if page.hero.enabled %}
   <section class="hero-section" style="
-    {% if page.hero.background_color %}background-color: {{ page.hero.background_color }};{% endif %}
-    {% if page.hero.background_image %}background-image: url('{{ page.hero.background_image }}'); background-size: cover; background-position: center;{% endif %}
-    {% if page.hero.text_color %}color: {{ page.hero.text_color }};{% endif %}
-    height: {{ page.hero.height | default: '300px' }};
-    padding-top: 6rem;
+  {% if page.hero.background_color %}background-color: {{ page.hero.background_color }};{% endif %}
+  {% if page.hero.background_image %}background-image: url('{{ page.hero.background_image }}'); background-size: cover; background-position: center;{% endif %}
+  {% if page.hero.text_color %}color: {{ page.hero.text_color }};{% endif %}
+  height: {{ page.hero.height | default: '300px' }};
+  padding-top: 6rem;
   ">
+
     <div class="container text-center py-5" style="padding-top: 15rem;">
       <h1>{{ page.hero.heading }}</h1>
       <div class="lead mb-4">{{ page.hero.sub_heading }}</div>
@@ -94,19 +95,6 @@ hero:
 
       <div class="col-12 col-lg-3">
         <div class="sidebar">
-
-          <!-- Newsletters Section -->
-          <h5>Newsletters</h5>
-          <ul>
-            <li>
-              <a href="https://nyeinchan85.github.io/PDF_project_test/assets/newsletters/PDF%20Newsletter%202_Sept%20%202024.pdf" target="_blank">
-                Newsletter 1.0 (Sept 2024)
-              </a>
-            </li>
-            <!-- Add more newsletters here as needed -->
-          </ul>
-
-          <!-- Categories Section -->
           <h5>Categories</h5>
           <ul>
             {% for category in site.categories %}
@@ -117,7 +105,6 @@ hero:
               </li>
             {% endfor %}
           </ul>
-
         </div>
       </div>
     </div>
