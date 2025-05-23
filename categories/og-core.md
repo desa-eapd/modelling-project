@@ -1,4 +1,4 @@
 ---
 layout: category
-title: OG Core
+title: OG-Core
 ---
