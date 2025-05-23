@@ -18,13 +18,12 @@ body_classes: page-category
   </div>
 </div>
 
-
 <div class="section strip-base">
   <div class="container">
     {% assign category = page.title %}
     {% for post in site.categories[category] %}
-      <div class="row">
-        <div class="col-12 col-md-8 mb-3 mb-lg-6">
+      <div class="row mb-5">
+        <div class="col-12 col-md-8">
           {% include theme/cards/card-posts.html 
             title=post.title
             date=post.date
@@ -33,6 +32,9 @@ body_classes: page-category
             url=post.url 
             style="row"
           %}
+          {% if post.repo %}
+            <p class="text-muted small mt-2">Repository: {{ post.repo }}</p>
+          {% endif %}
         </div>
       </div>
     {% endfor %}
