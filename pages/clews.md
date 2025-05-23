@@ -50,7 +50,7 @@ outro:
   enabled: true
   align: center
   heading: "What is CLEWs?"
-  sub_heading: |
+  sub_heading: >
     <div style="padding:56.25% 0 0 0;position:relative; margin-bottom: 30px;">
       <iframe
         src="https://www.youtube.com/embed/9Kg_mXQMSt0"
@@ -61,7 +61,7 @@ outro:
       </iframe>
     </div>
 
-    <h1 style="margin-top: 5rem;">Introductory Workshop in Zambia</h1>
+    <h2 style="margin-top: 3rem; margin-bottom: 1rem;">Introductory Workshop in Zambia</h2>
 
     <div style="padding:56.25% 0 0 0;position:relative;">
       <iframe
@@ -74,4 +74,5 @@ outro:
     </div>
   buttons:
     enabled: false
+
 ---
