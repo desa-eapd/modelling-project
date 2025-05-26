@@ -41,7 +41,7 @@ intro:
         size: large
         style: "primary"
       - text: "Training Workshop Material"
-        url: "/og-course-info.md"
+        url: "/og-workshop-info.md"
         external: false
         size: large
         style: "primary"  
