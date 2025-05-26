@@ -51,9 +51,12 @@ outro:
   align: center
   heading: "All Country Projects"
   sub_heading: |
-    - Are context-specific, implemented in close communication with national partners to address specific national needs and interests.  
-    - Last between 6 to 12 months, depending on the degree of collaboration, data availability, existing technical capacities, and institutional dynamics.  
-    - Require strong collaboration with the participants and the establishment of an active technical modelling team where diverse institutions pool expertise.
+    <ul style="text-align: left; max-width: 700px; margin: 0 auto; padding-left: 1.2em;">
+      <li>Are context-specific, implemented in close communication with national partners to address specific national needs and interests.</li>
+      <li>Last between 6 to 12 months, depending on the degree of collaboration, data availability, existing technical capacities, and institutional dynamics.</li>
+      <li>Require strong collaboration with the participants and the establishment of an active technical modelling team where diverse institutions pool expertise.</li>
+    </ul>
   buttons:
     enabled: false
+
 ---
