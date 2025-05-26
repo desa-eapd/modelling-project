@@ -28,6 +28,8 @@ intro:
   heading: ""
   sub_heading: |
     The World Economic Forecasting Model (WEFM) is used to produce globally consistent short-term projections at the country level. It was developed by the Development Analysis and Policy Division of the United Nations Department of Economic and Social Affairs. The model allows users to specify alternative assumptions about future economic contexts and policy responses across groups of countries and to trace macroeconomic outcomes over short-, medium-, and long-term timescales. WEFM is designed to simulate the macroeconomic impacts on countries and regions of exogenous shocks to the global economy, including potential effects of major shifts in market confidence (such as reversals following asset price bubbles), changes in international trade and financial regulation, and the spillover effects of significant policy changes in major economies.
+
+    <div style="margin-bottom: 3rem;"></div>
   buttons:
     enabled: true
     list:
@@ -40,9 +42,11 @@ intro:
 outro:
   enabled: true
   align: center
-  heading: "National Applications"
+  heading: "All Country Projects"
   sub_heading: 
-    WEFM has been applied in diverse policy contexts to model employment strategies, industrial development scenarios, and fiscal sustainability. It supports decision-makers in planning for economic resilience and structural transformation.
+    The United Nations Department of Economic and Social Affairs (DESA), in collaboration with the Economic and Social Commission for Western Asia (ESCWA), is providing modelling and forecasting training and capacity development in the Arab region (Jordan and Tunisia) to enhance informed policymaking and promote fiscal sustainability.
+    
+    The project will customize single-country models within the WEFM framework by expanding the fiscal segment to assess the socioeconomic impacts of various social expenditures and their associated fiscal and debt implications. Additionally, the project will train government officials from various ministries as well as think tanks closely working with governments.
   buttons:
     enabled: false
 ---
