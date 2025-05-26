@@ -13,7 +13,7 @@ hero:
   sub_heading: "Explore how tax, spending, and demographic shifts shape long-term macroeconomic outcomes through an open-source overlapping generations framework."
   text_color: "#000000"
   background_color: ""
-  background_gradient: true
+  background_gradient: false
   background_image: "/assets/images/gen/home/OG-Core.png"
   #background_image_blend_mode: overlay
   fullscreen_mobile: true

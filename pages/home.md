@@ -13,7 +13,7 @@ hero:
   sub_heading: "Strengthening policymaking for a sustainable future through data-driven simulations."
   text_color: "#000000"
   background_color: ""
-  background_gradient: true
+  background_gradient: false
   background_image: "/assets/images/gen/home/V2banner.png"
   fullscreen_mobile: true
   fullscreen_desktop: false
