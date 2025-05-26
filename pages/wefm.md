@@ -14,7 +14,7 @@ hero:
   sub_heading: "Supporting long-term macroeconomic and policy forecasting through integrated modelling techniques."
   text_color: "#000000"
   background_color: ""
-  background_gradient: true
+  background_gradient: false
   background_image: "/assets/images/gen/home/WEFM.jpeg"
   # background_image_blend_mode: overlay
   fullscreen_mobile: true
