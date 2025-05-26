@@ -5,7 +5,7 @@ date: 2024-11-28T15:15:34+10:00
 header_transparent: false
 permalink: "/og-workshop-info/"
 description: ""
-image: "/assets/images/gen/content/content-5.webp"
+image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/og-south-africa3.jpeg"
 
 hero:
   enabled: false
