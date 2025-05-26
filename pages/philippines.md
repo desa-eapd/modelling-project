@@ -2,7 +2,7 @@
 layout: basic
 title: "OG-CORE Training – Philippines"
 permalink: /philippines/
-image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/og-philippines.jpeg"
+image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/philippines.png"
 description: "OG-CORE Inception Workshop Presentations – Philippines"
 ---
 

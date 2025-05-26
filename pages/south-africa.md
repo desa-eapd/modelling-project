@@ -2,7 +2,7 @@
 layout: basic
 title: "OG-CORE Training – South Africa"
 permalink: /south-africa/
-image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/og-south-africa3.jpeg"
+image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/south-africa.png"
 description: "OG-CORE Inception Workshop Presentations – South Africa"
 ---
 
