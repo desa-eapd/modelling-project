@@ -6,7 +6,7 @@ image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/sou
 description: "OG-CORE Inception Workshop Presentations – South Africa"
 ---
 
-<div style="max-width: 900px; margin: 0 auto; text-align: center;">
+<div style="max-width: 900px; margin: 0 auto; text-align: left;">
 
 <ul style="display: inline-block; text-align: left;">
   <li><a href="https://eapd-drb.github.io/og-model/south-africa/ZAF-PolicyBrainstorm.pdf">ZAF-PolicyBrainstorm</a></li>
