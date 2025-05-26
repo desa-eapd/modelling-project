@@ -8,8 +8,6 @@ description: "OG-CORE Inception Workshop Presentations – South Africa"
 
 <div style="max-width: 900px; margin: 0 auto; text-align: center;">
 
-South Africa – Module 1: Inception Workshop Presentations
-
 <ul style="display: inline-block; text-align: left;">
   <li><a href="https://eapd-drb.github.io/og-model/south-africa/ZAF-PolicyBrainstorm.pdf">ZAF-PolicyBrainstorm</a></li>
   <li><a href="https://eapd-drb.github.io/og-model/south-africa/OG-Core-GeneralDescription1.pdf">OG-Core-GeneralDescription1</a></li>
