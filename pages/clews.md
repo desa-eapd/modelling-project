@@ -18,7 +18,7 @@ hero:
   fullscreen_mobile: true
   fullscreen_desktop: false
   height: "580px"
-  
+
 intro:
   enabled: true
   align: center
@@ -63,7 +63,7 @@ outro:
       </iframe>
     </div>
 
-    <h2 style="margin-top: 3rem; margin-bottom: 1rem;">Introductory Workshop in Zambia</h2>
+    <h2 style="margin-top: 3rem; margin-bottom: 1rem;">Learn more about how the CLEWs model is supporting the work of different sectors</h2>
 
     <div style="padding:56.25% 0 0 0; position:relative;">
       <iframe
