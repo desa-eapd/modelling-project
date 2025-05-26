@@ -8,8 +8,6 @@ description: "OG-CORE Inception Workshop Presentations – Philippines"
 
 <div style="max-width: 900px; margin: 0 auto; text-align: center;">
 
-## Philippines – Module 1: Inception Workshop Presentations
-
 <ul style="display: inline-block; text-align: left;">
   <li><a href="https://eapd-drb.github.io/og-model/philippines/PHL-PolicyBrainstorm.pdf">PHL-PolicyBrainstorm</a></li>
   <li><a href="https://eapd-drb.github.io/og-model/philippines/OG-Core-GeneralDescription1.pdf">OG-Core-GeneralDescription1</a></li>
