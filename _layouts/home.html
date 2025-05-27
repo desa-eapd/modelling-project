@@ -23,7 +23,7 @@ body_classes: page-home
 Key Tools for Policy Insights Section (OG-Core / CLEWs / WEFM)
 {%- endcomment -%}
 {% if page.models_cards.enabled %}
-  <div class="section bg-light">
+  <div class="section bg-light models-cards">
     <div class="container">
       <div class="row">
         {% include framework/grid-header.html
@@ -38,7 +38,7 @@ Key Tools for Policy Insights Section (OG-Core / CLEWs / WEFM)
               <img src="{{ item.icon | relative_url }}" alt="{{ item.title }}" class="mb-3 mx-auto" style="height:60px;">
             {% endif %}
             <h5>{{ item.title }}</h5>
-            <p class="text-muted">{{ item.description }}</p>
+            <p style="color: #2e7d32;">{{ item.description }}</p> <!-- ✅ GREEN TEXT -->
             <a href="{{ item.url }}" class="btn btn-primary mt-auto">{{ item.button_text }}</a>
           </div>
         </div>
@@ -47,6 +47,7 @@ Key Tools for Policy Insights Section (OG-Core / CLEWs / WEFM)
     </div>
   </div>
 {% endif %}
+
 
 {%- comment -%} Services Section {%- endcomment -%}
 {% if page.services.enabled %}
