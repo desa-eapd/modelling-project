@@ -1,6 +1,6 @@
 ---
 layout: basic
-title: "OG Core Workshop Info"
+title: "OG Core Workshop"
 date: 2024-11-28T15:15:34+10:00
 header_transparent: false
 permalink: "/og-workshop-info/"
