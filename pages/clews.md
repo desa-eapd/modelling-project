@@ -28,7 +28,8 @@ intro:
 
     By comparing different technologies and value chains, the model can identify pressure points and indicate synergies and trade-offs to reach development goals. CLEWS can analyze policy decisions on issues such as climate action, competition for water and agricultural modernization.
 
-    <h3 style="text-align: center; margin-top: 2rem;">Contact Information</h3>
+    <h3 style="text-align: center; margin-top: 2rem; margin-bottom: 1.5rem;"><u>Contact Information</u></h3>
+
     <div style="text-align: center;">
       <table style="margin: 0 auto; text-align: left;">
         <tr>
