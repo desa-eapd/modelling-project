@@ -27,29 +27,29 @@ intro:
     Climate, Land, Energy and Water systems (CLEWS) models are tools for simultaneous consideration of food, energy and water security. They are designed to assess how production and use of these resources may contribute to climate change, and how climate change may affect these resource systems.
 
     By comparing different technologies and value chains, the model can identify pressure points and indicate synergies and trade-offs to reach development goals. CLEWS can analyze policy decisions on issues such as climate action, competition for water and agricultural modernization.
-    
 
     <table>
-    <tr>
-      <td valign="top" style="padding-right: 40px;">
-        <strong>Eunice Ajambo (Ms.)</strong><br>
-        Economist and Development Coordination Officer<br>
-        United Nations Namibia<br>
-        📞 +264 61 204 6502<br>
-        📱 +264 81 140 5810<br>
-        ✉️ <a href="mailto:ajambo@un.org">ajambo@un.org</a><br>
-        🌐 <a href="https://namibia.un.org">namibia.un.org</a>
-      </td>
-      <td valign="top">
-        <strong>Lolita de Almeida (Ms.)</strong><br>
-        Project Assistant<br>
-        FAO Namibia<br>
-        ✉️ <a href="mailto:Lolita.DeAlmeida@fao.org">Lolita.DeAlmeida@fao.org</a>
-      </td>
-    </tr>
-  </table>
-    
+      <tr>
+        <td valign="top" style="padding-right: 40px;">
+          <strong>Eunice Ajambo (Ms.)</strong><br>
+          Economist and Development Coordination Officer<br>
+          United Nations Namibia<br>
+          📞 +264 61 204 6502<br>
+          📱 +264 81 140 5810<br>
+          ✉️ <a href="mailto:ajambo@un.org">ajambo@un.org</a><br>
+          🌐 <a href="https://namibia.un.org">namibia.un.org</a>
+        </td>
+        <td valign="top">
+          <strong>Lolita de Almeida (Ms.)</strong><br>
+          Project Assistant<br>
+          FAO Namibia<br>
+          ✉️ <a href="mailto:Lolita.DeAlmeida@fao.org">Lolita.DeAlmeida@fao.org</a>
+        </td>
+      </tr>
+    </table>
+
     <div style="margin-bottom: 3rem;"></div>
+
   buttons:
     enabled: true
     list:
