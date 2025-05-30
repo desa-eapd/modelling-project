@@ -47,33 +47,6 @@ intro:
         size: large
         style: "primary"
 
-  after_buttons: |
-    <h3 style="text-align: center; margin-top: 3rem; margin-bottom: 1.5rem;"><u>Contact Information</u></h3>
-
-    <div style="text-align: center;">
-      <table style="margin: 0 auto; text-align: left;">
-        <tr>
-          <td style="vertical-align: top; padding: 0 40px;">
-            <strong>Eunice Ajambo (Ms.)</strong><br>
-            Economist and Development Coordination Officer<br>
-            United Nations Namibia<br>
-            📞 +264 61 204 6502<br>
-            📱 +264 81 140 5810<br>
-            ✉️ <a href="mailto:ajambo@un.org">ajambo@un.org</a><br>
-            🌐 <a href="https://namibia.un.org">namibia.un.org</a>
-          </td>
-          <td style="vertical-align: top;">
-            <strong>Lolita de Almeida (Ms.)</strong><br>
-            Project Assistant<br>
-            FAO Namibia<br>
-            ✉️ <a href="mailto:Lolita.DeAlmeida@fao.org">Lolita.DeAlmeida@fao.org</a>
-          </td>
-        </tr>
-      </table>
-    </div>
-
-    <div style="margin-bottom: 3rem;"></div>
-
 outro:
   enabled: true
   align: center
@@ -100,6 +73,33 @@ outro:
         title="Vimeo Video">
       </iframe>
     </div>
+
+    <h3 style="text-align: center; margin-top: 3rem; margin-bottom: 1.5rem;"><u>Contact Information</u></h3>
+
+    <div style="text-align: center;">
+      <table style="margin: 0 auto; text-align: left;">
+        <tr>
+          <td style="vertical-align: top; padding: 0 40px;">
+            <strong>Eunice Ajambo (Ms.)</strong><br>
+            Economist and Development Coordination Officer<br>
+            United Nations Namibia<br>
+            📞 +264 61 204 6502<br>
+            📱 +264 81 140 5810<br>
+            ✉️ <a href="mailto:ajambo@un.org">ajambo@un.org</a><br>
+            🌐 <a href="https://namibia.un.org">namibia.un.org</a>
+          </td>
+          <td style="vertical-align: top;">
+            <strong>Lolita de Almeida (Ms.)</strong><br>
+            Project Assistant<br>
+            FAO Namibia<br>
+            ✉️ <a href="mailto:Lolita.DeAlmeida@fao.org">Lolita.DeAlmeida@fao.org</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div style="margin-bottom: 3rem;"></div>
+
   buttons:
     enabled: false
 ---
