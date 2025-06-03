@@ -55,10 +55,10 @@ contact_info:
   heading: "Contact Information"
   sub_heading: |
     <div style="text-align: center; margin-bottom: 2rem;">
-      <strong>Namsuk Kim</strong><br>
+      <strong>Mr. Namsuk Kim</strong><br>
       Economic Affairs Officer<br>
-      Development Policy Branch, EAPD, DESA<br>
-      📞 +1 212 963 4737<br>
+      Economic Analysis and Policy Division (EAPD), UN-DESA<br>
+      📞 +1 (212) 963 4737<br>
       ✉️ <a href="mailto:kimnamsuk@un.org">kimnamsuk@un.org</a>
     </div>
 
