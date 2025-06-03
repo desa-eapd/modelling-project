@@ -48,19 +48,20 @@ models_cards:
       url: "https://desa-eapd.github.io/modelling-project/wefm"
       button_text: "Explore WEFM"
       icon: "/assets/images/icons/wefm-icon.png"
+
 contact_info:
-enabled: true
-align: center
-heading: "Additional Contact"
-sub_heading: |
-  <div style="text-align: center; margin-bottom: 2rem;">
-    <strong>Michael Brown</strong><br>
-    Policy Analyst<br>
-    UN Development Support Team<br>
-    📞 +1 212 555 7890<br>
-    ✉️ <a href="mailto:michael.brown@un.org">michael.brown@un.org</a>
-  </div>
-  
+  enabled: true
+  align: center
+  heading: "Contact Information"
+  sub_heading: |
+    <div style="text-align: center; margin-bottom: 2rem;">
+      <strong>Namsuk Kim</strong><br>
+      Economic Affairs Officer<br>
+      Development Policy Branch, EAPD, DESA<br>
+      📞 +1 212 963 4737<br>
+      ✉️ <a href="mailto:kimnamsuk@un.org">kimnamsuk@un.org</a>
+    </div>
+
 posts:
   enabled: true
   heading: "Latest News And Events"
