@@ -128,4 +128,89 @@ body_classes: page-home
         %}
         {% for card in cards limit: page.projects.limit %}
           {% assign url = page.projects.prevent_click | default: false | if: true then null else card.url %}
-          <div class="col-12 col-md-
+          <div class="col-12 col-md-4 {{ columns }} mb-3">
+            {% include theme/cards/card-projects.html 
+              title=card.title 
+              description=card.description
+              thumbnail=card.thumbnail
+              url=url 
+              weight=card.weight
+            %}
+          </div>
+        {% endfor %}
+        {% include framework/grid-footer.html 
+          view_more_button_text=page.projects.view_more_button_text
+          view_more_button_link=page.projects.view_more_button_link
+          align="center"
+        %}
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{%- comment -%} Contact Info Section {%- endcomment -%}
+{% if page.contact_info.enabled %}
+  <div class="section">
+    <div class="container text-center">
+      {% if page.contact_info.heading %}
+        <h2>{{ page.contact_info.heading }}</h2>
+      {% endif %}
+      {% if page.contact_info.sub_heading %}
+        <div class="lead">
+          {{ page.contact_info.sub_heading }}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}
+
+{%- comment -%} Outro Section {%- endcomment -%}
+{% if page.outro.enabled %}
+  <div class="section">
+    <div class="container">
+      {% include framework/info.html
+        heading=page.outro.heading
+        sub_heading=page.outro.sub_heading
+        align=page.outro.align
+        features=page.outro.features
+        buttons=page.outro.buttons
+        image=page.outro.image
+      %}
+    </div>
+  </div>
+{% endif %}
+
+{%- comment -%} Latest Posts Section {%- endcomment -%}
+{% if page.posts.enabled %}
+  {% assign cards = site.posts | sort: page.posts.sort | default: 'date' %}
+  {% assign columns = page.posts.columns | default: 3 %}
+  {% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
+  <div class="section section-base-bg-2">
+    <div class="container">
+      <div class="row">
+        {% include framework/grid-header.html
+          heading=page.posts.heading
+          sub_heading=page.posts.sub_heading
+          align="center"
+        %}
+        {% for card in cards limit: page.posts.limit %}
+          {% assign url = page.posts.prevent_click | default: false | if: true then null else card.url %}
+          <div class="col-12 col-md-4 {{ columns }} mb-3">
+            {% include theme/cards/card-posts.html 
+              title=card.title 
+              description=card.description
+              thumbnail=card.thumbnail
+              url=url 
+              weight=card.weight
+            %}
+          </div>
+        {% endfor %}
+        {% include framework/grid-footer.html 
+          view_more_button_text=page.posts.view_more_button_text
+          view_more_button_link=page.posts.view_more_button_link
+          align="center"
+        %}
+      </div>
+    </div>
+  </div>
+{% endif %}
