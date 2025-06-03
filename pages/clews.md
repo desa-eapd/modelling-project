@@ -80,7 +80,7 @@ outro:
     </h3>
 
     <div style="text-align: center;">
-      <img src="/assets/images/gen/blog/namibia_flag.png" alt="Namibia Flag" style="height: 50px; margin-bottom: 1rem;">
+      <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/namibia_flag.png" alt="Namibia Flag" style="height: 50px; margin-bottom: 1rem;">
 
       <table style="margin: 0 auto; text-align: left;">
         <tr>
