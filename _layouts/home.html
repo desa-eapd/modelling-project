@@ -151,6 +151,22 @@ Key Tools for Policy Insights Section (OG-Core / CLEWs / WEFM)
   </div>
 {% endif %}
 
+{%- comment -%} Contact Info Section {%- endcomment -%}
+{% if page.contact_info.enabled %}
+  <div class="section">
+    <div class="container text-center">
+      {% if page.contact_info.heading %}
+        <h2>{{ page.contact_info.heading }}</h2>
+      {% endif %}
+      {% if page.contact_info.sub_heading %}
+        <div class="lead">
+          {{ page.contact_info.sub_heading }}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}
+
 {%- comment -%} Outro Section {%- endcomment -%}
 {% if page.outro.enabled %}
   <div class="section">
