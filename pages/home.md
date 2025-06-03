@@ -53,7 +53,7 @@ contact_info:
   enabled: true
   align: center
   heading: "Contact Information"
-  sub_heading: For more information about the project please contact:
+  sub_heading: "For more information about the project please contact:"
     <div style="text-align: center; margin-bottom: 2rem;">
       <strong>Mr. Namsuk Kim</strong><br>
       Economic Affairs Officer<br>
