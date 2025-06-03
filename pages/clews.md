@@ -28,6 +28,7 @@ intro:
 
     By comparing different technologies and value chains, the model can identify pressure points and indicate synergies and trade-offs to reach development goals. CLEWS can analyze policy decisions on issues such as climate action, competition for water and agricultural modernization.
 
+    <div style="margin-bottom: 2rem;"></div>
   buttons:
     enabled: true
     list:
@@ -64,7 +65,7 @@ outro:
 
     <h2 style="margin-top: 3rem; margin-bottom: 1rem;">Learn more about how the CLEWs model is supporting the work of different sectors</h2>
 
-    <div style="padding:56.25% 0 0 0; position:relative;">
+    <div style="padding:56.25% 0 0 0; position:relative; margin-bottom: 2rem;">
       <iframe
         src="https://player.vimeo.com/video/1086915730?h=0331661007"
         frameborder="0"
@@ -74,9 +75,13 @@ outro:
       </iframe>
     </div>
 
-    <h3 style="text-align: center; margin-top: 3rem; margin-bottom: 1.5rem;"><u>Contact Information</u></h3>
+    <h3 style="text-align: center; margin-top: 3rem; margin-bottom: 1.5rem;">
+      <u>Contact Information</u>
+    </h3>
 
     <div style="text-align: center;">
+      <img src="/assets/images/gen/blog/namibia_flag.png" alt="Namibia Flag" style="height: 50px; margin-bottom: 1rem;">
+
       <table style="margin: 0 auto; text-align: left;">
         <tr>
           <td style="vertical-align: top; padding: 0 40px;">
@@ -99,7 +104,6 @@ outro:
     </div>
 
     <div style="margin-bottom: 3rem;"></div>
-
   buttons:
     enabled: false
 ---
