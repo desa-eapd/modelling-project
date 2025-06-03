@@ -102,6 +102,14 @@ outro:
         </tr>
       </table>
     </div>
+    <!-- Add spacing before new flags -->
+    <div style="margin-top: 3rem; margin-bottom: 1rem;"></div>
+
+    <!-- New centered Laos and Zambia flags -->
+    <div style="text-align: center;">
+      <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/laos_flag.png" alt="Laos Flag" style="height: 50px; margin-right: 1.5rem;">
+      <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/zambia_flag.png" alt="Zambia Flag" style="height: 50px;">
+    </div>
 
     <div style="margin-bottom: 3rem;"></div>
   buttons:
