@@ -19,9 +19,7 @@ body_classes: page-home
   %}
 {% endif %}
 
-{%- comment -%}
-Key Tools for Policy Insights Section (OG-Core / CLEWs / WEFM)
-{%- endcomment -%}
+{%- comment -%} Key Tools for Policy Insights Section (OG-Core / CLEWs / WEFM) {%- endcomment -%}
 {% if page.models_cards.enabled %}
   <div class="section bg-light models-cards">
     <div class="container">
@@ -32,27 +30,26 @@ Key Tools for Policy Insights Section (OG-Core / CLEWs / WEFM)
           align="center"
         %}
         {% for item in page.models_cards.cards %}
-        <div class="col-12 col-md-4 mb-4">
-          <div class="card h-100 shadow text-center p-4">
-            {% if item.icon %}
-              <img src="{{ item.icon | relative_url }}" alt="{{ item.title }}" class="mb-3 mx-auto" style="height:60px;">
-            {% endif %}
-            <h5>{{ item.title }}</h5>
-            <p style="color: #2e7d32;">{{ item.description }}</p> <!-- ✅ GREEN TEXT -->
-            <a href="{{ item.url }}" class="btn btn-primary mt-auto">{{ item.button_text }}</a>
+          <div class="col-12 col-md-4 mb-4">
+            <div class="card h-100 shadow text-center p-4">
+              {% if item.icon %}
+                <img src="{{ item.icon | relative_url }}" alt="{{ item.title }}" class="mb-3 mx-auto" style="height:60px;">
+              {% endif %}
+              <h5>{{ item.title }}</h5>
+              <p style="color: #2e7d32;">{{ item.description }}</p>
+              <a href="{{ item.url }}" class="btn btn-primary mt-auto">{{ item.button_text }}</a>
+            </div>
           </div>
-        </div>
         {% endfor %}
       </div>
     </div>
   </div>
 {% endif %}
 
-
 {%- comment -%} Services Section {%- endcomment -%}
 {% if page.services.enabled %}
   {% assign cards = site.services | sort: page.services.sort | default: 'date' %}
-  {% assign columns =  page.services.columns | default: 3 %}
+  {% assign columns = page.services.columns | default: 3 %}
   {% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
   <div class="section section-base-bg-2">
     <div class="container">
@@ -107,9 +104,9 @@ Key Tools for Policy Insights Section (OG-Core / CLEWs / WEFM)
     <div class="container">
       <div class="row justify-content-center align-items-center">
         {% for partner in site.data.partners limit: page.partners.limit %}
-        <div class="col-4 col-lg-2 text-center mb-1 mt-1">
-          <img src="{{ partner.image | relative_url }}" alt="{{ partner.title }}" />
-        </div>
+          <div class="col-4 col-lg-2 text-center mb-1 mt-1">
+            <img src="{{ partner.image | relative_url }}" alt="{{ partner.title }}" />
+          </div>
         {% endfor %}
       </div>
     </div>
@@ -119,7 +116,7 @@ Key Tools for Policy Insights Section (OG-Core / CLEWs / WEFM)
 {%- comment -%} Projects Section {%- endcomment -%}
 {% if page.projects.enabled %}
   {% assign cards = site.projects | sort: page.projects.sort | default: 'date' %}
-  {% assign columns =  page.projects.columns | default: 2 %}
+  {% assign columns = page.projects.columns | default: 2 %}
   {% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
   <div class="section section-base-bg-2">
     <div class="container">
@@ -131,89 +128,4 @@ Key Tools for Policy Insights Section (OG-Core / CLEWs / WEFM)
         %}
         {% for card in cards limit: page.projects.limit %}
           {% assign url = page.projects.prevent_click | default: false | if: true then null else card.url %}
-          <div class="col-12 col-md-4 {{ columns }} mb-3">
-            {% include theme/cards/card-projects.html 
-              title=card.title 
-              description=card.description
-              thumbnail=card.thumbnail
-              url=url 
-              weight=card.weight
-            %}
-          </div>
-        {% endfor %}
-        {% include framework/grid-footer.html 
-          view_more_button_text=page.projects.view_more_button_text
-          view_more_button_link=page.projects.view_more_button_link
-          align="center"
-        %}
-      </div>
-    </div>
-  </div>
-{% endif %}
-
-{%- comment -%} Contact Info Section {%- endcomment -%}
-{% if page.contact_info.enabled %}
-  <div class="section">
-    <div class="container text-center">
-      {% if page.contact_info.heading %}
-        <h2>{{ page.contact_info.heading }}</h2>
-      {% endif %}
-      {% if page.contact_info.sub_heading %}
-        <div class="lead">
-          {{ page.contact_info.sub_heading }}
-        </div>
-      {% endif %}
-    </div>
-  </div>
-{% endif %}
-
-{%- comment -%} Outro Section {%- endcomment -%}
-{% if page.outro.enabled %}
-  <div class="section">
-    <div class="container">
-      {% include framework/info.html
-        heading=page.outro.heading
-        sub_heading=page.outro.sub_heading
-        align=page.outro.align
-        features=page.outro.features
-        buttons=page.outro.buttons
-        image=page.outro.image
-      %}
-    </div>
-  </div>
-{% endif %}
-
-{%- comment -%} Latest Posts Section {%- endcomment -%}
-{% if page.posts.enabled %}
-  {% assign cards = site.posts | sort: page.posts.sort | default: 'date' %}
-  {% assign columns =  page.posts.columns | default: 3 %}
-  {% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
-  <div class="section section-base-bg-2">
-    <div class="container">
-      <div class="row">
-        {% include framework/grid-header.html
-          heading=page.posts.heading
-          sub_heading=page.posts.sub_heading
-          align="center"
-        %}
-        {% for card in cards limit: page.posts.limit %}
-          {% assign url = page.posts.prevent_click | default: false | if: true then null else card.url %}
-          <div class="col-12 col-md-4 {{ columns }} mb-3">
-            {% include theme/cards/card-posts.html 
-              title=card.title 
-              description=card.description
-              thumbnail=card.thumbnail
-              url=url 
-              weight=card.weight
-            %}
-          </div>
-        {% endfor %}
-        {% include framework/grid-footer.html 
-          view_more_button_text=page.posts.view_more_button_text
-          view_more_button_link=page.posts.view_more_button_link
-          align="center"
-        %}
-      </div>
-    </div>
-  </div>
-{% endif %}
+          <div class="col-12 col-md-

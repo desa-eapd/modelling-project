@@ -20,17 +20,17 @@ body_classes: page-clews
 {% endif %}
 
 {% if page.intro.enabled %}
-<div class="section">
-  <div class="container">
-    {% include framework/info.html
-      heading=page.intro.heading
-      sub_heading=page.intro.sub_heading
-      align=page.intro.align
-      image=page.intro.image
-      buttons=page.intro.buttons
-    %}
+  <div class="section">
+    <div class="container">
+      {% include framework/info.html
+        heading=page.intro.heading
+        sub_heading=page.intro.sub_heading
+        align=page.intro.align
+        image=page.intro.image
+        buttons=page.intro.buttons
+      %}
+    </div>
   </div>
-</div>
 {% endif %}
 
 {% if page.projects.enabled %}
@@ -67,15 +67,15 @@ body_classes: page-clews
 {% endif %}
 
 {% if page.outro.enabled %}
-<div class="section">
-  <div class="container">
-    {% include framework/info.html
-      heading=page.outro.heading
-      sub_heading=page.outro.sub_heading
-      align=page.outro.align
-      image=page.outro.image
-      buttons=page.outro.buttons
-    %}
+  <div class="section">
+    <div class="container">
+      {% include framework/info.html
+        heading=page.outro.heading
+        sub_heading=page.outro.sub_heading
+        align=page.outro.align
+        image=page.outro.image
+        buttons=page.outro.buttons
+      %}
+    </div>
   </div>
-</div>
 {% endif %}
