@@ -53,7 +53,7 @@ outro:
   align: center
   heading: "What is CLEWs?"
   sub_heading: |
-    <div style="padding:56.25% 0 0 0; position:relative; margin-bottom: 30px;">
+    <div style="padding:56.25% 0 0 0; position:relative; margin-bottom: 5rem;">
       <iframe
         src="https://www.youtube.com/embed/9Kg_mXQMSt0"
         frameborder="0"
@@ -65,7 +65,7 @@ outro:
 
     <h2 style="margin-top: 10rem; margin-bottom: 1rem;">Learn more about how the CLEWs model is supporting the work of different sectors</h2>
 
-    <div style="padding:56.25% 0 0 0; position:relative; margin-bottom: 2rem;">
+    <div style="padding:56.25% 0 0 0; position:relative; margin-bottom: 5rem;">
       <iframe
         src="https://player.vimeo.com/video/1086915730?h=0331661007"
         frameborder="0"
