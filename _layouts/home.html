@@ -48,18 +48,15 @@ body_classes: page-home
 
 {%- comment -%} Banner Section (Optional - set via page.banner_image) {%- endcomment -%}
 {% if page.banner_image.enabled %}
-  <div class="section py-4">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-10">
-          <img src="{{ page.banner_image.image | relative_url }}"
-               alt="{{ page.banner_image.alt }}"
-               style="width: 100%; height: {{ page.banner_image.height }}; object-fit: cover; border-radius: 8px;">
-        </div>
-      </div>
+  <div class="section py-3">
+    <div style="max-width: 95%; margin: 0 auto; text-align: center;">
+      <img src="{{ page.banner_image.image | relative_url }}"
+           alt="{{ page.banner_image.alt }}"
+           style="width: 100%; height: {{ page.banner_image.height }}; object-fit: cover;">
     </div>
   </div>
 {% endif %}
+
 
 {%- comment -%} Services Section {%- endcomment -%}
 {% if page.services.enabled %}
