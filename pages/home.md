@@ -49,18 +49,11 @@ models_cards:
       button_text: "Explore WEFM"
       icon: "/assets/images/icons/wefm-icon.png"
 
-info_banner:
+banner_image:
   enabled: true
-  background_color: "#f4f6f8"
-  text_color: "#003366"
-  align: center
-  heading: "Building Forward Better"
-  sub_heading: "Discover how our modelling tools support data-driven, inclusive, and sustainable policy-making worldwide."
-  button:
-    text: "Learn More"
-    url: "/about-the-project/"
-    external: false
-    style: "primary"
+  image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/home/coursebanner2.png"  # Replace with your actual image path
+  alt: "Policy Modelling Banner"
+  height: "300px"  # Optional: control height
 
 contact_info:
   enabled: true
