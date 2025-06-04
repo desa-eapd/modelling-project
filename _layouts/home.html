@@ -46,10 +46,10 @@ body_classes: page-home
   </div>
 {% endif %}
 
-{%- comment -%} Banner Section (Optional - set via page.banner_image) {%- endcomment -%}
+{%- comment -%} Banner Section (Centered with side space) {%- endcomment -%}
 {% if page.banner_image.enabled %}
   <div class="section p-0 m-0">
-    <div style="text-align: center;">
+    <div style="max-width: 90%; margin: 0 auto; text-align: center;">
       <img src="{{ page.banner_image.image | relative_url }}"
            alt="{{ page.banner_image.alt }}"
            style="width: 100%; height: {{ page.banner_image.height }}; object-fit: cover;">
