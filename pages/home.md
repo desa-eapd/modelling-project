@@ -49,6 +49,19 @@ models_cards:
       button_text: "Explore WEFM"
       icon: "/assets/images/icons/wefm-icon.png"
 
+info_banner:
+  enabled: true
+  background_color: "#f4f6f8"
+  text_color: "#003366"
+  align: center
+  heading: "Building Forward Better"
+  sub_heading: "Discover how our modelling tools support data-driven, inclusive, and sustainable policy-making worldwide."
+  button:
+    text: "Learn More"
+    url: "/about-the-project/"
+    external: false
+    style: "primary"
+
 contact_info:
   enabled: true
   align: center

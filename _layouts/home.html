@@ -19,7 +19,7 @@ body_classes: page-home
   %}
 {% endif %}
 
-{%- comment -%} Key Tools for Policy Insights Section (OG-Core / CLEWs / WEFM) {%- endcomment -%}
+{%- comment -%} Key Tools for Policy Insights Section {%- endcomment -%}
 {% if page.models_cards.enabled %}
   <div class="section bg-light models-cards">
     <div class="container">
@@ -42,6 +42,17 @@ body_classes: page-home
           </div>
         {% endfor %}
       </div>
+    </div>
+  </div>
+{% endif %}
+
+{%- comment -%} Banner Section (Optional - set via page.banner_image) {%- endcomment -%}
+{% if page.banner_image.enabled %}
+  <div class="section p-0 m-0">
+    <div style="text-align: center;">
+      <img src="{{ page.banner_image.image | relative_url }}"
+           alt="{{ page.banner_image.alt }}"
+           style="width: 100%; height: {{ page.banner_image.height }}; object-fit: cover;">
     </div>
   </div>
 {% endif %}
