@@ -51,8 +51,8 @@ models_cards:
 
 banner_image:
   enabled: true
-  image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/home/coursebanner3.png"  # Replace with your actual image path
-  alt: "Policy Modelling Banner"
+  image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/home/course_banner.png"  
+  alt: "Online Course Banner"
   height: "300px"  # Optional: control height
 
 contact_info:
