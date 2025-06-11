@@ -50,7 +50,7 @@ outro:
   enabled: true
   align: center
   heading: "All Country Projects"
-  image: ""  # Added to avoid Liquid error
+  image: ""
   sub_heading: |
     <ul style="text-align: left; max-width: 700px; margin: 0 auto; padding-left: 1.2em; list-style-type: disc;">
       <li>Are context-specific, implemented in close communication with national partners to address specific national needs and interests.</li>
@@ -58,16 +58,27 @@ outro:
       <li>Require strong collaboration with the participants and the establishment of an active technical modelling team where diverse institutions pool expertise.</li>
     </ul>
 
-    <p style="text-align: center; max-width: 700px; margin: 2em auto 1em; font-weight: 700;">
-    <strong>GitHub Repository access and additional technical details for each national OG-Core implementation:</strong>
-    </p>
+    <div style="max-width: 700px; margin: 2em auto 1em; text-align: center;">
+      <p style="font-weight: 700; margin-bottom: 1.2em;">
+        GitHub Repository access and additional technical details for each national OG-Core implementation:
+      </p>
+      <div style="display: flex; flex-direction: column; gap: 1em; align-items: center;">
+        <a href="https://github.com/EAPD-DRB/OG-ZAF" target="_blank"
+           style="display: inline-block; padding: 0.75em 1.25em; border: 2px solid #007BFF; border-radius: 6px; color: #007BFF; text-decoration: none; font-weight: 600;">
+          OG-Core South Africa Repository
+        </a>
+        <a href="https://github.com/EAPD-DRB/OG-IDN" target="_blank"
+           style="display: inline-block; padding: 0.75em 1.25em; border: 2px solid #007BFF; border-radius: 6px; color: #007BFF; text-decoration: none; font-weight: 600;">
+          OG-Core Indonesia Repository
+        </a>
+        <a href="https://github.com/EAPD-DRB/OG-PHL" target="_blank"
+           style="display: inline-block; padding: 0.75em 1.25em; border: 2px solid #007BFF; border-radius: 6px; color: #007BFF; text-decoration: none; font-weight: 600;">
+          OG-Core Philippines Repository
+        </a>
+      </div>
+    </div>
 
-    <ul style="text-align: center; max-width: 700px; margin: 0 auto; padding-left: 1.2em; list-style-type: disc;">
-      <li><a href="https://github.com/EAPD-DRB/OG-ZAF" target="_blank">OG-Core South Africa Repository</a></li>
-      <li><a href="https://github.com/EAPD-DRB/OG-IDN" target="_blank">OG-Core Indonesia Repository</a></li>
-      <li><a href="https://github.com/EAPD-DRB/OG-PHL" target="_blank">OG-Core Philippines Repository</a></li>
-    </ul>
-    <p style="text-align: left; max-width: 700px; margin: 1.5em auto 0;">
+    <p style="max-width: 700px; margin: 2em auto 0; text-align: center;">
       Contributors to each project can be contacted via their respective country project pages linked above.
     </p>
   buttons:
