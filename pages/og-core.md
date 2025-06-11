@@ -58,9 +58,10 @@ outro:
       <li>Require strong collaboration with the participants and the establishment of an active technical modelling team where diverse institutions pool expertise.</li>
     </ul>
 
-    <p style="text-align: left; max-width: 700px; margin: 2em auto 1em; font-weight: 500;">
-      GitHub Repository access and additional technical details for each national OG-Core implementation:
+    <p style="text-align: center; max-width: 700px; margin: 2em auto 1em; font-weight: 700;">
+    <strong>GitHub Repository access and additional technical details for each national OG-Core implementation:</strong>
     </p>
+
     <ul style="text-align: center; max-width: 700px; margin: 0 auto; padding-left: 1.2em; list-style-type: disc;">
       <li><a href="https://github.com/EAPD-DRB/OG-ZAF" target="_blank">OG-Core South Africa Repository</a></li>
       <li><a href="https://github.com/EAPD-DRB/OG-IDN" target="_blank">OG-Core Indonesia Repository</a></li>
