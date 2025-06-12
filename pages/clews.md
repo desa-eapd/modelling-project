@@ -52,37 +52,20 @@ outro:
   enabled: true
   align: center
   heading: "What is CLEWs?"
-  sub_heading: |
+  sub_heading: >
     <div style="padding:56.25% 0 0 0; position:relative; margin-bottom: 5rem;">
-      <iframe
-        src="https://www.youtube.com/embed/9Kg_mXQMSt0"
-        frameborder="0"
-        allowfullscreen
-        style="position:absolute; top:0; left:0; width:100%; height:100%;"
-        title="YouTube Video">
-      </iframe>
+      <iframe src="https://www.youtube.com/embed/9Kg_mXQMSt0" frameborder="0" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;" title="YouTube Video"></iframe>
     </div>
 
     <h2 style="margin-top: 10rem; margin-bottom: 1rem;">Learn more about how the CLEWs model is supporting the work of different sectors</h2>
 
     <div style="padding:56.25% 0 0 0; position:relative; margin-bottom: 5rem;">
-      <iframe
-        src="https://player.vimeo.com/video/1086915730?h=0331661007"
-        frameborder="0"
-        allowfullscreen
-        style="position:absolute; top:0; left:0; width:100%; height:100%;"
-        title="Vimeo Video">
-      </iframe>
+      <iframe src="https://player.vimeo.com/video/1086915730?h=0331661007" frameborder="0" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;" title="Vimeo Video"></iframe>
     </div>
 
-    <h3 style="text-align: center; margin-top: 3rem; margin-bottom: 1.5rem;">
-      <u>Contact Information</u>
-    </h3>
+    <h3 style="text-align: center; margin-top: 3rem; margin-bottom: 1.5rem;"><u>Contact Information</u></h3>
 
-    <!-- Namibia -->
-    <div style="text-align: center;">
-      <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/namibia_flag.png" alt="Namibia Flag" style="height: 50px; margin-bottom: 1rem;">
-    </div>
+    <div style="text-align: center;"><img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/namibia_flag.png" alt="Namibia Flag" style="height: 50px; margin-bottom: 1rem;"></div>
     <table style="margin: 0 auto; width: 100%; max-width: 800px; text-align: left;">
       <tr>
         <td style="vertical-align: top; width: 50%; padding: 1rem;">
@@ -103,10 +86,7 @@ outro:
       </tr>
     </table>
 
-    <!-- Laos -->
-    <div style="text-align: center; margin-top: 2rem;">
-      <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/laos_flag.png" alt="Laos Flag" style="height: 50px; margin-bottom: 1rem;">
-    </div>
+    <div style="text-align: center; margin-top: 2rem;"><img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/laos_flag.png" alt="Laos Flag" style="height: 50px; margin-bottom: 1rem;"></div>
     <table style="margin: 0 auto; width: 100%; max-width: 800px; text-align: left;">
       <tr>
         <td style="vertical-align: top; width: 50%; padding: 1rem;">
@@ -146,10 +126,8 @@ outro:
       </tr>
     </table>
 
-    <!-- Zambia Flag -->
     <div style="text-align: center; margin-top: 3rem; margin-bottom: 2rem;">
       <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/zambia_flag.png" alt="Zambia Flag" style="height: 50px;">
     </div>
   buttons:
     enabled: false
----
