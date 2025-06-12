@@ -65,8 +65,13 @@ outro:
 
     <h3 style="text-align: center; margin-top: 3rem; margin-bottom: 1.5rem;"><u>Contact Information</u></h3>
 
-    <div style="text-align: center;"><img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/namibia_flag.png" alt="Namibia Flag" style="height: 50px; margin-bottom: 1rem;"></div>
+    <!-- Namibia -->
     <table style="margin: 0 auto; width: 100%; max-width: 800px; text-align: left;">
+      <tr>
+        <td colspan="2" style="text-align: center; padding-bottom: 1rem;">
+          <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/namibia_flag.png" alt="Namibia Flag" style="height: 50px;">
+        </td>
+      </tr>
       <tr>
         <td style="vertical-align: top; width: 50%; padding: 1rem;">
           <strong>Eunice Ajambo (Ms.)</strong><br>
@@ -86,8 +91,13 @@ outro:
       </tr>
     </table>
 
-    <div style="text-align: center; margin-top: 2rem;"><img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/laos_flag.png" alt="Laos Flag" style="height: 50px; margin-bottom: 1rem;"></div>
-    <table style="margin: 0 auto; width: 100%; max-width: 800px; text-align: left;">
+    <!-- Laos -->
+    <table style="margin: 2rem auto 0; width: 100%; max-width: 800px; text-align: left;">
+      <tr>
+        <td colspan="2" style="text-align: center; padding-bottom: 1rem;">
+          <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/laos_flag.png" alt="Laos Flag" style="height: 50px;">
+        </td>
+      </tr>
       <tr>
         <td style="vertical-align: top; width: 50%; padding: 1rem;">
           <strong>Dave Blackman</strong><br>
@@ -126,6 +136,7 @@ outro:
       </tr>
     </table>
 
+    <!-- Zambia -->
     <div style="text-align: center; margin-top: 3rem; margin-bottom: 2rem;">
       <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/zambia_flag.png" alt="Zambia Flag" style="height: 50px;">
     </div>
