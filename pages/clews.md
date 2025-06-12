@@ -79,81 +79,77 @@ outro:
       <u>Contact Information</u>
     </h3>
 
-    <!-- Namibia Contacts -->
+    <!-- Namibia -->
     <div style="text-align: center;">
       <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/namibia_flag.png" alt="Namibia Flag" style="height: 50px; margin-bottom: 1rem;">
-      <table style="margin: 0 auto; text-align: left;">
-        <tr>
-          <td style="vertical-align: top; padding: 0 40px;">
-            <strong>Eunice Ajambo (Ms.)</strong><br>
-            Economist and Development Coordination Officer<br>
-            United Nations Namibia<br>
-            📞 +264 61 204 6502<br>
-            📱 +264 81 140 5810<br>
-            ✉️ <a href="mailto:ajambo@un.org">ajambo@un.org</a><br>
-            🌐 <a href="https://namibia.un.org">namibia.un.org</a>
-          </td>
-          <td style="vertical-align: top;">
-            <strong>Lolita de Almeida (Ms.)</strong><br>
-            Project Assistant<br>
-            FAO Namibia<br>
-            ✉️ <a href="mailto:Lolita.DeAlmeida@fao.org">Lolita.DeAlmeida@fao.org</a>
-          </td>
-        </tr>
-      </table>
     </div>
+    <table style="margin: 0 auto; width: 100%; max-width: 800px; text-align: left;">
+      <tr>
+        <td style="vertical-align: top; width: 50%; padding: 1rem;">
+          <strong>Eunice Ajambo (Ms.)</strong><br>
+          Economist and Development Coordination Officer<br>
+          United Nations Namibia<br>
+          📞 +264 61 204 6502<br>
+          📱 +264 81 140 5810<br>
+          ✉️ <a href="mailto:ajambo@un.org">ajambo@un.org</a><br>
+          🌐 <a href="https://namibia.un.org">namibia.un.org</a>
+        </td>
+        <td style="vertical-align: top; width: 50%; padding: 1rem;">
+          <strong>Lolita de Almeida (Ms.)</strong><br>
+          Project Assistant<br>
+          FAO Namibia<br>
+          ✉️ <a href="mailto:Lolita.DeAlmeida@fao.org">Lolita.DeAlmeida@fao.org</a>
+        </td>
+      </tr>
+    </table>
 
-    <!-- Laos Flag and Contacts -->
-    <div style="margin-top: 3rem; text-align: center;">
+    <!-- Laos -->
+    <div style="text-align: center; margin-top: 2rem;">
       <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/laos_flag.png" alt="Laos Flag" style="height: 50px; margin-bottom: 1rem;">
-      <table style="margin: 0 auto; text-align: left;">
-        <tr>
-          <td style="vertical-align: top; padding: 0 40px;">
-            <strong>Dave Blackman</strong><br>
-            Senior Economist<br>
-            Resident Coordinator’s Office<br>
-            Lane Xang Avenue, PO Box 345<br>
-            Vientiane, Lao PDR<br>
-            📞 +856 21 267 735<br>
-            📱 +856 20 5551 4578<br>
-            ✉️ <a href="mailto:dblackman@un.org">dblackman@un.org</a><br>
-            X: @DBlackmanUNRCO<br>
-            🌐 <a href="https://laopdr.un.org">laopdr.un.org</a>
-          </td>
-          <td style="vertical-align: top;">
-            <strong>Dr. Francesco Gardumi</strong><br>
-            Researcher, Division of Energy Systems<br>
-            KTH Royal Institute of Technology, Sweden<br>
-            KTH, Brinellvägen 68, 10044 Stockholm<br>
-            ✉️ <a href="mailto:gardumi@kth.se">gardumi@kth.se</a><br>
-            🌐 <a href="https://www.energy.kth.se/energy-systems">energy.kth.se</a> | <a href="http://www.osemosys.org">osemosys.org</a>
-          </td>
-        </tr>
-      </table>
-      <table style="margin-top: 2rem; margin-left: auto; margin-right: auto; text-align: left;">
-        <tr>
-          <td style="padding: 0 40px;">
-            <strong>Dr. Sounthisack Phommachanh</strong><br>
-            Mechanical Engineering Department<br>
-            Faculty of Engineering, National University of Laos<br>
-            ✉️ <a href="mailto:sounthisack@fe-nuol.edu.la">sounthisack@fe-nuol.edu.la</a>
-          </td>
-          <td>
-            <strong>Dr. Khamphone Nanthavong</strong><br>
-            Mechanical Engineering Department<br>
-            Faculty of Engineering, National University of Laos<br>
-            ✉️ <a href="mailto:khamphonen1958@gmail.com">khamphonen1958@gmail.com</a>
-          </td>
-        </tr>
-      </table>
     </div>
+    <table style="margin: 0 auto; width: 100%; max-width: 800px; text-align: left;">
+      <tr>
+        <td style="vertical-align: top; width: 50%; padding: 1rem;">
+          <strong>Dave Blackman</strong><br>
+          Senior Economist<br>
+          Resident Coordinator’s Office<br>
+          Lane Xang Avenue, PO Box 345<br>
+          Vientiane, Lao PDR<br>
+          📞 +856 21 267 735<br>
+          📱 +856 20 5551 4578<br>
+          ✉️ <a href="mailto:dblackman@un.org">dblackman@un.org</a><br>
+          X: @DBlackmanUNRCO<br>
+          🌐 <a href="https://laopdr.un.org">laopdr.un.org</a>
+        </td>
+        <td style="vertical-align: top; width: 50%; padding: 1rem;">
+          <strong>Dr. Francesco Gardumi</strong><br>
+          Researcher, Division of Energy Systems<br>
+          KTH Royal Institute of Technology, Sweden<br>
+          KTH, Brinellvägen 68, 10044 Stockholm<br>
+          ✉️ <a href="mailto:gardumi@kth.se">gardumi@kth.se</a><br>
+          🌐 <a href="https://www.energy.kth.se/energy-systems">energy.kth.se</a> | <a href="http://www.osemosys.org">osemosys.org</a>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top; width: 50%; padding: 1rem;">
+          <strong>Dr. Sounthisack Phommachanh</strong><br>
+          Mechanical Engineering Department<br>
+          Faculty of Engineering, National University of Laos<br>
+          ✉️ <a href="mailto:sounthisack@fe-nuol.edu.la">sounthisack@fe-nuol.edu.la</a>
+        </td>
+        <td style="vertical-align: top; width: 50%; padding: 1rem;">
+          <strong>Dr. Khamphone Nanthavong</strong><br>
+          Mechanical Engineering Department<br>
+          Faculty of Engineering, National University of Laos<br>
+          ✉️ <a href="mailto:khamphonen1958@gmail.com">khamphonen1958@gmail.com</a>
+        </td>
+      </tr>
+    </table>
 
-    <!-- Zambia Flag at Bottom -->
-    <div style="margin-top: 4rem; text-align: center;">
+    <!-- Zambia Flag -->
+    <div style="text-align: center; margin-top: 3rem; margin-bottom: 2rem;">
       <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/zambia_flag.png" alt="Zambia Flag" style="height: 50px;">
     </div>
-
-    <div style="margin-bottom: 3rem;"></div>
   buttons:
     enabled: false
 ---
