@@ -111,7 +111,7 @@ outro:
           X: @DBlackmanUNRCO<br>
           🌐 <a href="https://laopdr.un.org">laopdr.un.org</a>
         </td>
-        <td style="vertical-align: top; width: 50%; padding: 1rem;">
+        <td style="vertical-align: top; width: 50%; padding: 1rem 1rem 1rem 5rem;">
           <strong>Dr. Francesco Gardumi</strong><br>
           Researcher, Division of Energy Systems<br>
           KTH Royal Institute of Technology, Sweden<br>
@@ -127,7 +127,7 @@ outro:
           Faculty of Engineering, National University of Laos<br>
           ✉️ <a href="mailto:sounthisack@fe-nuol.edu.la">sounthisack@fe-nuol.edu.la</a>
         </td>
-        <td style="vertical-align: top; width: 50%; padding: 1rem;">
+        <td style="vertical-align: top; width: 50%; padding: 1rem 1rem 1rem 5rem;">
           <strong>Dr. Khamphone Nanthavong</strong><br>
           Mechanical Engineering Department<br>
           Faculty of Engineering, National University of Laos<br>
