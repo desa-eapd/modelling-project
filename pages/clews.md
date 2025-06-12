@@ -102,6 +102,7 @@ outro:
         </tr>
       </table>
     </div>
+
     <!-- Add spacing before new flags -->
     <div style="margin-top: 3rem; margin-bottom: 1rem;"></div>
 
@@ -111,7 +112,56 @@ outro:
       <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/zambia_flag.png" alt="Zambia Flag" style="height: 50px;">
     </div>
 
+    <!-- Laos Contact Section -->
+    <div style="margin-top: 2rem; text-align: center;">
+      <table style="margin: 0 auto; text-align: left;">
+        <tr>
+          <td style="vertical-align: top; padding: 0 40px;">
+            <strong>Dave Blackman</strong><br>
+            Senior Economist<br>
+            Resident Coordinator’s Office<br>
+            Lane Xang Avenue, PO Box 345<br>
+            Vientiane, Lao PDR<br>
+            📞 +856 21 267 735<br>
+            📱 +856 20 5551 4578<br>
+            ✉️ <a href="mailto:dblackman@un.org">dblackman@un.org</a><br>
+            X: @DBlackmanUNRCO<br>
+            🌐 <a href="https://laopdr.un.org">laopdr.un.org</a>
+          </td>
+          <td style="vertical-align: top;">
+            <strong>Dr. Francesco Gardumi</strong><br>
+            Researcher, Division of Energy Systems<br>
+            KTH Royal Institute of Technology, Sweden<br>
+            KTH, Brinellvägen 68, 10044 Stockholm<br>
+            ✉️ <a href="mailto:gardumi@kth.se">gardumi@kth.se</a><br>
+            🌐 <a href="https://www.energy.kth.se/energy-systems">energy.kth.se</a> | <a href="http://www.osemosys.org">osemosys.org</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Additional Local Experts -->
+    <div style="margin-top: 2rem; text-align: center;">
+      <table style="margin: 0 auto; text-align: left;">
+        <tr>
+          <td style="padding: 0 40px;">
+            <strong>Dr. Sounthisack Phommachanh</strong><br>
+            Mechanical Engineering Department<br>
+            Faculty of Engineering, National University of Laos<br>
+            ✉️ <a href="mailto:sounthisack@fe-nuol.edu.la">sounthisack@fe-nuol.edu.la</a>
+          </td>
+          <td>
+            <strong>Dr. Khamphone Nanthavong</strong><br>
+            Mechanical Engineering Department<br>
+            Faculty of Engineering, National University of Laos<br>
+            ✉️ <a href="mailto:khamphonen1958@gmail.com">khamphonen1958@gmail.com</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
     <div style="margin-bottom: 3rem;"></div>
   buttons:
     enabled: false
 ---
+
