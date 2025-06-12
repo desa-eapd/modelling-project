@@ -79,9 +79,9 @@ outro:
       <u>Contact Information</u>
     </h3>
 
+    <!-- Namibia Contacts -->
     <div style="text-align: center;">
       <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/namibia_flag.png" alt="Namibia Flag" style="height: 50px; margin-bottom: 1rem;">
-
       <table style="margin: 0 auto; text-align: left;">
         <tr>
           <td style="vertical-align: top; padding: 0 40px;">
@@ -103,17 +103,9 @@ outro:
       </table>
     </div>
 
-    <!-- Add spacing before new flags -->
-    <div style="margin-top: 3rem; margin-bottom: 1rem;"></div>
-
-    <!-- New centered Laos and Zambia flags -->
-    <div style="text-align: center;">
-      <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/laos_flag.png" alt="Laos Flag" style="height: 50px; margin-right: 1.5rem;">
-      <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/zambia_flag.png" alt="Zambia Flag" style="height: 50px;">
-    </div>
-
-    <!-- Laos Contact Section -->
-    <div style="margin-top: 2rem; text-align: center;">
+    <!-- Laos Flag and Contacts -->
+    <div style="margin-top: 3rem; text-align: center;">
+      <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/laos_flag.png" alt="Laos Flag" style="height: 50px; margin-bottom: 1rem;">
       <table style="margin: 0 auto; text-align: left;">
         <tr>
           <td style="vertical-align: top; padding: 0 40px;">
@@ -138,11 +130,7 @@ outro:
           </td>
         </tr>
       </table>
-    </div>
-
-    <!-- Additional Local Experts -->
-    <div style="margin-top: 2rem; text-align: center;">
-      <table style="margin: 0 auto; text-align: left;">
+      <table style="margin-top: 2rem; margin-left: auto; margin-right: auto; text-align: left;">
         <tr>
           <td style="padding: 0 40px;">
             <strong>Dr. Sounthisack Phommachanh</strong><br>
@@ -158,6 +146,11 @@ outro:
           </td>
         </tr>
       </table>
+    </div>
+
+    <!-- Zambia Flag at Bottom -->
+    <div style="margin-top: 4rem; text-align: center;">
+      <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/zambia_flag.png" alt="Zambia Flag" style="height: 50px;">
     </div>
 
     <div style="margin-bottom: 3rem;"></div>
