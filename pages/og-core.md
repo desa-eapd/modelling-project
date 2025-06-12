@@ -65,15 +65,15 @@ outro:
       <div style="display: flex; flex-direction: column; gap: 1em; align-items: center;">
         <a href="https://github.com/EAPD-DRB/OG-ZAF" target="_blank"
            style="display: inline-block; padding: 0.75em 1.25em; border: 2px solid #007BFF; border-radius: 6px; color: #007BFF; text-decoration: none; font-weight: 600;">
-          OG-Core South Africa Repository
+          OG Model for South Africa
         </a>        
         <a href="https://github.com/EAPD-DRB/OG-PHL" target="_blank"
            style="display: inline-block; padding: 0.75em 1.25em; border: 2px solid #007BFF; border-radius: 6px; color: #007BFF; text-decoration: none; font-weight: 600;">
-          OG-Core Philippines Repository
+          OG Model for Philippines 
         </a>
         <a href="https://github.com/EAPD-DRB/OG-IDN" target="_blank"
            style="display: inline-block; padding: 0.75em 1.25em; border: 2px solid #007BFF; border-radius: 6px; color: #007BFF; text-decoration: none; font-weight: 600;">
-          OG-Core Indonesia Repository
+          OG Model for Indonesia
         </a>
       </div>
     </div>
