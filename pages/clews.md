@@ -82,7 +82,7 @@ outro:
           ✉️ <a href="mailto:ajambo@un.org">ajambo@un.org</a><br>
           🌐 <a href="https://namibia.un.org">namibia.un.org</a>
         </td>
-        <td style="vertical-align: top; width: 50%; padding: 1rem;">
+        <td style="vertical-align: top; width: 50%; padding: 1rem 1rem 1rem 2rem;">
           <strong>Lolita de Almeida (Ms.)</strong><br>
           Project Assistant<br>
           FAO Namibia<br>
