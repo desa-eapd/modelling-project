@@ -63,15 +63,7 @@ outro:
       <iframe src="https://player.vimeo.com/video/1086915730?h=0331661007" frameborder="0" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;" title="Vimeo Video"></iframe>
     </div>
 
-    <h2 style="text-align: center; margin-top: 5rem; margin-bottom: 2rem;"><b>Meet Our Partners</b></h2>
-    <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">
-      FOCUS-Africa brings together 16 strong partners across Europe and Africa. The project consortium unites an excellent mix of research institutions, international organisations involved in implementing the Climate Services Information System pillar of GFCS, service providers, industry end-users and social scientists to address the full-value chain of climate services delivery.
-    </p>
-    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-bottom: 4rem;">
-      <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/home/partners.png" style="max-width: 100%; height: auto; width: 800px;">
-    </div>   
-
-    <h2 style="text-align: center; margin-top: 5rem; margin-bottom: 2rem;"><b>Contact Our National Partners</b></h2>
+    <h2 style="text-align: center; margin-top: 5rem; margin-bottom: 2rem;"><b>Meet Our National Partners</b></h2>
     <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">
       CLEWs is a global initiative supported by a diverse network of partners and stakeholders. Our project brings together a dynamic mix of research institutions, national agencies, and international organizations committed to the promotion of CLEWs at national level.
     </p>
