@@ -73,7 +73,7 @@ outro:
     
     <h3 style="text-align: center; margin-top: 3rem; margin-bottom: 1.5rem;"><u>Contact Information</u></h3>
     <!-- Namibia -->
-    <table style="margin: 0 auto; width: 100%; max-width: 800px; text-align: left;">
+    <table style="margin: 0 auto; width: 80%; max-width: 600px; text-align: left;">
       <tr>
         <td colspan="2" style="text-align: center; padding-bottom: 1rem;">
           <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/namibia_flag.png" alt="Namibia Flag" style="height: 50px;">
