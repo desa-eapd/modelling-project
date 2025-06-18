@@ -79,7 +79,7 @@ outro:
       <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/home/national_partners.png" style="max-width: 100%; height: auto; width: 800px;">
     </div>  
     
-    <h3 style="text-align: center; margin-top: 3rem; margin-bottom: 1.5rem;"><u>Contact Information</u></h3>
+    <h2 style="text-align: center; margin-top: 3rem; margin-bottom: 1.5rem;"><u>Contact Information</u></h2>
     <!-- Namibia -->
     <table style="margin: 0 auto; width: 100%; max-width: 800px; text-align: left;">
       <tr>
