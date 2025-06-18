@@ -68,12 +68,12 @@ outro:
       FOCUS-Africa brings together 16 strong partners across Europe and Africa. The project consortium unites an excellent mix of research institutions, international organisations involved in implementing the Climate Services Information System pillar of GFCS, service providers, industry end-users and social scientists to address the full-value chain of climate services delivery.
     </p>
     <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-bottom: 4rem;">
-      <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/home/partners.png" style="max-width: 100%; height: auto; width: 1000px;">
+      <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/home/partners.png" style="max-width: 80%; height: auto; width: 800px;">
     </div>   
     
     <h3 style="text-align: center; margin-top: 3rem; margin-bottom: 1.5rem;"><u>Contact Information</u></h3>
     <!-- Namibia -->
-    <table style="margin: 0 auto; width: 80%; max-width: 600px; text-align: left;">
+    <table style="margin: 0 auto; width: 100%; max-width: 800px; text-align: left;">
       <tr>
         <td colspan="2" style="text-align: center; padding-bottom: 1rem;">
           <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/namibia_flag.png" alt="Namibia Flag" style="height: 50px;">
