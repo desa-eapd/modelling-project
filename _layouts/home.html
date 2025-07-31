@@ -47,15 +47,24 @@ body_classes: page-home
 {% endif %}
 
 {%- comment -%} Banner Section (Optional - set via page.banner_image) {%- endcomment -%}
-{% if page.banner_image.enabled %}
+{% if page.banner_images %}
   <div class="section py-3">
-    <div style="max-width: 90%; margin: 0 auto; text-align: center;">
-      <img src="{{ page.banner_image.image | relative_url }}"
-           alt="{{ page.banner_image.alt }}"
-           style="width: 100%; height: auto;">
+    <div class="container text-center">
+      <div class="row justify-content-center align-items-center">
+        {% for banner in page.banner_images %}
+          {% if banner.enabled %}
+            <div class="col-12 col-md-6 mb-3">
+              <img src="{{ banner.image | relative_url }}"
+                   alt="{{ banner.alt }}"
+                   style="width: 100%; height: {{ banner.height }}; object-fit: contain;">
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 {% endif %}
+
 
 {%- comment -%} Services Section {%- endcomment -%}
 {% if page.services.enabled %}

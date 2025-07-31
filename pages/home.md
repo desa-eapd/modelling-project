@@ -49,15 +49,17 @@ models_cards:
       button_text: "Explore WEFM"
       icon: "/assets/images/icons/wefm-icon.png"
 
-banner_image:
-  enabled: true
-  image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/home/OG Core banner.png"  
-  alt: "Online Course Banner"
-  height: "300px"  # Optional: control height
-  enabled: true
-  image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/home/CLEWs Banner.png"  
-  alt: "Online Course Banner"
-  height: "300px"  # Optional: control height
+banner_images:
+  - enabled: true
+    image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/home/OG Core banner.png"
+    alt: "OG Core Banner"
+    height: "300px"
+
+  - enabled: true
+    image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/home/CLEWs Banner.png"
+    alt: "CLEWs Banner"
+    height: "300px"
+    
 contact_info:
   enabled: true
   align: center
