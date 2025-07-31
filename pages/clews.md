@@ -33,12 +33,12 @@ intro:
     enabled: true
     list:
       - text: "Clews Model"
-        url: "#"
+        url: "https://zenodo.org/records/14680763"
         external: true
         size: large
         style: "primary"
       - text: "Clews Course"
-        url: "https://zenodo.org/records/14680763"
+        url: "https://capacity.desa.un.org/article/introduction-clews"
         external: false
         size: large
         style: "primary"

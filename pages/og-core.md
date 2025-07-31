@@ -36,7 +36,7 @@ intro:
         size: large
         style: "primary"
       - text: "OG Course"
-        url: "https://eapd-drb.github.io/UN-OG-Training/"
+        url: "https://capacity.desa.un.org/article/mastering-og-core-model-theory-technical-applications-and-policy-use-cases"
         external: false
         size: large
         style: "primary"
