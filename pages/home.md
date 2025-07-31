@@ -51,10 +51,13 @@ models_cards:
 
 banner_image:
   enabled: true
-  image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/home/coursebanner.png"  
+  image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/home/OG Core banner.png"  
   alt: "Online Course Banner"
   height: "300px"  # Optional: control height
-
+  enabled: true
+  image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/home/CLEWs Banner.png"  
+  alt: "Online Course Banner"
+  height: "300px"  # Optional: control height
 contact_info:
   enabled: true
   align: center
