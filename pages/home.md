@@ -53,7 +53,7 @@ banner_images:
   - enabled: true
     image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/home/OG Core banner.png"
     alt: "OG Core Banner"
-    height: "400px"
+    height: "500px"
     buttons:
       - text: "Register Now"
         url: "https://capacity.desa.un.org/article/mastering-og-core-model-theory-technical-applications-and-policy-use-cases"
@@ -64,7 +64,7 @@ banner_images:
   - enabled: true
     image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/home/CLEWs Banner.png"
     alt: "CLEWs Banner"
-    height: "400px"
+    height: "500px"
     buttons:
       - text: "Register Now"
         url: "https://capacity.desa.un.org/article/introduction-clews"
