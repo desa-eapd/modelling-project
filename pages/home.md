@@ -55,6 +55,7 @@ banner_images:
     alt: "OG Core Banner"
     height: "400px"
     button_text: "Register Now"
+    style: "primary"
     button_url: "https://capacity.desa.un.org/article/mastering-og-core-model-theory-technical-applications-and-policy-use-cases"
 
   - enabled: true
@@ -62,6 +63,7 @@ banner_images:
     alt: "CLEWs Banner"
     height: "400px"
     button_text: "Register Now"
+    style: "primary"
     button_url: "https://capacity.desa.un.org/article/introduction-clews"
 
 contact_info:
