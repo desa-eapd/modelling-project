@@ -53,13 +53,13 @@ banner_images:
   - enabled: true
     image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/home/OG Core banner.png"
     alt: "OG Core Banner"
-    height: "300px"
+    height: "500px"
 
   - enabled: true
     image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/home/CLEWs Banner.png"
     alt: "CLEWs Banner"
-    height: "300px"
-    
+    height: "500px"
+
 contact_info:
   enabled: true
   align: center

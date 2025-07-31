@@ -56,7 +56,7 @@ body_classes: page-home
             <div class="col-12 col-md-6 mb-3">
               <img src="{{ banner.image | relative_url }}"
                    alt="{{ banner.alt }}"
-                   style="width: 100%; height: {{ banner.height }}; object-fit: contain;">
+                   style="width: 100%; height: {{ banner.height }}; object-fit: cover; border-radius: 8px;">
             </div>
           {% endif %}
         {% endfor %}
