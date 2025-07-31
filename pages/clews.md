@@ -63,6 +63,8 @@ outro:
       <iframe src="https://player.vimeo.com/video/1086915730?h=0331661007" frameborder="0" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;" title="Vimeo Video"></iframe>
     </div>
 
+    <iframe title="vimeo-player" src="https://player.vimeo.com/video/1106182259?h=a6cca2ee7a" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
+
     <h2 style="text-align: center; margin-top: 5rem; margin-bottom: 2rem;"><b>Meet Our National Partners</b></h2>
     <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">
       CLEWs is a global initiative supported by a diverse network of partners and stakeholders. Our project brings together a dynamic mix of research institutions, national agencies, and international organizations committed to the promotion of CLEWs at national level.
