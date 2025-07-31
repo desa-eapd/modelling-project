@@ -51,7 +51,7 @@ models_cards:
 
 banner_images:
   - enabled: true
-    image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/home/OG Core banner.png"
+    image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/home/OG Core banner 1.png"
     alt: "OG Core Banner"
     height: "500px"
     buttons:
@@ -62,7 +62,7 @@ banner_images:
         style: "primary"
 
   - enabled: true
-    image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/home/CLEWs Banner.png"
+    image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/home/CLEWs Banner1.png"
     alt: "CLEWs Banner"
     height: "500px"
     buttons:
