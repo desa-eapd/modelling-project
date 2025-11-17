@@ -14,7 +14,7 @@ hero:
   text_color: "#000000"
   background_color: ""
   background_gradient: false
-  background_image: "/assets/images/gen/home/V2banner_final.png"
+  background_image: "/assets/images/gen/home/V2banner_transparent.png"
   fullscreen_mobile: true
   fullscreen_desktop: false
   buttons:
