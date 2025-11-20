@@ -25,7 +25,7 @@ hero:
         external: false
         size: large
         style: "primary"
-  height: "800px"
+  height: "750px"
 
 models_cards:
   enabled: true
