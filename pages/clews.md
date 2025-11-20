@@ -10,7 +10,8 @@ meta_title: "CLEWS – United Nations Modelling Tool"
 hero:
   enabled: true
   heading: "CLEWS"
-  sub_heading: "A powerful framework for integrated resource planning, helping governments align strategies with sustainability goals."
+  sub_heading: "A powerful framework for integrated resource planning,
+    </br>helping governments align strategies with sustainability goals."
   text_color: "#FFFFFF"
   background_color: ""
   background_gradient: false

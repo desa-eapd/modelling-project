@@ -11,7 +11,8 @@ meta_title: "WEFM – United Nations Modelling Tool"
 hero:
   enabled: true
   heading: "WEFM: World Economic Forecasting Model"
-  sub_heading: "Supporting long-term macroeconomic and policy forecasting through integrated modelling techniques."
+  sub_heading: "Supporting long-term macroeconomic and policy 
+   </br>forecasting through integrated modelling techniques."
   text_color: "#000000"
   background_color: ""
   background_gradient: false
