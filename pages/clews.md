@@ -18,7 +18,7 @@ hero:
   background_image: "/assets/images/gen/home/CLEWs_V2.png"
   fullscreen_mobile: true
   fullscreen_desktop: false
-  height: "580px"
+  height: "750px"
 
 intro:
   enabled: true
