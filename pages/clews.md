@@ -15,7 +15,7 @@ hero:
   text_color: "#FFFFFF"
   background_color: ""
   background_gradient: false
-  background_image: "/assets/images/gen/home/CLEWs.png"
+  background_image: "/assets/images/gen/home/CLEWs_V2.png"
   fullscreen_mobile: true
   fullscreen_desktop: false
   height: "580px"
