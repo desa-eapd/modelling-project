@@ -11,10 +11,10 @@ hero:
   enabled: true
   heading: "Rebuilding Better and Greener from the COVID-19 Pandemic"
   sub_heading: "Strengthening policymaking for a sustainable future through data-driven simulations."
-  text_color: "#000000"
+  text_color: "#FFFFFF"
   background_color: ""
   background_gradient: false
-  background_image: "https://raw.githubusercontent.com/desa-eapd/modelling-project/main/assets/images/gen/home/V2banner_finalized.png"
+  background_image: "https://raw.githubusercontent.com/desa-eapd/modelling-project/main/assets/images/gen/home/V2bannerfinal.png"
   fullscreen_mobile: true
   fullscreen_desktop: false
   buttons:
