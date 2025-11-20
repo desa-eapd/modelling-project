@@ -14,7 +14,7 @@ hero:
   text_color: "#FFFFFF"
   background_color: ""
   background_gradient: false
-  background_image: "https://raw.githubusercontent.com/desa-eapd/modelling-project/main/assets/images/gen/home/V2banner_final.png"
+  background_image: "https://raw.githubusercontent.com/desa-eapd/modelling-project/main/assets/images/gen/home/V2banner-updated.png"
   fullscreen_mobile: true
   fullscreen_desktop: false
   buttons:
