@@ -12,7 +12,7 @@ hero:
   enabled: true
   heading: "WEFM: World Economic Forecasting Model"
   sub_heading: "Supporting long-term macroeconomic and policy 
-   </br>forecasting through integrated modelling techniques."
+   </br>forecasting through integrated modelling"
   text_color: "#000000"
   background_color: ""
   background_gradient: false

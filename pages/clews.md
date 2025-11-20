@@ -11,7 +11,7 @@ hero:
   enabled: true
   heading: "CLEWS"
   sub_heading: "A powerful framework for integrated resource planning,
-    </br>helping governments align strategies with sustainability goals."
+    </br>helping governments align strategies with sustainability goals"
   text_color: "#FFFFFF"
   background_color: ""
   background_gradient: false

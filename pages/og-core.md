@@ -10,7 +10,7 @@ meta_title: OG-Core – United Nations Modelling Tool
 hero:
   enabled: true
   heading: "OG-Core: Dynamic Fiscal Policy Modelling"
-  sub_heading: "Explore how tax, spending, and demographic shift </br> shape long-term macroeconomic outcomes through </br> an open-source overlapping generations framework."
+  sub_heading: "Explore how tax, spending, and demographic shift </br> shape long-term macroeconomic outcomes through </br> an open-source overlapping generations framework"
   text_color: "#000000"
   background_color: ""
   background_gradient: false
