@@ -80,7 +80,7 @@ contact_info:
   sub_heading: |
     <div style="text-align: center; margin-bottom: 2rem;">
       <strong>Mr. Alfonso Acosta Goncalves</strong><br>
-      Inter-Regional Adviserr<br>
+      Inter-Regional Adviser<br>
       Economic Analysis and Policy Division (EAPD), UN-DESA<br>
       ✉️ <a href="mailto:acostagoncalves@un.org">acostagoncalves@un.org</a>
     </div>
