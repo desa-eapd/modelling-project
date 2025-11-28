@@ -79,10 +79,11 @@ contact_info:
   heading: "For more information about the project, please contact:"
   sub_heading: |
     <div style="text-align: center; margin-bottom: 2rem;">
-      <strong>Mr. Alfonso Acosta Gonçalves</strong><br>
-      Inter-Regional Adviser<br>
+      <strong>Mr. Namsuk Kim</strong><br>
+      Economic Affairs Officer<br>
       Economic Analysis and Policy Division (EAPD), UN-DESA<br>
-      ✉️ <a href="mailto:acostagoncalves@un.org">acostagoncalves@un.org</a>
+      📞 +1 (212) 963 4737<br>
+      ✉️ <a href="mailto:kimnamsuk@un.org">kimnamsuk@un.org</a>
     </div>
 
 posts:
