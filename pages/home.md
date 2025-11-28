@@ -80,10 +80,9 @@ contact_info:
   sub_heading: |
     <div style="text-align: center; margin-bottom: 2rem;">
       <strong>Mr. Alfonso Acosta Goncalves</strong><br>
-      Economic Affairs Officer<br>
+      Inter-Regional Adviserr<br>
       Economic Analysis and Policy Division (EAPD), UN-DESA<br>
-      📞 +1 (212) 963 4737<br>
-      ✉️ <a href="mailto:kimnamsuk@un.org">kimnamsuk@un.org</a>
+      ✉️ <a href="mailto:acostagoncalves@un.org">acostagoncalves@un.org</a>
     </div>
 
 posts:
