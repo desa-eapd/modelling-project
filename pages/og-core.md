@@ -14,10 +14,10 @@ hero:
   text_color: "#000000"
   background_color: ""
   background_gradient: false
-  background_image: "/assets/images/gen/home/OG-Core.png"
+  background_image: "/assets/images/gen/home/OG-Core_V2.png"
   fullscreen_mobile: true
   fullscreen_desktop: false
-  height: "580px"
+  height: "750px"
 
 intro:
   enabled: true
