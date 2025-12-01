@@ -16,7 +16,7 @@ hero:
   text_color: "#000000"
   background_color: ""
   background_gradient: false
-  background_image: "/assets/images/gen/home/WEFM_V2.jpeg"
+  background_image: "/assets/images/gen/home/WEFM_V2.png"
   # background_image_blend_mode: overlay
   fullscreen_mobile: true
   fullscreen_desktop: false
