@@ -73,13 +73,13 @@ banner_images:
         style: "primary"
 
 
-contact_info:
+contact_info: 
   enabled: true
   align: center
   heading: "For more information about the project, please contact:"
   sub_heading: |
     <div style="text-align: center; margin-bottom: 2rem;">
-      <strong>Mr. Alfonso Acosta Goncalves</strong><br>
+      <strong>Mr. Alfonso Acosta Gonçalves</strong><br>
       Inter-Regional Adviser<br>
       Economic Analysis and Policy Division (EAPD), UN-DESA<br>
       ✉️ <a href="mailto:acostagoncalves@un.org">acostagoncalves@un.org</a>
