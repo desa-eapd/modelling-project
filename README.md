@@ -111,8 +111,7 @@ The project uses the theme to:
 
 Used for:
 
-* Project updates
-* Modelling articles
+* Project & Modelling updates
 * Country activities
 * Training summaries
 
@@ -122,14 +121,18 @@ Used for:
 YYYY-MM-DD-title.md
 ```
 
-**Example front matter:**
+**Example: 2025-11-17-og.md**
 
 ```yaml
 ---
 layout: post
-title: "National CLEWS Training – Philippines"
-category: philippines
-image: /assets/images/gen/blog/philippines-training.png
+title: "Project Launch and Initial OG-Core Training Workshop in Ethiopia"
+date: 2025-11-17
+authors: ["UNDESA"]
+categories: ["OG-Core", "Ethiopia"]
+tags: [og model]
+description: "Strengthening Ethiopia’s Economic Planning Capacity Through Advanced Policy Simulation Tools."
+thumbnail: "/assets/images/gen/blog/og_model_ethiopia_thumbnail.png"
 ---
 ```
 
@@ -172,13 +175,12 @@ category: philippines
 Store newsletters as:
 
 * PDF
-* Markdown `.md`
 
 Naming examples:
 
 ```
-2025-q1-newsletter.pdf
-2024-midyear-update.md
+newsletter_may2025.pdf
+newsletter_oct2024.pdf
 ```
 
 ---
@@ -280,7 +282,7 @@ permalink: /new-page/
 
 ## 5.3 Add a Newsletter
 
-1. Add PDF or `.md` file into `collections/news/`
+1. Add PDF file into `collections/news/`
 2. Link from newsletter index page if needed
 
 ---
@@ -310,9 +312,83 @@ Tag related posts:
 ```yaml
 category: jordan
 ```
+## 5.6 Add OG-CORE Workshop Presentations**
+
+```markdown
+
+OG-CORE workshop presentations are stored and published externally through the repository at:
+
+**https://eapd-drb.github.io/og-model/**
+
+This site hosts country-specific folders containing PDF and other workshop materials.  
+Each country presentation page in this Jekyll site should link directly to these external files.
 
 ---
 
+### **Step 1 — Upload presentation files to the OG-Model repository**
+
+Upload new workshop presentations into the appropriate country folder in:
+
+```
+
+[https://github.com/eapd-drb/og-model/](https://github.com/eapd-drb/og-model/)
+
+```
+
+Country folder examples:
+
+```
+
+/south-africa/
+/indonesia/
+/philippines/
+
+```
+
+Example file:
+
+```
+
+/south-africa/ZAF-PolicyBrainstorm.pdf
+
+```
+
+Once uploaded, each file is automatically published at:
+
+```
+
+[https://eapd-drb.github.io/og-model/[country]/[filename](https://eapd-drb.github.io/og-model/[country]/[filename)]
+
+```
+
+Example:
+
+```
+
+[https://eapd-drb.github.io/og-model/south-africa/ZAF-PolicyBrainstorm.pdf](https://eapd-drb.github.io/og-model/south-africa/ZAF-PolicyBrainstorm.pdf)
+
+````
+
+---
+
+### **Step 2 — Add links to the presentation files in the country page**
+
+Each country has a Markdown page (e.g., `south-africa.md`) that serves as the presentation hub.
+
+---
+
+### **Step 3 — Link country pages from the main OG-CORE Workshop page**
+
+In `og-workshop-info.md`, update the workshop section:
+
+```markdown
+### Module 1: Initial Training Workshop
+
+- [Presentations – South Africa](/og-workshop/south-africa/)
+- [Presentations – Indonesia](/og-workshop/indonesia/)
+- [Presentations – Philippines](/og-workshop/philippines/)
+```
+---
 # 6. Jekyll Configuration Cheat Sheet (`_config.yml`)
 
 ```yaml
@@ -382,7 +458,7 @@ Project Pages require:
 * Maintain clean front matter
 * Use correct image locations
 * Maintain consistent layouts
-* Open issues for major changes
+* Open issues for PR changes
 
 ---
 
