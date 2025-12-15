@@ -455,7 +455,3 @@ Project Pages require:
 
 License: [https://unsplash.com/license](https://unsplash.com/license)
 
-```
-
----
-
