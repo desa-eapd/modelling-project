@@ -1,8 +1,32 @@
-# Peace Development Fund – UN Modelling Project  
-### Website Repository (Jekyll Advance Pro Theme)
+<p align="center">
+  <img src="https://www.zerostatic.io/theme/jekyll-advance/jekyll-advance-screenshot.png" alt="Site preview" width="640">
+</p>
 
-This repository hosts the source code for the **Peace and Development Fund (PDF) – UN Modelling Project** website.  
-The site is built with **Jekyll** using the **Jekyll Advance Pro Theme**, and is designed to present project information, country updates, modelling results, newsletters, and other knowledge products in a structured and accessible way.
+<h1 align="center">Peace Development Fund – UN Modelling Project</h1>
+
+<p align="center">
+  <b>Website Repository</b>
+</p>
+
+<p align="center">
+  <a href="https://jekyllrb.com/"><img src="https://img.shields.io/badge/built%20with-Jekyll-red.svg" alt="Built with Jekyll"></a>
+  <a href="https://www.zerostatic.io/docs/jekyll-advance/"><img src="https://img.shields.io/badge/theme-Jekyll%20Advance%20Pro-blue.svg" alt="Jekyll Advance Pro"></a>
+  <img src="https://img.shields.io/badge/status-active-success.svg" alt="Status: active">
+</p>
+
+---
+
+This repository hosts the source code for the **Peace and Development Fund (PDF) – UN Modelling Project** website.
+
+The site is built with **Jekyll** using the **Jekyll Advance Pro Theme**, and is designed to present:
+
+- project information  
+- country and thematic updates  
+- modelling results and policy simulations  
+- newsletters and other knowledge products  
+
+in a structured and accessible way for policymakers, partners, and stakeholders.
+
 
 ---
 
