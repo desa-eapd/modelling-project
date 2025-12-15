@@ -1,14 +1,3 @@
-Understood — you want a **complete, final, full `README.md`** that contains **everything**, fully cleaned, formatted, styled, and ready to paste directly into GitHub.
-
-Below is the **entire README.md**, with **no omissions**.
-
-If you want, I can also export it as a downloadable `.md` file afterward.
-
----
-
-# **FINAL COMPLETE README.md**
-
-````markdown
 <h1 align="center">Peace Development Fund – UN Modelling Project</h1>
 
 <p align="center">
