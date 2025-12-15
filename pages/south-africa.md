@@ -2,9 +2,21 @@
 layout: basic
 title: "OG-CORE Training – South Africa"
 permalink: /south-africa/
-image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/south-africa.png"
+#image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/south-africa.png"
 description: "OG-CORE Inception Workshop Presentations – South Africa"
 ---
+<div style="text-align:center; margin-bottom: 1.5rem;">
+  <img
+    src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/south-africa.png"
+    alt="South Africa Flag"
+    style="
+      border: 1px solid rgba(0,0,0,0.15);
+      border-radius: 4px;
+      background-color: #ffffff;
+      max-width: 280px;
+    "
+  />
+</div>
 
 <div style="max-width: 900px; margin: 0 auto; text-align: left;">
 
