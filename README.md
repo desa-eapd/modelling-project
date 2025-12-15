@@ -67,8 +67,6 @@ Strengthen the capacity of government agencies to better utilize data and analyt
 - **Live Demo:** https://jekyll-advance.netlify.app/  
 - **Documentation:** https://www.zerostatic.io/docs/jekyll-advance/
 
-![Theme Screenshot](https://www.zerostatic.io/theme/jekyll-advance/jekyll-advance-screenshot.png)
-
 The project uses the theme to:
 
 - Manage blog posts through **collections** (`_posts`)  
