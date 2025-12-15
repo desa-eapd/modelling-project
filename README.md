@@ -371,13 +371,9 @@ Example:
 
 ---
 
-### **Step 2 — Add links to the presentation files in the country page**
+### Add links to the presentation files in the country page
 
 Each country has a Markdown page (e.g., `south-africa.md`) that serves as the presentation hub.
-
----
-
-### **Step 3 — Link country pages from the main OG-CORE Workshop page**
 
 In `og-workshop-info.md`, update the workshop section:
 
@@ -389,6 +385,7 @@ In `og-workshop-info.md`, update the workshop section:
 - [Presentations – Philippines](/og-workshop/philippines/)
 ```
 ---
+
 # 6. Jekyll Configuration Cheat Sheet (`_config.yml`)
 
 ```yaml
@@ -478,12 +475,3 @@ License: [https://unsplash.com/license](https://unsplash.com/license)
 
 ---
 
-If you'd like, I can now:
-
-### ✔ Export this as a **downloadable `.md` file**  
-### ✔ Add a table of contents  
-### ✔ Make a more visual / branded header  
-### ✔ Add GitHub workflow badges (CI/CD, pages deploy, etc.)
-
-Just tell me.
-```
