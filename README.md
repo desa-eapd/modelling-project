@@ -196,7 +196,9 @@ Subfolders:
 Example reference:
 
 ```markdown
-![CLEWS Workshop](/assets/images/gen/blog/clews-workshop-2025.png)
+
+![Og-Core](https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/og-south-africa1.jpeg)
+
 ```
 
 ---
