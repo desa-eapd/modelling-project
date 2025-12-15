@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://www.zerostatic.io/theme/jekyll-advance/jekyll-advance-screenshot.png" alt="Site preview" width="640">
-</p>
-
 <h1 align="center">Peace Development Fund – UN Modelling Project</h1>
 
 <p align="center">
