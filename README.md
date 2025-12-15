@@ -56,10 +56,6 @@ Strengthen the capacity of government agencies to better utilize data and analyt
 - Support national participation in regional and global policy dialogues, including ECOSOC, HLPF, and other international fora.  
 - Produce project reports, newsletters, and technical documentation.
 
-### Key document
-
-- Project brochure (PDF)
-
 ---
 
 ## 2. Theme: Jekyll Advance Pro
