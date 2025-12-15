@@ -40,6 +40,7 @@ The initial workshop introduces participants to the foundational aspects of the 
 -   [Presentations - South Africa](/south-africa.md)
 -   [Presentations - Indonesia](/indonesia.md)
 -   [Presentations - Philippines](/philippines.md)
+-   [Presentations - Ethiopia](/ethiopia.md)
 
 ### Module 2: Online, Self-Paced Training
 
