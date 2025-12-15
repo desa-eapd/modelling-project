@@ -312,7 +312,7 @@ Tag related posts:
 ```yaml
 category: jordan
 ```
-## 5.6 Add OG-CORE Workshop Presentations**
+## 5.6 Add OG-CORE Workshop Presentations
 
 OG-CORE workshop presentations are stored and published externally through the repository at:
 
@@ -346,12 +346,6 @@ Example file:
 ---
 ```
 
-Once uploaded, each file is automatically published at:
-```yaml
----
-[https://eapd-drb.github.io/og-model/[country]/[filename](https://eapd-drb.github.io/og-model/[country]/[filename)]
----
-```
 Example:
 
 ```yaml
