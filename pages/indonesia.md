@@ -2,10 +2,21 @@
 layout: basic
 title: "OG-CORE Training – Indonesia"
 permalink: /indonesia/
-image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/indonesia.png"
+#image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/indonesia.png"
 description: "OG-CORE Inception Workshop Presentations – Indonesia"
 ---
-
+<div style="text-align:center; margin-bottom: 1.5rem;">
+  <img
+    src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/indonesia.png"
+    alt="Indonesia Flag"
+    style="
+      border: 1px solid rgba(0,0,0,0.15);
+      border-radius: 4px;
+      background-color: #ffffff;
+      max-width: 280px;
+    "
+  />
+</div>
 <div style="max-width: 900px; margin: 0 auto; text-align: left;">
 
 <ul style="display: inline-block; text-align: left;">
