@@ -314,8 +314,6 @@ category: jordan
 ```
 ## 5.6 Add OG-CORE Workshop Presentations**
 
-```markdown
-
 OG-CORE workshop presentations are stored and published externally through the repository at:
 
 **https://eapd-drb.github.io/og-model/**
@@ -323,53 +321,45 @@ OG-CORE workshop presentations are stored and published externally through the r
 This site hosts country-specific folders containing PDF and other workshop materials.  
 Each country presentation page in this Jekyll site should link directly to these external files.
 
----
-
-### **Step 1 — Upload presentation files to the OG-Model repository**
-
 Upload new workshop presentations into the appropriate country folder in:
-
-```
-
+```yaml
+---
 [https://github.com/eapd-drb/og-model/](https://github.com/eapd-drb/og-model/)
-
+---
 ```
-
 Country folder examples:
 
 ```
-
+```yaml
+---
 /south-africa/
 /indonesia/
 /philippines/
-
+---
 ```
 
 Example file:
-
-```
+```yaml
+---
 
 /south-africa/ZAF-PolicyBrainstorm.pdf
-
+---
 ```
 
 Once uploaded, each file is automatically published at:
-
-```
-
+```yaml
+---
 [https://eapd-drb.github.io/og-model/[country]/[filename](https://eapd-drb.github.io/og-model/[country]/[filename)]
-
+---
 ```
-
 Example:
 
-```
-
+```yaml
+---
 [https://eapd-drb.github.io/og-model/south-africa/ZAF-PolicyBrainstorm.pdf](https://eapd-drb.github.io/og-model/south-africa/ZAF-PolicyBrainstorm.pdf)
 
-````
-
 ---
+```
 
 ### Add links to the presentation files in the country page
 
