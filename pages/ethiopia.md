@@ -19,9 +19,6 @@ description: "OG-CORE Inception Workshop Presentations – Ethiopia"
 </div>
 
 <div style="max-width: 900px; margin: 0 auto; text-align: left;">
-
-<h3>Module 1 – Inception Workshop Presentations</h3>
-
 <ul style="display: inline-block; text-align: left;">
   <li>
     <a href="https://eapd-drb.github.io/og-model/ethiopia/OG-Core-GeneralDescription1.pdf">
