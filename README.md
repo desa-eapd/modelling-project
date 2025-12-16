@@ -31,8 +31,10 @@ The site is built with **Jekyll** using the **Jekyll Advance Pro Theme**, and is
 - modelling results and policy simulations  
 - newsletters and knowledge products  
 
-in a structured and accessible way for policymakers, partners, and stakeholders.**
-This repository was created and is maintained and updated by Nyein Chan Kyaw (DESA\EAPD).**
+in a structured and accessible way for policymakers, partners, and stakeholders.
+
+This repository was created and is maintained and updated by Nyein Chan Kyaw (DESA\EAPD).
+
 ---
 
 # 1. Project Overview
