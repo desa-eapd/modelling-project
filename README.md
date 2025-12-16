@@ -86,7 +86,7 @@ The project uses the theme to:
 │   ├── news/            # Newsletters and periodic publications
 │   └── …                # Additional collections as required
 │
-├── pages/               # Static pages (about, countries, project, home, services)
+├── pages/               # Static pages
 │
 ├── categories/          # Category landing pages for filtering
 │
