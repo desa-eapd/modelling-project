@@ -2,20 +2,20 @@ main:
   - name: Home
     url: /
     weight: 0
-  - name: About the Project
-    url: /about-the-project/
+  - name: CLEWs
+    url: /clews/
     weight: 1
   - name: OG-Core
     url: /og-core/
     weight: 2
-  - name: CLEWs
-    url: /clews/
-    weight: 3
   - name: WEFM
     url: /wefm/
-    weight: 4
-  - name: News & Events
+    weight: 3
+  - name: News
     url: /news/
+    weight: 4
+  - name: About
+    url: /about-the-project/
     weight: 5
 
 footer_primary: []
@@ -31,4 +31,3 @@ bottom:
   - name: 'This project is funded by the <a href="https://www.un.org/en/unpdf/2030asd" target="_blank" rel="noopener noreferrer">United Nations Peace and Development Trust Fund</a>.'
     url: ""
     weight: 2
-
