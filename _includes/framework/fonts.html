@@ -3,7 +3,8 @@
     <link href="{{ site.fonts.google_fonts_url }}" rel="stylesheet">
 {% endif %}
 {% if site.fonts.use_self_hosted_fonts %}
+    <link rel="preload" href="{{ '/assets/fonts/source-sans-3/source-sans-3-v10-latin-regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/assets/fonts/source-sans-3/source-sans-3-v10-latin-700.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
     <link href="{{ '/assets/css/fonts.css' | relative_url }}" rel="stylesheet">
 {% endif %}
-
 

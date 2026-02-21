@@ -11,12 +11,11 @@
     <!--  {% include framework/favicon.html %} -->
     <link rel="icon" href="data:," />
 
+    {% include framework/fonts.html %}
     <link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet">
     {% if site.cookie_banner.enabled %}
       {% include framework/cookie-consent.html %}
     {% endif %}
-
-    {% include framework/fonts.html %}
     {% include framework/google-tag-manager.html %}
 
   </head>

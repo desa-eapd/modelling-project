@@ -81,6 +81,7 @@ body_classes: page-home
 {% if page.services.enabled %}
   {% assign cards = site.services | sort: page.services.sort | default: 'date' %}
   {% assign columns = page.services.columns | default: 3 %}
+  {% assign services_prevent_click = page.services.prevent_click | default: false %}
   {% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
   <div class="section section-base-bg-2">
     <div class="container">
@@ -91,7 +92,11 @@ body_classes: page-home
           align="center"
         %}
         {% for card in cards limit: page.services.limit %}
-          {% assign url = page.services.prevent_click | default: false | if: true then null else card.url %}
+          {% if services_prevent_click %}
+            {% assign url = nil %}
+          {% else %}
+            {% assign url = card.url %}
+          {% endif %}
           <div class="col-12 col-md-4 {{ columns }} mb-3">
             {% include theme/cards/card-services.html 
               title=card.title 
@@ -148,6 +153,7 @@ body_classes: page-home
 {% if page.projects.enabled %}
   {% assign cards = site.projects | sort: page.projects.sort | default: 'date' %}
   {% assign columns = page.projects.columns | default: 2 %}
+  {% assign projects_prevent_click = page.projects.prevent_click | default: false %}
   {% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
   <div class="section section-base-bg-2">
     <div class="container">
@@ -158,7 +164,11 @@ body_classes: page-home
           align="center"
         %}
         {% for card in cards limit: page.projects.limit %}
-          {% assign url = page.projects.prevent_click | default: false | if: true then null else card.url %}
+          {% if projects_prevent_click %}
+            {% assign url = nil %}
+          {% else %}
+            {% assign url = card.url %}
+          {% endif %}
           <div class="col-12 col-md-4 {{ columns }} mb-3">
             {% include theme/cards/card-projects.html 
               title=card.title 
@@ -215,6 +225,7 @@ body_classes: page-home
 {% if page.posts.enabled %}
   {% assign cards = site.posts | sort: page.posts.sort | default: 'date' %}
   {% assign columns = page.posts.columns | default: 3 %}
+  {% assign posts_prevent_click = page.posts.prevent_click | default: false %}
   {% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
   <div class="section section-base-bg-2">
     <div class="container">
@@ -225,7 +236,11 @@ body_classes: page-home
           align="center"
         %}
         {% for card in cards limit: page.posts.limit %}
-          {% assign url = page.posts.prevent_click | default: false | if: true then null else card.url %}
+          {% if posts_prevent_click %}
+            {% assign url = nil %}
+          {% else %}
+            {% assign url = card.url %}
+          {% endif %}
           <div class="col-12 col-md-4 {{ columns }} mb-3">
             {% include theme/cards/card-posts.html 
               title=card.title 
