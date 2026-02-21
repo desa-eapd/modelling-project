@@ -45,6 +45,22 @@
 }
 
 .page.page-home {
+  .section {
+    padding-top: 2.5rem !important;
+    padding-bottom: 0 !important;
+  }
+
+  .hero + .models-cards {
+    margin-top: 0 !important;
+    padding-top: 0.75rem !important;
+  }
+
+  .models-cards {
+    .grid-header {
+      margin-bottom: 10px;
+    }
+  }
+
   .card-services {
     padding: 25px;
     background-color: var(--color-base-bg-3);
