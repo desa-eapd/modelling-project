@@ -71,3 +71,9 @@
   top: 0;
   z-index: 10;
 }
+
+body.has-fixed-header:not(.header-transparent-page) {
+  .wrapper {
+    padding-top: $header-height;
+  }
+}

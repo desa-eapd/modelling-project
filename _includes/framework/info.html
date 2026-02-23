@@ -1,8 +1,18 @@
 {% assign heading = include.heading %}
 {% assign sub_heading = include.sub_heading %}
-{% assign text = include.text %}
+{% assign sub_heading_after = include.sub_heading_after %}
 {% assign image = false %}
 {% if include.image and include.image != '' %}{% assign image = include.image %}{% endif %}
+{% assign sub_heading_image = false %}
+{% if include.sub_heading_image and include.sub_heading_image != '' %}{% assign sub_heading_image = include.sub_heading_image %}{% endif %}
+{% assign sub_heading_video_url = include.sub_heading_video_url %}
+{% assign sub_heading_video_title = include.sub_heading_video_title | default: heading %}
+{% assign video_url = include.video_url %}
+{% assign video_title = include.video_title | default: heading %}
+{% comment %}
+  Keep legacy behavior by default; markdown rendering is opt-in per layout.
+{% endcomment %}
+{% assign render_markdown = include.render_markdown | default: false %}
 {% assign align = include.align | default: 'left' %}
 {% assign bullets = include.bullets %}
 {% assign buttons = include.buttons %}
@@ -15,7 +25,39 @@
           <h2>{{ heading }}</h2>
         {% endif %}
         {% if sub_heading %}
-          <p class="mt-1 {% if align == 'center' %}mx-auto{% endif %}">{{ sub_heading }}</p>
+          {% if render_markdown %}
+            <div class="info-sub-heading mt-1 {% if align == 'center' %}mx-auto{% endif %}">
+              {{ sub_heading | markdownify }}
+            </div>
+          {% else %}
+            <p class="mt-1 {% if align == 'center' %}mx-auto{% endif %}">{{ sub_heading }}</p>
+          {% endif %}
+        {% endif %}
+        {% if sub_heading_video_url %}
+          {% comment %}Video attached to intro content, rendered before follow-up text/image blocks.{% endcomment %}
+          <div class="info-inline-video mt-2 mb-2">
+            <iframe src="{{ sub_heading_video_url }}" frameborder="0" allowfullscreen title="{{ sub_heading_video_title }}"></iframe>
+          </div>
+        {% endif %}
+        {% if sub_heading_after %}
+          <div class="info-inline-content mt-2 mb-2">
+            {% if render_markdown %}
+              {{ sub_heading_after | markdownify }}
+            {% else %}
+              {{ sub_heading_after }}
+            {% endif %}
+          </div>
+        {% endif %}
+        {% if sub_heading_image %}
+          <div class="info-inline-image mt-2 mb-2">
+            <img class="img-fluid" src="{{ sub_heading_image | relative_url }}" alt="{{ heading }}" />
+          </div>
+        {% endif %}
+        {% if video_url %}
+          {% comment %}Standalone video for sections like outro.{% endcomment %}
+          <div class="info-inline-video mt-2 mb-2">
+            <iframe src="{{ video_url }}" frameborder="0" allowfullscreen title="{{ video_title }}"></iframe>
+          </div>
         {% endif %}
         {% if bullets.list.size > 0 %}
           <ul>

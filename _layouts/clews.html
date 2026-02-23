@@ -20,15 +20,84 @@ body_classes: page-clews
 {% endif %}
 
 {% if page.intro.enabled %}
-  <div class="section">
+  <div class="section clews-intro-section">
     <div class="container">
       {% include framework/info.html
         heading=page.intro.heading
+        render_markdown=true
         sub_heading=page.intro.sub_heading
+        sub_heading_video_url=page.intro.sub_heading_video_url
+        sub_heading_video_title=page.intro.sub_heading_video_title
+        sub_heading_after=page.intro.sub_heading_after
+        sub_heading_image=page.intro.sub_heading_image
         align=page.intro.align
         image=page.intro.image
         buttons=page.intro.buttons
       %}
+    </div>
+  </div>
+{% endif %}
+
+{% comment %}
+  Render the four markdown-driven CLEWS blocks in a fixed order.
+  `band_class: grey` in front matter maps to `section-base-bg-2`.
+{% endcomment %}
+{% assign clews_detail_keys = "sdgs,purpose,implementation,action" | split: "," %}
+{% for key in clews_detail_keys %}
+  {% assign block = page[key] %}
+  {% if block and block.enabled %}
+    <div class="section {% if block.band_class == 'grey' %}section-base-bg-2{% endif %} clews-content-section clews-content-section-{{ key }}">
+      <div class="container">
+        {% include framework/info.html
+          heading=block.heading
+          render_markdown=true
+          sub_heading=block.sub_heading
+          sub_heading_video_url=block.sub_heading_video_url
+          sub_heading_video_title=block.sub_heading_video_title
+          sub_heading_after=block.sub_heading_after
+          sub_heading_image=block.sub_heading_image
+          align=block.align
+          image=block.image
+          buttons=block.buttons
+        %}
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+
+{% if page.countries.enabled %}
+  <div class="section section-base-bg-2 clews-countries-section">
+    <div class="container">
+      <div class="row">
+        {% include framework/grid-header.html
+          heading=page.countries.heading
+          sub_heading=page.countries.sub_heading
+          align=page.countries.align
+        %}
+      </div>
+
+      {% if page.countries.flags and page.countries.flags.size > 0 %}
+        <div class="row justify-content-center">
+          {% for country in page.countries.flags %}
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              {% assign country_href = country.url %}
+              {% unless country.external %}
+                {% assign country_href = country.url | relative_url %}
+              {% endunless %}
+              {% assign country_flag_src = country.flag %}
+              {% unless country.flag contains '://' %}
+                {% assign country_flag_src = country.flag | relative_url %}
+              {% endunless %}
+              <a class="country-flag-link" href="{{ country_href }}" {% if country.external %}target="_blank" rel="noopener"{% endif %}>
+                <div class="country-flag-card text-center">
+                  <img src="{{ country_flag_src }}" alt="{{ country.name }} flag" loading="lazy" />
+                  <div class="country-flag-name">{{ country.name }}</div>
+                </div>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
     </div>
   </div>
 {% endif %}
@@ -71,7 +140,10 @@ body_classes: page-clews
     <div class="container">
       {% include framework/info.html
         heading=page.outro.heading
+        render_markdown=true
         sub_heading=page.outro.sub_heading
+        video_url=page.outro.video_url
+        video_title=page.outro.video_title
         align=page.outro.align
         image=page.outro.image
         buttons=page.outro.buttons

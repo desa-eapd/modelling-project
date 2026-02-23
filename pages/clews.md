@@ -10,8 +10,7 @@ meta_title: "CLEWS – United Nations Modelling Tool"
 hero:
   enabled: true
   heading: "CLEWS"
-  sub_heading: "A powerful framework for integrated resource planning,
-    </br>helping governments align strategies with sustainability goals"
+  sub_heading: "A powerful framework for integrated resource planning, helping governments align strategies with sustainability goals"
   text_color: "#FFFFFF"
   background_color: ""
   background_gradient: false
@@ -22,134 +21,134 @@ hero:
 
 intro:
   enabled: true
-  align: center
-  heading: "Understanding CLEWS"
+  align: left
+  heading: "Understanding CLEWs"
   sub_heading: |
-    Climate, Land, Energy and Water systems (CLEWS) models are tools for simultaneous consideration of food, energy and water security. They are designed to assess how production and use of these resources may contribute to climate change, and how climate change may affect these resource systems.
+    At the most basic level, any country needs only 3 things: water, food, and energy. Water for drinking; water and land to produce food; and energy for households and industry. While those 3 resources are not infinite, demand for them is ever increasing due to population growth and economic development, and the impacts of climate change further compound this challenge.
 
-    By comparing different technologies and value chains, the model can identify pressure points and indicate synergies and trade-offs to reach development goals. CLEWS can analyze policy decisions on issues such as climate action, competition for water and agricultural modernization.
+    For example, altered rainfall patterns can reduce water availability for hydropower generation and agriculture in your country. To maintain agricultural production, you will then need to pump groundwater for irrigation, which requires more electricity. To meet this new electricity demand, and given that your hydropower capacity has also been reduced, you will need more energy from fossil fuel power plants. Thus, you will face increased dependency on international fuel imports, exposing your country to shock prices and impacting your national budget, while also increasing your country’s GHG emissions.
+  sub_heading_video_url: "https://www.youtube.com/embed/9Kg_mXQMSt0"
+  sub_heading_video_title: "YouTube Video"
+  sub_heading_after: |
+    CLEWs (Climate, Land, Energy, and Water systems) is a framework designed to map the interactions between different land uses (for example agriculture, forests, and cities), energy systems (for example coal power plants, dams, and solar panels), and water resources (for example rain, rivers, and aquifers) under different climate change scenarios (for example reduced rain and increased temperatures). By analysing these interactions, CLEWs can identify opportunities for synergies, highlight trade-offs, and offer options.
+  sub_heading_image: "/assets/images/gen/home/CLEWs_interactions.png"
 
-    <div style="margin-bottom: 2rem;"></div>
+sdgs:
+  enabled: true
+  band_class: "grey"
+  align: left
+  heading: "CLEWs and the SDGs"
+  sub_heading: |
+        Several SDGs are directly linked to CLEWs:
+
+        | SDG | Connection to CLEWs |
+        | --- | --- |
+        | 2: End hunger, achieve food security and improved nutrition, and promote sustainable agriculture | CLEWs can model various scenarios on food production and agriculture, such as increased irrigated crops for higher yield, and study how sustainable they are in the long-term under different climate change conditions |
+        | 6: Ensure availability and sustainable management of water and sanitation for all | CLEWs can represent the water cycle and how water security is impacted by new requirements, such as increased energy demand and changed rainfall patterns |
+        | 7: Ensure access to affordable, reliable, and modern energy for all | CLEWs can assess renewable energy pathways, such as increased energy production from wind and solar power, and study the investment requirements and how they impact GHG emissions |
+        | 13: Take urgent action to combat climate change and its impacts | SDGs 2, 6, and 7 must be achieved for SDG 13 to succeed. CLEWs can assess the interlinkages among those goals to ensure an adequate enabling environment to achieve SDG 13 |
+
+purpose:
+  enabled: true
+  band_class: "white"
+  align: left
+  heading: "CLEWs Purpose"
+  sub_heading: |
+        The end goal of a CLEWs assessment is to inform policy design and planning processes, with roughly 4 main purposes:
+
+        1. **Policy coherence:** investigate the combined effect of different policies on the use of resources to identify potential synergies and trade-offs. For example: what are the cross-cutting implications of our NDCs?; do we have enough natural resources to attain simultaneously food security, water security, and energy security?; are our different national policies compatible or what are their trade-offs?
+        2. **Green transition:** study the technology deployment needed to achieve policy goals. For example: what is the least-cost pathway to achieve our renewable energy targets?; how can technological solutions reduce water losses?; how can technology help us increase crop yields?
+        3. **Resource management:** explore options to improve resource efficiency. For example: can we reduce electricity requirements by improving water efficiency?; can household energy efficiency reduce water requirements in electricity generation?
+        4. **Climate change impacts:** investigate the impacts of climate change over different systems. For example: which adaptation options would be most beneficial to my country?; how can we achieve GHG mitigation to comply with the Paris Agreement?; which are the least-cost pathways to attain decarbonization?
+  sub_heading_video_url: "https://player.vimeo.com/video/1086915730?h=0331661007"
+  sub_heading_video_title: "Vimeo Video"
+
+implementation:
+  enabled: true
+  band_class: "grey"
+  align: left
+  heading: "CLEWs Implementation"
+  sub_heading: |
+        To implement the CLEWs framework, there are typically 5 phases:
+
+        | Phase | Description | Activities |
+        | --- | --- | --- |
+        | 1. **Systems Profiling** | Understand the characteristics of each CLEW system and how it functions (for example development trends, policies, or availability of resources), setting up the study boundaries (what is included or not) | Literature review to identify the current state and historical and future trends; review sectoral policies and strategies. |
+        | 2. **Pre-nexus Assessment** | Map CLEW systems interactions between and within sectors | Evaluate sectoral goals; map interactions through a diagram; identify nexus issues. |
+        | 3. **Model Development** | Design the model based on data availability, duration of the assessment, and tools available | Develop scenarios; prepare data; select and link models; undertake participatory workshops. |
+        | 4. **Analysis of Results** | Analyze results and, if needed, refine the model and perform additional model runs | Visualize and analyze results; revise assumptions and inputs; perform additional model runs; select and prepare indicators for scenario comparison; summarize emerging trends, trade-offs, and opportunities. |
+        | 5. **Recommendations** | Report the key findings, highlighting trade-offs, synergies, and opportunities through policy recommendations | Identify solutions and policy recommendations; draft policy briefs, technical reports, presentations, and scientific publications. |
+
+action:
+  enabled: true
+  band_class: "white"
+  align: left
+  heading: "CLEWs in Action"
+  sub_heading: |
+        Since its inception circa 2012, CLEWs has been used in many studies around the world:
   buttons:
     enabled: true
     list:
-      - text: "Clews Model"
-        url: "https://zenodo.org/records/14680763"
-        external: true
-        size: large
-        style: "primary"
-      - text: "Clews Course"
+      - text: "CLEWs Course"
         url: "https://capacity.desa.un.org/article/introduction-clews"
         external: false
         size: large
         style: "primary"
-      - text: "Training Workshop Material"
-        url: "#"
-        external: false
-        size: large
-        style: "primary"
 
-outro:
+countries:
   enabled: true
   align: center
-  heading: "What is CLEWs?"
-  sub_heading: >
-    <div style="padding:56.25% 0 0 0; position:relative; margin-bottom: 5rem;">
-      <iframe src="https://www.youtube.com/embed/9Kg_mXQMSt0" frameborder="0" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;" title="YouTube Video"></iframe>
-    </div>
+  heading: "Countries"
+  sub_heading: "Take a look at the CLEWs work the UN has done around the globe:"
+  flags:
+    - name: Bolivia
+      url: "/country-projects/bolivia/"
+      flag: "/assets/images/flags/bolivia.svg"
+      external: false
+    - name: Cameroon
+      url: "/country-projects/cameroon/"
+      flag: "/assets/images/flags/cameroon.svg"
+      external: false
+    - name: Costa Rica
+      url: "/country-projects/costa-rica/"
+      flag: "/assets/images/flags/costa-rica.svg"
+      external: false
+    - name: Ghana
+      url: "/country-projects/ghana/"
+      flag: "/assets/images/flags/ghana.svg"
+      external: false
+    - name: Ethiopia
+      url: "/country-projects/ethiopia/"
+      flag: "/assets/images/flags/ethiopia.svg"
+      external: false
+    - name: Kyrgyz Republic
+      url: "/country-projects/kyrgyz-republic/"
+      flag: "/assets/images/flags/kyrgyz-republic.svg"
+      external: false
+    - name: Mexico
+      url: "/country-projects/mexico/"
+      flag: "/assets/images/flags/mexico.svg"
+      external: false
+    - name: Mongolia
+      url: "/country-projects/mongolia/"
+      flag: "/assets/images/flags/mongolia.svg"
+      external: false
+    - name: Paraguay
+      url: "/country-projects/paraguay/"
+      flag: "/assets/images/flags/paraguay.svg"
+      external: false
+    - name: Senegal
+      url: "/country-projects/senegal/"
+      flag: "/assets/images/flags/senegal.svg"
+      external: false
+    - name: Uganda
+      url: "/country-projects/uganda/"
+      flag: "/assets/images/flags/uganda.svg"
+      external: false
+    - name: Viet Nam
+      url: "/country-projects/vietnam/"
+      flag: "/assets/images/flags/vietnam.svg"
+      external: false
 
-    <h2 style="margin-top: 10rem; margin-bottom: 1rem;">Learn more about how the CLEWs model is supporting the work of different sectors</h2>
-
-    <div style="padding:56.25% 0 0 0; position:relative; margin-bottom: 5rem;">
-      <iframe src="https://player.vimeo.com/video/1086915730?h=0331661007" frameborder="0" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;" title="Vimeo Video"></iframe>
-    </div>
-
-    <iframe title="vimeo-player" src="https://player.vimeo.com/video/1106182259?h=a6cca2ee7a" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
-
-    <h2 style="text-align: center; margin-top: 5rem; margin-bottom: 2rem;"><b>Meet Our National Partners</b></h2>
-    <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">
-      CLEWs is a global initiative supported by a diverse network of partners and stakeholders. Our project brings together a dynamic mix of research institutions, national agencies, and international organizations committed to the promotion of CLEWs at national level.
-    </p>
-    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-bottom: 4rem;">
-      <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/home/national_partners.png" style="max-width: 100%; height: auto; width: 800px;">
-    </div>  
-    
-    <h2 style="text-align: center; margin-top: 3rem; margin-bottom: 1.5rem;"><b>Contact Information</b></h2>
-    <!-- Namibia -->
-    <table style="margin: 0 auto; width: 100%; max-width: 800px; text-align: left;">
-      <tr>
-        <td colspan="2" style="text-align: center; padding-bottom: 1rem;">
-          <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/namibia_flag.png" alt="Namibia Flag" style="height: 50px;">
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top; width: 50%; padding: 1rem;">
-          <strong>Eunice Ajambo (Ms.)</strong><br>
-          Economist and Development Coordination Officer<br>
-          United Nations Namibia<br>
-          📞 +264 61 204 6502<br>
-          📱 +264 81 140 5810<br>
-          ✉️ <a href="mailto:ajambo@un.org">ajambo@un.org</a><br>
-          🌐 <a href="https://namibia.un.org">namibia.un.org</a>
-        </td>
-        <td style="vertical-align: top; width: 50%; padding: 1rem 1rem 1rem 5rem;">
-          <strong>Lolita de Almeida (Ms.)</strong><br>
-          Project Assistant<br>
-          FAO Namibia<br>
-          ✉️ <a href="mailto:Lolita.DeAlmeida@fao.org">Lolita.DeAlmeida@fao.org</a>
-        </td>
-      </tr>
-    </table>
-
-    <!-- Laos -->
-    <table style="margin: 2rem auto 0; width: 100%; max-width: 800px; text-align: left;">
-      <tr>
-        <td colspan="2" style="text-align: center; padding-bottom: 1rem;">
-          <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/laos_flag.png" alt="Laos Flag" style="height: 50px;">
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top; width: 50%; padding: 1rem;">
-          <strong>Dave Blackman</strong><br>
-          Senior Economist<br>
-          Resident Coordinator’s Office<br>
-          Lane Xang Avenue, PO Box 345<br>
-          Vientiane, Lao PDR<br>
-          📞 +856 21 267 735<br>
-          📱 +856 20 5551 4578<br>
-          ✉️ <a href="mailto:dblackman@un.org">dblackman@un.org</a><br>
-          X: @DBlackmanUNRCO<br>
-          🌐 <a href="https://laopdr.un.org">laopdr.un.org</a>
-        </td>
-        <td style="vertical-align: top; width: 50%; padding: 1rem 1rem 1rem 5rem;">
-          <strong>Dr. Francesco Gardumi</strong><br>
-          Researcher, Division of Energy Systems<br>
-          KTH Royal Institute of Technology, Sweden<br>
-          KTH, Brinellvägen 68, 10044 Stockholm<br>
-          ✉️ <a href="mailto:gardumi@kth.se">gardumi@kth.se</a><br>
-          🌐 <a href="https://www.energy.kth.se/energy-systems">energy.kth.se</a> | <a href="http://www.osemosys.org">osemosys.org</a>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top; width: 50%; padding: 1rem;">
-          <strong>Dr. Sounthisack Phommachanh</strong><br>
-          Mechanical Engineering Department<br>
-          Faculty of Engineering, National University of Laos<br>
-          ✉️ <a href="mailto:sounthisack@fe-nuol.edu.la">sounthisack@fe-nuol.edu.la</a>
-        </td>
-        <td style="vertical-align: top; width: 50%; padding: 1rem 1rem 1rem 5rem;">
-          <strong>Dr. Khamphone Nanthavong</strong><br>
-          Mechanical Engineering Department<br>
-          Faculty of Engineering, National University of Laos<br>
-          ✉️ <a href="mailto:khamphonen1958@gmail.com">khamphonen1958@gmail.com</a>
-        </td>
-      </tr>
-    </table>
-
-    <!-- Zambia -->
-    <div style="text-align: center; margin-top: 3rem; margin-bottom: 2rem;">
-      <img src="https://desa-eapd.github.io/modelling-project/assets/images/gen/blog/zambia_flag.png" alt="Zambia Flag" style="height: 50px;">
-    </div>
-  buttons:
-    enabled: false
 ---
+<!-- video_url: "https://player.vimeo.com/video/1106182259?h=a6cca2ee7a" -->
