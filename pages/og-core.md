@@ -63,17 +63,21 @@ outro:
         GitHub Repository access and additional technical details for each national OG-Core implementation:
       </p>
       <div style="display: flex; flex-direction: column; gap: 1em; align-items: center;">
-        <a href="https://github.com/EAPD-DRB/OG-ZAF" target="_blank"
+        <a href="https://eapd-drb.github.io/OG-ZAF/content/intro/intro.html" target="_blank"
            style="display: inline-block; padding: 0.75em 1.25em; border: 2px solid #007BFF; border-radius: 6px; color: #007BFF; text-decoration: none; font-weight: 600;">
           OG Model for South Africa
         </a>        
-        <a href="https://github.com/EAPD-DRB/OG-PHL" target="_blank"
+        <a href="https://eapd-drb.github.io/OG-PHL/content/intro/intro.html" target="_blank"
            style="display: inline-block; padding: 0.75em 1.25em; border: 2px solid #007BFF; border-radius: 6px; color: #007BFF; text-decoration: none; font-weight: 600;">
           OG Model for Philippines 
         </a>
-        <a href="https://github.com/EAPD-DRB/OG-IDN" target="_blank"
+        <a href="https://eapd-drb.github.io/OG-IDN/content/intro/intro.html" target="_blank"
            style="display: inline-block; padding: 0.75em 1.25em; border: 2px solid #007BFF; border-radius: 6px; color: #007BFF; text-decoration: none; font-weight: 600;">
           OG Model for Indonesia
+        </a>
+        <a href="https://eapd-drb.github.io/OG-ETH/content/intro/intro.html" target="_blank"
+           style="display: inline-block; padding: 0.75em 1.25em; border: 2px solid #007BFF; border-radius: 6px; color: #007BFF; text-decoration: none; font-weight: 600;">
+          OG Model for Ethiopia
         </a>
       </div>
     </div>
