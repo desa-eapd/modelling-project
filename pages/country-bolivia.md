@@ -5,11 +5,25 @@ permalink: /country-projects/bolivia/
 flag: /assets/images/flags/bolivia.svg
 ---
 
-<p><strong>When: </strong>2006-2013 and 2014-2019</p>
+**When:** 2006–2013 & 2017–2019
 
-<p><strong>Which tools: </strong>Economy-wide models (MAMS, MACEPES and CGE-UNDESA with energy details), an in-built human development, poverty and inequality microsimulation module; and energy models (in OSeMOSYS and LEAP). A CLEWS model is under development.</p>
+**Purpose:** Prepare Bolivia's Intended Nationally Determined Contributions (**INDCs**) to the Paris Agreement and inform the **Energy Development Plan** of the Ministry of Hydrocarbons.
 
-<p><strong>Who’s involved: </strong> Government of Bolivia (Unit of Social and Economic Policy Analysis, Ministry of Energy, Ministry of Hydrocarbons, Ministry of Planning of Development, Ministry of Environment and Water) supported by UNDESA, UNDP, KTH-dESA, SEI-US and IAEA.</p>
+Strengthen national analytical capacity on three priority areas:<br>
+(1) scaling up ethanol production;<br>
+(2) redirecting soybean oil exports toward domestic biodiesel production;<br>
+(3) assessing the cross-sectoral impacts of large hydropower projects.
 
-<p><strong>What’s happening: </strong> Since 2006, collaborative activities have included joint meetings with high-level government officials to discuss modelling results; joint dissemination seminars; training of technical government officials from diverse ministries and joint funding of activities. Quantitative analyses supported by capacity development have had an important role in informing policy decisions. Energy models, for instance, were used to prepare the Intended Nationally Determined Contributions document presented by Bolivia in negotiations leading up to the Paris Agreement on climate change. The energy models also informed the Energy Development Plan of the Ministry of Hydrocarbons. The economy-wide model has aided in framing and updating national development plans, including to assess the economic and social impacts of investment plans derived from the energy planning model. A CLEWS model under development is aimed at analysing issues connected to agriculture, mining, water use and energy access.</p>
+**What happened:** In the context of Bolivia’s Law No. 1098 (2018), which promotes **biofuel production** to reduce fuel imports and enhance energy security, a CLEWs model was co-developed through a series of technical workshops & inter-institutional collaboration. The model assessed the implications of increasing bioethanol production to meet up to 25% of national gasoline demand. The analysis focused on scaling up sugarcane production and explored associated cross-sectoral impacts on land use, water resources, and agricultural systems.
 
+**Key insights:** The modelling showed that **achieving ethanol targets through land expansion** would require approximately 80,000 additional hectares for sugarcane, potentially leading to **deforestation** (particularly in the Amazon) and thus revealing a critical trade-off between energy policy & land sustainability. Results highlighted that meeting biofuel targets sustainably depended on **improving agricultural productivity & irrigation efficiency** rather than expanding cultivated areas. 
+
+![Bolivia CLEWs project image](../../assets/images/country-projects/bolivia-1.png)
+
+The analysis also underscored the importance of accounting for investment needs, seasonal production dynamics, and the role of by-products (e.g., bagasse) to better capture system-wide impacts.
+
+**Resources:** No formal policy notes were published since the project was interrupted by the 2019 political crisis in Bolivia, followed by the COVID-19 pandemic. However, results were presented at an [IAEA event](../../assets/images/resources/Bolivia_IAEA_2018_Nov.pptx) in 2018 by a government official trained in the project. 
+
+**Models:** LEAP, WEAP & OSeMOSYS.
+
+**Stakeholders:** Government of Bolivia (Unit of Social & Economic Policy Analysis, Ministry of Energy, Ministry of Hydrocarbons, Ministry of Planning & Development, Ministry of Environment & Water) supported by UN DESA, UNDP, KTH-dESA, SEI-US, and IAEA.

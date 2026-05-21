@@ -7,9 +7,13 @@ body_classes: page-country-project
   <div class="container country-project-container">
     <div class="country-project-header">
       {% if page.flag %}
+        {% assign country_project_flag_src = page.flag %}
+        {% unless page.flag contains '://' %}
+          {% assign country_project_flag_src = page.flag | relative_url %}
+        {% endunless %}
         <img
           class="country-project-flag"
-          src="{{ page.flag | relative_url }}"
+          src="{{ country_project_flag_src }}"
           alt="{{ page.title }} flag"
           loading="lazy"
         />

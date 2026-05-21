@@ -62,13 +62,13 @@
     line-height: 1.5;
   }
   a {
-    color: var(--color-primary-bg);
+    color: var(--color-link-classic);
     text-decoration: underline;
     text-decoration-thickness: 2px;
-    text-decoration-color: var(--color-primary-bg);
+    text-decoration-color: var(--color-link-classic);
     &:hover {
       opacity: 0.8;
-      color: var(--color-primary-bg);
+      color: var(--color-link-classic);
     }
   }
   img {

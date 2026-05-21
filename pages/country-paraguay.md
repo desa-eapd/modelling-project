@@ -5,11 +5,18 @@ permalink: /country-projects/paraguay/
 flag: /assets/images/flags/paraguay.svg
 ---
 
-<p><strong>When: </strong> 2016-2018</p>
+**When:** 2016–2018
 
-<p><strong>Which tools: </strong> Economy-wide model (CGE-UNDESA) and an energy systems model (OSeMOSYS) using the MoManI interface.</p>
+**Purpose:** Assess the effects of fiscal, energy, transport, and household-fuel policies on GDP, government spending, power-sector investment, electricity exports, energy access, and public transport.
 
-<p><strong>Who’s involved: </strong> Government of Paraguay (Secretary of Planning for Economic and Social Development) supported by UNDESA, UNDP, and KTH-dESA.</p>
+**What happened:** Paraguay's workshops developed an energy model covering power and transport as well as biodiesel and bioethanol chains. Follow-up scenario work focused on investment planning, transport energy efficiency, and fuel substitution for cooking and water heating in the residential sector.
 
-<p><strong>What's happening: </strong> Capacity development in model design and analysis aims at assessing: the effects of increasing value-added taxes to Mercosur countries in terms of GDP and government spending; power sector investment and electricity exports; energy consumption in households towards reducing dependence on traditional biomass and improving energy efficiency; as well as policies to expand public transport.</p>
+**Key insights:**
 
+- The modelling process linked macroeconomic questions with energy-system choices, so tax, transport, power-investment, and household-fuel policies could be examined together.
+- Biofuel supply chains were included explicitly through biodiesel and bioethanol pathways, allowing transport policy to be evaluated with domestic energy-production implications.
+- Residential fuel substitution was treated as both an energy-efficiency issue and a development issue, especially for cooking and water heating where traditional biomass dependence can persist.
+
+**Models:** CGE-UNDESA, OSeMOSYS
+
+**Stakeholders:** Secretary of Planning for Economic and Social Development, UN DESA, UNDP, and KTH.

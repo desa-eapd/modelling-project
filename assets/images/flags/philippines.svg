@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="450" viewBox="0 0 900 450">
+  <rect width="900" height="225" fill="#0038a8"/>
+  <rect y="225" width="900" height="225" fill="#ce1126"/>
+  <path d="M0 0v450l390-225z" fill="#fff"/>
+  <g fill="#fcd116">
+    <circle cx="135" cy="225" r="34"/>
+    <g transform="translate(135 225)">
+      <path d="M0-82 12-38H-12z"/>
+      <path d="M0 82 12 38H-12z"/>
+      <path d="M82 0 38 12V-12z"/>
+      <path d="M-82 0-38 12V-12z"/>
+      <path d="M58-58 24-35l11 11z"/>
+      <path d="M58 58 24 35l11-11z"/>
+      <path d="M-58 58-24 35l-11-11z"/>
+      <path d="M-58-58-24-35l-11 11z"/>
+    </g>
+    <polygon points="74,64 86,93 55,75 93,75 62,93"/>
+    <polygon points="74,386 86,357 55,375 93,375 62,357"/>
+    <polygon points="332,225 304,213 322,244 322,206 304,237"/>
+  </g>
+</svg>

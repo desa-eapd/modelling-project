@@ -39,68 +39,108 @@ body_classes: page-clews
 {% endif %}
 
 {% comment %}
-  Render the four markdown-driven CLEWS blocks in a fixed order.
-  `band_class: grey` in front matter maps to `section-base-bg-2`.
+  Render CLEWS sections in one explicit pass.
+  Keep this order aligned with `pages/clews.md`.
+  Alternate backgrounds automatically across visible sections.
 {% endcomment %}
-{% assign clews_detail_keys = "sdgs,purpose,implementation,action" | split: "," %}
-{% for key in clews_detail_keys %}
-  {% assign block = page[key] %}
-  {% if block and block.enabled %}
-    <div class="section {% if block.band_class == 'grey' %}section-base-bg-2{% endif %} clews-content-section clews-content-section-{{ key }}">
-      <div class="container">
-        {% include framework/info.html
-          heading=block.heading
-          render_markdown=true
-          sub_heading=block.sub_heading
-          sub_heading_video_url=block.sub_heading_video_url
-          sub_heading_video_title=block.sub_heading_video_title
-          sub_heading_after=block.sub_heading_after
-          sub_heading_image=block.sub_heading_image
-          align=block.align
-          image=block.image
-          buttons=block.buttons
-        %}
+{% assign clews_section_order = "purpose,implementation,countries,action,sdgs" | split: "," %}
+{% assign clews_section_index = 0 %}
+{% for key in clews_section_order %}
+  {% if key == "countries" %}
+    {% if page.countries and page.countries.enabled %}
+      {% assign clews_section_mod = clews_section_index | modulo: 2 %}
+      <div class="section {% if clews_section_mod == 0 %}section-base-bg-2{% endif %} clews-countries-section">
+        <div class="container">
+          <div class="row">
+            {% include framework/grid-header.html
+              heading=page.countries.heading
+              sub_heading=page.countries.sub_heading
+              align=page.countries.align
+            %}
+          </div>
+
+          {% if page.countries.continents and page.countries.continents.size > 0 %}
+            {% for continent in page.countries.continents %}
+              {% if continent.flags and continent.flags.size > 0 %}
+                <div class="clews-country-continent-group">
+                  <div class="row">
+                    <div class="col-12">
+                      <h3 class="clews-country-continent-heading">{{ continent.name }}</h3>
+                    </div>
+                  </div>
+                  <div class="row justify-content-center">
+                    {% for country in continent.flags %}
+                      <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        {% assign country_href = country.url %}
+                        {% unless country.external %}
+                          {% assign country_href = country.url | relative_url %}
+                        {% endunless %}
+                        {% assign country_flag_src = country.flag %}
+                        {% unless country.flag contains '://' %}
+                          {% assign country_flag_src = country.flag | relative_url %}
+                        {% endunless %}
+                        <a class="country-flag-link" href="{{ country_href }}" {% if country.external %}target="_blank" rel="noopener"{% endif %}>
+                          <div class="country-flag-card text-center">
+                            <img src="{{ country_flag_src }}" alt="{{ country.name }} flag" loading="lazy" />
+                            <div class="country-flag-name">{{ country.name }}</div>
+                          </div>
+                        </a>
+                      </div>
+                    {% endfor %}
+                  </div>
+                </div>
+              {% endif %}
+            {% endfor %}
+          {% elsif page.countries.flags and page.countries.flags.size > 0 %}
+            <div class="row justify-content-center">
+              {% for country in page.countries.flags %}
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                  {% assign country_href = country.url %}
+                  {% unless country.external %}
+                    {% assign country_href = country.url | relative_url %}
+                  {% endunless %}
+                  {% assign country_flag_src = country.flag %}
+                  {% unless country.flag contains '://' %}
+                    {% assign country_flag_src = country.flag | relative_url %}
+                  {% endunless %}
+                  <a class="country-flag-link" href="{{ country_href }}" {% if country.external %}target="_blank" rel="noopener"{% endif %}>
+                    <div class="country-flag-card text-center">
+                      <img src="{{ country_flag_src }}" alt="{{ country.name }} flag" loading="lazy" />
+                      <div class="country-flag-name">{{ country.name }}</div>
+                    </div>
+                  </a>
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
       </div>
-    </div>
+      {% assign clews_section_index = clews_section_index | plus: 1 %}
+    {% endif %}
+  {% else %}
+    {% assign block = page[key] %}
+    {% if block and block.enabled %}
+      {% assign clews_section_mod = clews_section_index | modulo: 2 %}
+      <div class="section {% if clews_section_mod == 0 %}section-base-bg-2{% endif %} clews-content-section clews-content-section-{{ key }}">
+        <div class="container">
+          {% include framework/info.html
+            heading=block.heading
+            render_markdown=true
+            sub_heading=block.sub_heading
+            sub_heading_video_url=block.sub_heading_video_url
+            sub_heading_video_title=block.sub_heading_video_title
+            sub_heading_after=block.sub_heading_after
+            sub_heading_image=block.sub_heading_image
+            align=block.align
+            image=block.image
+            buttons=block.buttons
+          %}
+        </div>
+      </div>
+      {% assign clews_section_index = clews_section_index | plus: 1 %}
+    {% endif %}
   {% endif %}
 {% endfor %}
-
-{% if page.countries.enabled %}
-  <div class="section section-base-bg-2 clews-countries-section">
-    <div class="container">
-      <div class="row">
-        {% include framework/grid-header.html
-          heading=page.countries.heading
-          sub_heading=page.countries.sub_heading
-          align=page.countries.align
-        %}
-      </div>
-
-      {% if page.countries.flags and page.countries.flags.size > 0 %}
-        <div class="row justify-content-center">
-          {% for country in page.countries.flags %}
-            <div class="col-12 col-md-6 col-lg-4 mb-4">
-              {% assign country_href = country.url %}
-              {% unless country.external %}
-                {% assign country_href = country.url | relative_url %}
-              {% endunless %}
-              {% assign country_flag_src = country.flag %}
-              {% unless country.flag contains '://' %}
-                {% assign country_flag_src = country.flag | relative_url %}
-              {% endunless %}
-              <a class="country-flag-link" href="{{ country_href }}" {% if country.external %}target="_blank" rel="noopener"{% endif %}>
-                <div class="country-flag-card text-center">
-                  <img src="{{ country_flag_src }}" alt="{{ country.name }} flag" loading="lazy" />
-                  <div class="country-flag-name">{{ country.name }}</div>
-                </div>
-              </a>
-            </div>
-          {% endfor %}
-        </div>
-      {% endif %}
-    </div>
-  </div>
-{% endif %}
 
 {% if page.projects.enabled %}
   {% assign cards = site.projects | sort: page.projects.sort | default: 'date' %}

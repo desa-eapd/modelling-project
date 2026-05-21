@@ -36,21 +36,24 @@ models_cards:
   align: center
   sub_heading: ""
   cards:
-    - title: Designing Sustainable Economic Policies
-      description: How can tax and spending policies shape a better future?
-      url: https://desa-eapd.github.io/modelling-project/og-core
-      button_text: Explore OG-Core
-      icon: /assets/images/icons/ogcore-icon.png
-    - title: Optimizing Resource Management
+    - title: Optimizing Natural</br>Resources Management
       description: How do climate, land, energy, and water use decisions impact sustainability?
       url: https://desa-eapd.github.io/modelling-project/clews
       button_text: Explore CLEWs
       icon: /assets/images/icons/clews-icon.png
-    - title: Forecasting Economic Trends & Policy Impacts
+      icon_class: clews
+    - title: Designing Sustainable</br>Economic Policies
+      description: How can tax and spending policies shape a better future?
+      url: https://desa-eapd.github.io/modelling-project/og-core
+      button_text: Explore OG-Core
+      icon: /assets/images/icons/ogcore-icon.png
+      icon_class: og-core
+    - title: Forecasting Economic Trends</br>& Policy Impacts
       description: How can we prepare for economic shifts and global uncertainties?
       url: https://desa-eapd.github.io/modelling-project/wefm
       button_text: Explore WEFM
       icon: /assets/images/icons/wefm-icon.png
+      icon_class: wefm
 
 # Course banners
 banner_images:
@@ -92,11 +95,11 @@ contact_info:
 # News block
 posts:
   enabled: true
-  heading: Latest News And Events
+  heading: Latest News & Events
   sub_heading: ""
   limit: 3
   columns: 3
-  sort: weight
+  sort: date
   view_more_button_text: View All Posts
   view_more_button_link: /news
   prevent_click: false
