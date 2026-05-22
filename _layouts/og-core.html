@@ -60,9 +60,9 @@ body_classes: page-og-core
           </div>
 
           {% if page.country_models.models and page.country_models.models.size > 0 %}
-            <div class="row justify-content-center">
+            <div class="row justify-content-center ogcore-models-grid">
               {% for model in page.country_models.models %}
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="col-12 col-md-6 col-lg-6 mb-4">
                   {% assign model_href = model.details_url %}
                   {% unless model.details_external %}
                     {% assign model_href = model.details_url | relative_url %}

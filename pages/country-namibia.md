@@ -19,8 +19,6 @@ flag: /assets/images/flags/namibia.svg
 - The NDC implementation cost is estimated at USD 5.33 billion, or around NAD 80 billion, with about 10% expected to be unconditional.
 - CLEWs gives the NDP6 process a way to test whether higher wheat and maize self-reliance increases pressure on water, power supply, land, or emissions before commitments are locked in.
 
-**Resources:** Namibia CLEWs technical-assistance report, donor summary, workplans, workshop material, NDC material, and data request files.
-
 **Models:** CLEWs, OSeMOSYS
 
 **Stakeholders:** National Planning Commission, Ministry of Agriculture, Water and Land Reform, Ministry of Mines and Energy, Ministry of Environment, Forestry and Tourism, Namibia Statistics Agency, UNAM, NUST, RCO Namibia, FAO, WFP, UNDP, UNECA, UN DESA, and KTH.

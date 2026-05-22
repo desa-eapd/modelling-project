@@ -25,8 +25,6 @@ flag: /assets/images/flags/dominican-republic.svg
 • **Climate change** will worsen vulnerabilities through **reduced precipitation** (15–17%) and **declining agricultural yields** by 2050. Integrated policy approaches, particularly irrigation modernization, can deliver co-benefits, including lower costs, reduced emissions, improved resilience, and strengthened food production.
 ![Dominican Republic CLEWs project image](../../assets/images/country-projects/Dominican-Republic-1.png)
 
-**Resources:** The project has been documented on a dedicated website, including model documentation, a policy brief, and a technical report.
-
 **Models:** OSeMOSYS
 
 **Stakeholders:** Ministry of Economy, Planning & Development (MEPYD), RCO Dominican Republic, UN DESA, and the Climate Lead Group (CLG).

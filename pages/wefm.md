@@ -27,7 +27,7 @@ intro:
   sub_heading: |
     Governments need forecasts that are internally consistent across the whole global economy. A change in one country can affect trading partners through exports, imports, prices, exchange rates, remittances, capital flows, and confidence. The **World Economic Forecasting Model (WEFM)** helps analysts trace those linkages and compare how different assumptions or policy responses can affect economic outcomes.
 
-    WEFM was developed by the United Nations Department of Economic and Social Affairs to support globally consistent forecasts for the **World Economic Situation and Prospects (WESP)**, the WESP Update, and Project LINK. It uses a bottom-up structure: individual country models are linked through international trade and other economic relationships so that country forecasts add up to a coherent global outlook.
+    WEFM was developed by the United Nations Department of Economic and Social Affairs to support globally consistent forecasts for the **World Economic Situation and Prospects (WESP)**, the WESP Update, and Project LINK. It uses a bottom-up structure: individual country models are linked through international trade so that country forecasts add up to a coherent global outlook.
 
     At country level, WEFM brings together the main blocks of the macroeconomy: households, firms, government, and the foreign sector. The model can be used to build a baseline forecast and then test alternative scenarios, such as commodity-price shocks, fiscal stimulus, trade disruptions, changes in monetary policy, migration flows, or shifts in trend productivity.
   buttons:
@@ -45,7 +45,7 @@ overview:
   align: left
   heading: "WEFM Purpose"
   sub_heading: |
-        The end goal of a WEFM assessment is to help governments and analysts connect macroeconomic forecasts with policy choices and global risks, with roughly 4 main purposes:
+        The end goal of a WEFM assessment is to help governments and analysts connect macroeconomic forecasts with policy choices and global risks, with roughly 3 main purposes:
 
         - ![Forecasting icon](../assets/images/icons/lucide/chart-column.svg){: .wefm-purpose-icon }
 
@@ -58,10 +58,6 @@ overview:
         - ![Policy coherence icon](../assets/images/icons/lucide/scale.svg){: .wefm-purpose-icon }
 
           **Macro-fiscal planning:** assess how government spending, revenues, debt, and social expenditure choices interact with growth and development objectives. For example: Which expenditure strategies support development priorities while maintaining debt sustainability? How do fiscal policies affect poverty and employment?
-
-        - ![Global linkages icon](../assets/images/icons/lucide/git-merge.svg){: .wefm-purpose-icon }
-
-          **Global consistency:** account for international linkages so country projections reflect changes in trading partners, import demand, export prices, commodity prices, and global financial conditions. For example: How do trade tensions or a synchronized fiscal expansion transmit across regions?
         {: .wefm-purpose-list }
   buttons:
     enabled: true
@@ -79,7 +75,7 @@ implementation:
   align: left
   heading: "WEFM Implementation"
   sub_heading: |
-        To implement a WEFM-based assessment or country simulation, there are typically 5 phases:
+        To implement a WEFM-based assessment or country simulation, there are typically 4 phases:
 
         - ![Scope icon](../assets/images/icons/lucide/files.svg){: .wefm-phase-icon }
 
@@ -89,25 +85,17 @@ implementation:
 
           **Activities:** Identify priority policy questions; select baseline and alternative scenarios; define the relevant macroeconomic, fiscal, external-sector, and development indicators; agree on institutional roles and review needs.
 
-        - ![Data icon](../assets/images/icons/lucide/scale.svg){: .wefm-phase-icon }
-
-          **2. Data Preparation & Baseline**
-
-          Compile the historical data and assumptions needed to construct a coherent baseline projection.
-
-          **Activities:** Assemble national accounts, fiscal, labour-market, price, trade, external-sector, and demographic data; review recent trends and policy settings; align country assumptions with regional and global forecasts.
-
         - ![Model icon](../assets/images/icons/lucide/code-xml.svg){: .wefm-phase-icon }
 
-          **3. Country Model Customization**
+          **2. Country Model Customization**
 
           Adapt the country model to local data availability, institutional priorities, and policy instruments.
 
-          **Activities:** Calibrate model parameters; update behavioural equations where needed; expand fiscal or social-expenditure modules; configure a country-specific simulation interface; validate the baseline against known economic relationships.
+          **Activities:** Calibrate model parameters; update or expand model equations where needed; include fiscal or social-expenditure modules if needed; validate the baseline against known economic relationships.
 
         - ![Simulation icon](../assets/images/icons/lucide/chart-column.svg){: .wefm-phase-icon }
 
-          **4. Scenario Simulation**
+          **3. Scenario Simulation**
 
           Run alternative assumptions and policy shocks to compare outcomes against the baseline forecast.
 
@@ -115,31 +103,12 @@ implementation:
 
         - ![Recommendations icon](../assets/images/icons/lucide/badge-check.svg){: .wefm-phase-icon }
 
-          **5. Policy Interpretation**
+          **4. Policy Interpretation**
 
           Translate model results into practical insights for forecasting teams, finance ministries, planning agencies, central banks, and policy advisers.
 
           **Activities:** Prepare charts and scenario comparisons; identify trade-offs, risks, and fiscal constraints; draft policy notes, technical reports, presentations, training materials, and user manuals; support repeated use by national teams.
         {: .wefm-phase-list }
-
-# Applications section
-applications:
-  enabled: true
-  align: left
-  heading: "WEFM in Action"
-  sub_heading: |
-        WEFM can be used for global monitoring, national forecasting, and policy simulation:
-
-        | Use case | What WEFM helps assess | Examples |
-        | --- | --- | --- |
-        | Global forecasts | A coherent global baseline for WESP, WESP updates, and Project LINK discussions. | Growth, inflation, trade, employment, current account, fiscal balances, and regional outlooks. |
-        | External shocks | How shocks travel through trade, prices, demand, and confidence. | Oil-price changes, trade-barrier escalation, commodity-price shocks, or weaker external demand. |
-        | Policy scenarios | The macroeconomic and fiscal effects of alternative policy choices. | Fiscal stimulus, social expenditure strategies, monetary policy shocks, and debt sustainability questions. |
-        | Expanded country simulation | Medium-term development effects of investment and public spending choices. | Infrastructure investment impacts on GDP, productivity, labour markets, poverty, fiscal sustainability, and emissions. |
-        {: .wefm-application-table }
-
-        *Sources include UN DESA's WEFM technical paper, WEFM 2018 presentation materials, WESP briefings, and UN DESA capacity-development materials.*
-        {: .wefm-source-note }
 
 # Country work section
 country_models:
@@ -167,13 +136,10 @@ resources:
   align: left
   heading: "WEFM Resources"
   sub_heading: |
-        - [The World Economic Forecasting Model at the United Nations](https://policy.desa.un.org/publications/the-world-economic-forecasting-model-at-the-united-nations)
-        - [World Economic Forecasting Model technical paper](https://www.un.org/development/desa/dpad/wp-content/uploads/sites/45/publication/2016_Apr_WorldEconomicForecastingModel.pdf)
-        - [World Economic Forecasting Model 2018 presentation](https://www.un.org/development/desa/dpad/world-economic-forecasting-model-wefm-2018.html)
-        - [Global Economic Monitoring Branch](https://policy.desa.un.org/about-us/global-economic-monitoring-branch)
+        - [WEFM Technical Paper](https://www.un.org/development/desa/dpad/wp-content/uploads/sites/45/publication/2016_Apr_WorldEconomicForecastingModel.pdf)
+        - [WEFM Presentation](https://www.un.org/development/desa/dpad/world-economic-forecasting-model-wefm-2018.html)
         - [UN DESA Policy Coherence tools](https://capacity.desa.un.org/what-we-do/areas-of-work/policy-coherence)
-        - [WESP May 2018 briefing scenario using WEFM](https://policy.desa.un.org/publications/world-economic-situation-and-prospects-may-2018-briefing-no-114)
-
+        - [Global Economic Monitoring Branch](https://policy.desa.un.org/about-us/global-economic-monitoring-branch)
 outro:
   enabled: false
   align: center

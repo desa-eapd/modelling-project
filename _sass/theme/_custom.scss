@@ -452,10 +452,10 @@
     }
 
     // Different semantic colors per purpose.
-    .info-sub-heading ul.clews-purpose-list > li:nth-child(1) > p:nth-of-type(1) { background: #a184e0; } // Policy coherence (lighter purple)
+    .info-sub-heading ul.clews-purpose-list > li:nth-child(1) > p:nth-of-type(1) { background: #009edb; } // Climate impacts (UN blue)
     .info-sub-heading ul.clews-purpose-list > li:nth-child(2) > p:nth-of-type(1) { background: #4ea85d; } // Green transition / climate-adjacent (lighter green)
     .info-sub-heading ul.clews-purpose-list > li:nth-child(3) > p:nth-of-type(1) { background: #36a89a; } // Resource management (lighter teal)
-    .info-sub-heading ul.clews-purpose-list > li:nth-child(4) > p:nth-of-type(1) { background: #009edb; } // Climate impacts (UN blue)
+    .info-sub-heading ul.clews-purpose-list > li:nth-child(4) > p:nth-of-type(1) { background: #a184e0; } // Policy coherence (lighter purple)
 
     // Keep list text tied to the section/body scale instead of browser root font settings.
     @include media-breakpoint-down(md) {
@@ -1014,6 +1014,16 @@
       line-height: 1.36;
       margin-top: 0;
       width: 100%;
+    }
+
+    .ogcore-models-grid {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+
+      @include media-breakpoint-up(md) {
+        max-width: 75%;
+      }
     }
 
     .country-flag-link {

@@ -34,7 +34,7 @@ intro:
   sub_heading_video_title: "YouTube Video"
   sub_heading_after: |
     CLEWs is a framework designed to map the interactions between different land uses (e.g., agriculture, forests, cities), energy systems (e.g., coal power plants, dams, solar panels), and water resources (e.g., rain, rivers, and aquifers) under different climate change scenarios (e.g., reduced rain, increased temperatures). By analysing these interactions, CLEWs can identify opportunities for synergies, highlight trade-offs, and offer options.
-  sub_heading_image: "/assets/images/gen/home/CLEWs_interactions.png"
+  sub_heading_image: "/assets/images/gen/home/Understanding_CLEWs.png"
 
 # Purpose section (4 purposes rendered via icon list styles)
 purpose:
@@ -46,21 +46,25 @@ purpose:
   sub_heading: |
         The end goal of a CLEWs assessment is to inform policy design and planning processes, with roughly 4 main purposes:
 
-        - ![Policy coherence icon](../assets/images/icons/lucide/scale.svg){: .clews-purpose-icon }
+        - ![Climate change impacts icon](../assets/images/icons/lucide/cloud-sun.svg){: .clews-purpose-icon }
 
-          **Policy coherence:** understand how policies interact and affect resource use, so decision-makers can identify synergies, trade-offs, and risks early. For example: What are the cross-cutting implications of our NDCs? Do we have enough natural resources to attain simultaneously food security, water security, and energy security? Are our different national policies compatible or what are their trade-offs?
+          **Climate change impacts:** analyze the impacts of climate change & climate shocks. 
+          <br/>For example: What will be the impact of droughts on my crop production & energy sectors? Which are the least-cost pathways to implement our NDCs to the Paris Agreement? How can I make my agricultural sector more climate resilient?
 
         - ![Green transition icon](../assets/images/icons/lucide/leaf.svg){: .clews-purpose-icon }
 
-          **Green transition:** identify the technology deployment needed to achieve policy goals. For example: What is the least-cost pathway to achieve our renewable energy targets? How can technological solutions reduce water losses? How can technology help us increase crop yields?
+          **Green transition:** identify the technology deployment needed to achieve policy goals. 
+          <br/>For example: What is the least-cost pathway to achieve our renewable energy targets? How can technology reduce water losses? How can climate-smart agriculture help us increase crop yields?
 
         - ![Resource management icon](../assets/images/icons/lucide/sliders-horizontal.svg){: .clews-purpose-icon }
 
-          **Resource management:** explore options to improve resource efficiency. For example: Can we reduce electricity requirements by improving water efficiency? Can household energy efficiency reduce water requirements in electricity generation?
+          **Resource management:** explore options to improve resource efficiency. 
+          <br/>For example: Can we reduce electricity demand by improving water efficiency? Can household energy efficiency reduce water demand in electricity generation?
 
-        - ![Climate change impacts icon](../assets/images/icons/lucide/cloud-sun.svg){: .clews-purpose-icon }
+        - ![Policy coherence icon](../assets/images/icons/lucide/scale.svg){: .clews-purpose-icon }
 
-          **Climate change impacts:** analyze the impacts of climate change over different systems. For example: Which adaptation options would be most beneficial to my country? How can we achieve GHG mitigation to comply with the Paris Agreement? Which are the least-cost pathways to attain decarbonization?
+          **Policy coherence:** understand how policies interact and affect resource use, so decision-makers can identify synergies, trade-offs, and risks early. 
+          <br/>For example: What are the cross-sectoral implications of our NDCs? Do we have enough natural resources to attain simultaneously food, water, and energy security? Are our different national policies compatible or what are their trade-offs?
         {: .clews-purpose-list }
   sub_heading_video_url: "https://player.vimeo.com/video/1086915730?h=0331661007"
   sub_heading_video_title: "Vimeo Video"
@@ -73,7 +77,7 @@ implementation:
   heading: "CLEWs Implementation"
   # Markdown cards replacing the old table; all phase details are preserved.
   sub_heading: |
-        To implement the CLEWs framework, there are typically 5 phases:
+        To implement a CLEWs assessment, there are typically 5 phases:
         - ![Systems profiling icon](../assets/images/icons/lucide/files.svg){: .clews-phase-icon }
 
           **1. Systems Profiling**
@@ -267,7 +271,7 @@ action:
         *Note: Data in this table were extracted from Ramos et al. (2021) [[76]][76] and Alexander et al. (2025) [[77]][77].*
         {: .clews-table-source-note }
 
-        [1]: https://duckduckgo.com/?q=Climate+Land+Energy+and+Water+Strategies+in+the+city+of+Cape+Town
+        [1]: https://www.academia.edu/75365037/Climate_Land_Energy_and_Water_Strategies_in_the_City_of_Cape_Town
         [2]: https://doi.org/10.17159/2413-3051/2014/v25i4a2239
         [3]: https://doi.org/10.1186/s42269-024-01255-6
         [4]: https://doi.org/10.1016/j.enconman.2022.116541
@@ -279,7 +283,7 @@ action:
         [10]: https://doi.org/10.1016/j.esr.2022.100929
         [11]: https://doi.org/10.1016/j.esr.2024.101316
         [12]: https://doi.org/10.1016/j.jclepro.2022.134781
-        [13]: https://duckduckgo.com/?q=Development+and+Assessment+of+Decarbonization+Pathways+Costa+Rica+NDC+Modeling+Tool+and+Analysis+Final+Version
+        [13]: https://2050pathways.org/wp-content/uploads/2019/02/Decarbonization-Plan-Costa-Rica.pdf
         [14]: https://archive.uneca.org/sites/default/files/uploaded-documents/ACPC/CLEWs-Ethiopia-2019/agenda_and_concept_note_-_clews_ethiopia_workshop_-_17_jan_2019.pdf
         [15]: https://doi.org/10.1007/978-3-030-40052-1_1
         [16]: https://doi.org/10.1038/nclimate1789
@@ -290,7 +294,7 @@ action:
         [21]: https://un-modelling.github.io/about/
         [22]: https://meetingorganizer.copernicus.org/EGU2016/EGU2016-15765.pdf
         [23]: https://doi.org/10.1016/j.egypro.2017.03.714
-        [24]: https://duckduckgo.com/?q=Modelling+of+Nicaragua+power+sector+towards+a+CLEWs+nexus+assessment
+        [24]: https://www.energy.kth.se/energy-systems/desa-news/building-capacity-on-clews-analysis-in-nicaragua-1.713637
         [25]: https://meetingorganizer.copernicus.org/EGU2017/EGU2017-14454.pdf
         [26]: https://archive.uneca.org/sites/default/files/uploaded-documents/ACPC/annex_18_-_egm_report_-_climate_land_energy_and_water_strategies_clews_to_support_the_implementation_of_ndcs.pdf
         [27]: https://doi.org/10.1007/978-3-030-45106-6_69
@@ -331,7 +335,7 @@ action:
         [62]: https://doi.org/10.3390/su12177043
         [63]: https://unece.org/fileadmin/DAM/env/water/publications/WAT_NONE_16_NWSAS_Nexus/NWSAS-UNECE_EN_Web.pdf
         [64]: https://unece.org/fileadmin/DAM/env/water/publications/WAT_Nexus/ece_mp.wat_46_eng.pdf
-        [65]: https://duckduckgo.com/?q=Energy+systems+analysis+of+transboundary+river+basins+in+a+nexus+approach+The+Sava+river+basin+study+case
+        [65]: https://hdl.handle.net/10773/15833
         [66]: https://unece.org/env/water/nexus
         [67]: https://unece.org/fileadmin/DAM/env/water/publications/GUIDELINES/2017/nexus_in_Sava_River_Basin/Nexus-SavaRiverBasin_ECE-MP.WAT-NONE-3_WEB_final_corrected_for_gDoc.pdf
         [68]: https://doi.org/10.1016/j.esd.2022.08.009
@@ -356,21 +360,21 @@ sdgs:
         CLEWs can directly support the achievement of several SDGs:
         - ![Official SDG 2 icon](../assets/images/sdgs/sdg-02-un-official.png){: .clews-sdg-icon }
 
-          **End hunger, achieve food security and improved nutrition, and promote sustainable agriculture**
+          **End hunger, achieve food security & improved nutrition, and promote sustainable agriculture**
 
-          CLEWs can model various scenarios on food production and agriculture, such as increased irrigated crops for higher yield, and study how sustainable they are in the long-term under different climate change conditions.
+          CLEWs can model various scenarios on food production & agriculture, such as increased irrigated crops for higher yield, and study how sustainable they are in the long-term under different climate change conditions.
 
         - ![Official SDG 6 icon](../assets/images/sdgs/sdg-06-un-official.png){: .clews-sdg-icon }
 
-          **Ensure availability and sustainable management of water and sanitation for all**
+          **Ensure availability & sustainable management of water & sanitation for all**
 
-          CLEWs can represent the water cycle and how water security is impacted by new requirements, such as increased energy demand and changed rainfall patterns.
+          CLEWs can represent the water cycle and how water security is impacted by new requirements, such as increased energy demand or changed rainfall patterns.
 
         - ![Official SDG 7 icon](../assets/images/sdgs/sdg-07-un-official.png){: .clews-sdg-icon }
 
           **Ensure access to affordable, reliable, and modern energy for all**
 
-          CLEWs can assess renewable energy pathways, such as increased energy production from wind and solar power, and study the investment requirements and how they impact GHG emissions.
+          CLEWs can assess renewable energy pathways, such as increased energy production from wind & solar power, or study the investment requirements and how they impact GHG emissions.
 
         - ![Official SDG 13 icon](../assets/images/sdgs/sdg-13-un-official.png){: .clews-sdg-icon }
 

@@ -44,8 +44,6 @@ flag: /assets/images/flags/ethiopia.svg
 
 ![Ethiopia green economy CLEWs graph](../../assets/images/country-projects/ethiopia-green-economy.png)
 
-<p><strong>Resources</strong>: The project has been documented in a <a href="https://clews-ethiopia-model.readthedocs.io/en/latest/index.html">website</a>, including results &amp; model documentation.</p>
-
 <p><strong>Models</strong>: OSeMOSYS</p>
 
 <p><strong>Stakeholders</strong>: The Government of Ethiopia (Ministry of Water, Irrigation and Energy- MoWIE), supported by UN DESA, UNDP, UN ECA, and KTH</p>

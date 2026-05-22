@@ -23,8 +23,6 @@ flag: /assets/images/flags/costa-rica.svg
 
 ![Costa Rica CLEWs system cost comparison](../../assets/images/country-projects/costa-rica-system-costs.png)
 
-**Resources:** CLEWs Costa Rica report and regionalized model documentation.
-
 **Models:** CLEWs, OSeMOSYS, LEAP, CGE-UNDESA, MAMS, MACEPES
 
 **Stakeholders:** MIDEPLAN, Climate Change Directorate of MINAE, University of Costa Rica EPERLab, Central Bank, Electricity Institute, UN DESA, UNDP, and KTH.

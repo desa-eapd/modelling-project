@@ -45,19 +45,23 @@ overview:
 
         - ![Policy coherence icon](../assets/images/icons/lucide/scale.svg){: .clews-purpose-icon }
 
-          **Fiscal sustainability:** understand how tax, spending, transfer, and debt policies affect public finances over time. For example: Is the current fiscal path sustainable? How will public debt evolve under different policy scenarios? What reforms could improve long-term fiscal balances?
+          **Fiscal sustainability:** understand how tax, spending, transfer, and debt policies affect public finances over time. 
+          <br/>For example: Is the current fiscal path sustainable? How will public debt evolve under different policy scenarios? What reforms could improve long-term fiscal balances?
 
         - ![Policy reform icon](../assets/images/icons/lucide/sliders-horizontal.svg){: .clews-purpose-icon }
 
-          **Policy reform:** evaluate the macroeconomic & distributional impacts of fiscal reforms. For example: How would a change in income taxes affect labour supply & savings? How would a consumption tax reform affect households with different incomes? What are the economy-wide effects of pension or transfer reforms?
+          **Policy reform:** evaluate the macroeconomic & distributional impacts of fiscal reforms. 
+          <br/>For example: How would a change in income taxes affect labour supply & savings? How would a consumption tax reform affect households with different incomes? What are the economy-wide effects of pension or transfer reforms?
 
         - ![Intergenerational impacts icon](../assets/images/icons/custom/ogcore-intergenerational.svg){: .clews-purpose-icon }
 
-          **Intergenerational impacts:** assess how policies affect different age groups & future generations. For example: Who benefits from a reform today and who bears the cost in the future? How does population ageing affect workers, retirees, and future taxpayers? How are welfare gains or losses distributed across generations?
+          **Intergenerational impacts:** assess how policies affect different age groups & future generations. 
+          <br/>For example: Who benefits from a reform today and who bears the cost in the future? How does population ageing affect workers, retirees, and future taxpayers? How are welfare gains or losses distributed across generations?
 
         - ![Macroeconomic dynamics icon](../assets/images/icons/custom/ogcore-macro-dynamics.svg){: .clews-purpose-icon }
 
-          **Macroeconomic dynamics:** analyse how fiscal policy affects growth, investment, consumption, wages, interest rates, and government revenues over time. For example: How does a tax reform affect GDP? What happens to capital accumulation & wages? How do policy choices influence long-term economic growth?
+          **Macroeconomic dynamics:** analyse how fiscal policy affects growth, investment, consumption, wages, interest rates, and government revenues over time. 
+          <br/>For example: How does a tax reform affect GDP? What happens to capital accumulation & wages? How do policy choices influence long-term economic growth?
         {: .clews-purpose-list }
   buttons:
     enabled: true
@@ -146,16 +150,6 @@ country_models:
       repo_external: true
       docs_url: "/ethiopia/"
       docs_external: false
-    - name: "OG-IND"
-      country: "India"
-      flag: "https://flagcdn.com/in.svg"
-      description: "Revenue Academy implementation built on OG-Core."
-      details_url: "/og-core/india/"
-      details_external: false
-      repo_url: "https://github.com/Revenue-Academy/OG-IND"
-      repo_external: true
-      docs_url: "https://revenue-academy.github.io/OG-IND/"
-      docs_external: true
     - name: "OG-IDN"
       country: "Indonesia"
       flag: "https://flagcdn.com/id.svg"
@@ -166,14 +160,6 @@ country_models:
       repo_external: true
       docs_url: "/indonesia/"
       docs_external: false
-    - name: "OG-MYS"
-      country: "Malaysia"
-      flag: "https://flagcdn.com/my.svg"
-      description: "Revenue Academy implementation for Malaysian fiscal scenarios."
-      details_url: "/og-core/malaysia/"
-      details_external: false
-      repo_url: "https://github.com/Revenue-Academy/OG-MYS"
-      repo_external: true
     - name: "OG-PHL"
       country: "Philippines"
       flag: "https://flagcdn.com/ph.svg"
@@ -194,26 +180,6 @@ country_models:
       repo_external: true
       docs_url: "/south-africa/"
       docs_external: false
-    - name: "OG-UK"
-      country: "United Kingdom"
-      flag: "https://flagcdn.com/gb.svg"
-      description: "Country calibration of OG-Core for U.K. fiscal analysis."
-      details_url: "/og-core/united-kingdom/"
-      details_external: false
-      repo_url: "https://github.com/PSLmodels/OG-UK"
-      repo_external: true
-      docs_url: "https://pslmodels.github.io/OG-UK/"
-      docs_external: true
-    - name: "OG-USA"
-      country: "United States"
-      flag: "https://flagcdn.com/us.svg"
-      description: "PSLmodels calibration used for U.S. policy simulations."
-      details_url: "/og-core/united-states/"
-      details_external: false
-      repo_url: "https://github.com/PSLmodels/OG-USA"
-      repo_external: true
-      docs_url: "https://pslmodels.github.io/OG-USA/"
-      docs_external: true
 outro:
   enabled: false
 ---

@@ -29,5 +29,3 @@ flag: /assets/images/flags/mexico.svg
 <p><strong>Tools:</strong> Water Evaluation and Planning (WEAP), Agro-Ecological Zones (AEZ), Open Source Energy Modelling Systems (OSeMOSYS).</p>
 
 <p><strong>Stakeholders:</strong> The Government of Mexico’s Secretary of Environment &amp; Natural Resources (SEMARNAT), National Institute for Ecology &amp; Climate Change (INECC), Energy Secretariat (SENER), UN DESA, UNDP, ECLAC, and IIASA.</p>
-
-<p><strong>Resources:</strong> Insert [Reporte preliminar de avances en la modelación WEAP para el desarrollo de políticas sustentables en la región central de México.pdf] / AEZ Report?</p>
