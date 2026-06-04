@@ -1,14 +1,14 @@
 ---
 layout: default
 body_classes: page-blog
-title: News And Events
+title: News
 description: "The latest news and events"
 header_transparent: false
 header_color_mode: dark
 
 hero:
   enabled: true
-  heading: "Latest News & Events"
+  heading: "News"
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: true
@@ -24,12 +24,12 @@ hero:
     {% if page.hero.background_color %}background-color: {{ page.hero.background_color }};{% endif %}
     {% if page.hero.background_image %}background-image: url('{{ page.hero.background_image }}'); background-size: cover; background-position: center;{% endif %}
     {% if page.hero.text_color %}color: {{ page.hero.text_color }};{% endif %}
-    height: {{ page.hero.height | default: '300px' }};
-    padding-top: 6rem;
   ">
-    <div class="container text-center py-5" style="padding-top: 15rem;">
+    <div class="container text-center">
       <h1>{{ page.hero.heading }}</h1>
-      <div class="lead mb-4">{{ page.hero.sub_heading }}</div>
+      {% if page.hero.sub_heading %}
+        <div class="lead mb-4">{{ page.hero.sub_heading }}</div>
+      {% endif %}
     </div>
   </section>
 {% else %}
@@ -46,15 +46,13 @@ hero:
   </div>
 {% endif %}
 
-{% assign post_pages = site.posts %}
-
 <div class="section strip-base">
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-8">
-        <div class="row">
+        <div class="row news-post-list">
           {% for post in paginator.posts %}
-            <div class="col-12 mb-3 mb-md-9">
+            <div class="col-12 news-post-item">
               {% include theme/cards/card-posts.html
                 style="row"
                 date=post.date
@@ -72,31 +70,34 @@ hero:
 
       <div class="col-12 col-lg-3">
         <div class="sidebar">
+          {% comment %}
+            Keep model tags grouped separately from country tags in the sidebar.
+            Countries list is derived from all categories minus model categories.
+          {% endcomment %}
+          {% assign model_categories = "CLEWs|OG-Core|WEFM" | split: "|" %}
 
-          <!-- Newsletters Section -->
-          <h5>Newsletters</h5>
+          <h5>Models</h5>
           <ul>
-            <li>
-              <a href="https://desa-eapd.github.io/modelling-project/news/newsletter_oct2024.pdf" target="_blank">
-                October 2024
-              </a>
-            </li>
-            <li>
-              <a href="https://desa-eapd.github.io/modelling-project/news/newsletter_may2025.pdf" target="_blank">
-                May 2025
-              </a>
-            </li>
+            {% for model_name in model_categories %}
+              {% assign model_posts = site.categories[model_name] %}
+              {% if model_posts and model_posts.size > 0 %}
+                <li>
+                  {% include framework/category-link.html category_name=model_name show_count=true %}
+                </li>
+              {% endif %}
+            {% endfor %}
           </ul>
 
-          <!-- Categories Section -->
-          <h5>Categories</h5>
+          <h5 class="countries-title">Countries</h5>
           <ul>
-            {% for category in site.categories %}
-              {% capture category_name %}{{ category | first }}{% endcapture %}
-              <li>
-                <a href="{{ site.baseurl }}/category/{{ category_name | slugify }}">{{ category_name | camelcase }}</a>
-                <span>({{ category[1].size }})</span>
-              </li>
+            {% assign sorted_categories = site.categories | sort %}
+            {% for category in sorted_categories %}
+              {% assign category_name = category | first %}
+              {% unless model_categories contains category_name %}
+                <li>
+                  {% include framework/category-link.html category_name=category_name show_count=true %}
+                </li>
+              {% endunless %}
             {% endfor %}
           </ul>
 

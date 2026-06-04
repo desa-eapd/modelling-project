@@ -1,6 +1,5 @@
 ---
 layout: category
-title: Phillipines
+title: Philippines
 ---
-
 

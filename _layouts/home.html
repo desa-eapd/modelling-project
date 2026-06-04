@@ -31,12 +31,15 @@ body_classes: page-home
         %}
         {% for item in page.models_cards.cards %}
           <div class="col-12 col-md-4 mb-4">
-            <div class="card h-100 shadow text-center p-4">
+            <div class="card h-100 shadow text-center p-4 home-model-card">
               {% if item.icon %}
-                <img src="{{ item.icon | relative_url }}" alt="{{ item.title }}" class="mb-3 mx-auto" style="height:60px;">
+                <span
+                  class="home-model-icon home-model-icon-{{ item.icon_class | default: 'default' }} mb-3 mx-auto"
+                  style="--home-model-icon-mask: url('{{ item.icon | relative_url }}');"
+                  aria-hidden="true"></span>
               {% endif %}
               <h5>{{ item.title }}</h5>
-              <p style="color: #2e7d32;">{{ item.description }}</p>
+              <p>{{ item.description }}</p>
               <a href="{{ item.url }}" class="btn btn-primary mt-auto">{{ item.button_text }}</a>
             </div>
           </div>
@@ -54,9 +57,24 @@ body_classes: page-home
         {% for banner in page.banner_images %}
           {% if banner.enabled %}
             <div class="col-12 col-md-6 text-center mb-4">
+              {% assign banner_link = banner.link %}
+              {% assign banner_external = banner.external | default: false %}
+              {% if banner_link == nil and banner.buttons and banner.buttons.size > 0 %}
+                {% assign banner_link = banner.buttons[0].url %}
+                {% assign banner_external = banner.buttons[0].external | default: false %}
+              {% endif %}
+              {% if banner_link %}
+                <a href="{% if banner_external %}{{ banner_link }}{% else %}{{ banner_link | relative_url }}{% endif %}"
+                   class="home-banner-image-link"
+                   {% if banner_external %}target="_blank" rel="noopener"{% endif %}>
+              {% endif %}
               <img src="{{ banner.image | relative_url }}"
                    alt="{{ banner.alt }}"
+                   class="home-banner-image"
                    style="width: 100%; height: {{ banner.height }}; object-fit: contain; border-radius: 8px;">
+              {% if banner_link %}
+                </a>
+              {% endif %}
               {% if banner.buttons %}
                 <div class="mt-3">
                   {% for button in banner.buttons %}
@@ -81,6 +99,7 @@ body_classes: page-home
 {% if page.services.enabled %}
   {% assign cards = site.services | sort: page.services.sort | default: 'date' %}
   {% assign columns = page.services.columns | default: 3 %}
+  {% assign services_prevent_click = page.services.prevent_click | default: false %}
   {% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
   <div class="section section-base-bg-2">
     <div class="container">
@@ -91,7 +110,11 @@ body_classes: page-home
           align="center"
         %}
         {% for card in cards limit: page.services.limit %}
-          {% assign url = page.services.prevent_click | default: false | if: true then null else card.url %}
+          {% if services_prevent_click %}
+            {% assign url = nil %}
+          {% else %}
+            {% assign url = card.url %}
+          {% endif %}
           <div class="col-12 col-md-4 {{ columns }} mb-3">
             {% include theme/cards/card-services.html 
               title=card.title 
@@ -148,6 +171,7 @@ body_classes: page-home
 {% if page.projects.enabled %}
   {% assign cards = site.projects | sort: page.projects.sort | default: 'date' %}
   {% assign columns = page.projects.columns | default: 2 %}
+  {% assign projects_prevent_click = page.projects.prevent_click | default: false %}
   {% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
   <div class="section section-base-bg-2">
     <div class="container">
@@ -158,7 +182,11 @@ body_classes: page-home
           align="center"
         %}
         {% for card in cards limit: page.projects.limit %}
-          {% assign url = page.projects.prevent_click | default: false | if: true then null else card.url %}
+          {% if projects_prevent_click %}
+            {% assign url = nil %}
+          {% else %}
+            {% assign url = card.url %}
+          {% endif %}
           <div class="col-12 col-md-4 {{ columns }} mb-3">
             {% include theme/cards/card-projects.html 
               title=card.title 
@@ -213,10 +241,16 @@ body_classes: page-home
 
 {%- comment -%} Latest Posts Section {%- endcomment -%}
 {% if page.posts.enabled %}
-  {% assign cards = site.posts | sort: page.posts.sort | default: 'date' %}
+  {% assign posts_sort = page.posts.sort | default: 'date' %}
+  {% if posts_sort == 'date' %}
+    {% assign cards = site.posts %}
+  {% else %}
+    {% assign cards = site.posts | sort: posts_sort %}
+  {% endif %}
   {% assign columns = page.posts.columns | default: 3 %}
+  {% assign posts_prevent_click = page.posts.prevent_click | default: false %}
   {% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
-  <div class="section section-base-bg-2">
+  <div class="section section-base-bg-2 home-latest-posts-section">
     <div class="container">
       <div class="row">
         {% include framework/grid-header.html
@@ -225,7 +259,11 @@ body_classes: page-home
           align="center"
         %}
         {% for card in cards limit: page.posts.limit %}
-          {% assign url = page.posts.prevent_click | default: false | if: true then null else card.url %}
+          {% if posts_prevent_click %}
+            {% assign url = nil %}
+          {% else %}
+            {% assign url = card.url %}
+          {% endif %}
           <div class="col-12 col-md-4 {{ columns }} mb-3">
             {% include theme/cards/card-posts.html 
               title=card.title 

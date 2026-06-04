@@ -11,16 +11,15 @@
     <!--  {% include framework/favicon.html %} -->
     <link rel="icon" href="data:," />
 
+    {% include framework/fonts.html %}
     <link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet">
     {% if site.cookie_banner.enabled %}
       {% include framework/cookie-consent.html %}
     {% endif %}
-
-    {% include framework/fonts.html %}
     {% include framework/google-tag-manager.html %}
 
   </head>
-<body class="page {% if page.body_classes %}{{ page.body_classes }}{% elsif layout.body_classes %}{{ layout.body_classes }}{% endif %}{% if site.header.fixed %} has-fixed-header{% else %} has-static-header{% endif %}">
+<body class="page {% if page.body_classes %}{{ page.body_classes }}{% elsif layout.body_classes %}{{ layout.body_classes }}{% endif %}{% if site.header.fixed %} has-fixed-header{% else %} has-static-header{% endif %}{% if page.header_transparent %} header-transparent-page{% endif %}">
 
 {% include framework/menu-main-mobile.html %}
 {% include framework/header.html %}
