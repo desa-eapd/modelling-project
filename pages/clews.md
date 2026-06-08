@@ -27,14 +27,14 @@ intro:
   align: left
   heading: "Understanding CLEWs"
   sub_heading: |
+    CLEWs is a framework designed to map the interactions under different **climate** change scenarios (e.g., reduced rain, increased temperatures) between different **land** uses (e.g., agriculture, forests, cities), **energy** systems (e.g., coal power plants, dams, solar panels), and **water** resources (e.g., rain, rivers, and aquifers). By analysing these interactions, CLEWs can identify opportunities for synergies, highlight trade-offs, and offer options.
+  sub_heading_image: "/assets/images/gen/home/Understanding_CLEWs.png"
+  sub_heading_after: |
     At the most basic level, a country only needs 3 things: water, food, and energy. **Land**, energy and water to produce food; **energy** for households & industry; and **water** for drinking & industrial processes. While those 3 resources are not infinite, demand for them is ever increasing due to population growth and economic development, and the impacts of climate change further compound this challenge — hence the need for an integrated analysis of the Climate, Land, Energy, and Water systems (CLEWs) to avoid unintended cross-sectoral impacts and identify co-benefit opportunities.
 
     For example, altered rainfall patterns can reduce water availability for hydropower generation and agriculture in your country. To maintain agricultural production, you will then need to pump groundwater for irrigation, which requires more electricity. To meet this new electricity demand, and given that your hydropower capacity has also been reduced, you will need more energy from fossil fuel power plants. Thus, you will face increased dependency on international fuel imports, exposing your country to shock prices and impacting your national budget, while also increasing your country’s GHG emissions.
   sub_heading_video_url: "https://www.youtube.com/embed/9Kg_mXQMSt0"
   sub_heading_video_title: "YouTube Video"
-  sub_heading_after: |
-    CLEWs is a framework designed to map the interactions between different land uses (e.g., agriculture, forests, cities), energy systems (e.g., coal power plants, dams, solar panels), and water resources (e.g., rain, rivers, and aquifers) under different climate change scenarios (e.g., reduced rain, increased temperatures). By analysing these interactions, CLEWs can identify opportunities for synergies, highlight trade-offs, and offer options.
-  sub_heading_image: "/assets/images/gen/home/Understanding_CLEWs.png"
 
 # Purpose section (4 purposes rendered via icon list styles)
 purpose:
@@ -44,27 +44,27 @@ purpose:
   heading: "CLEWs Purpose"
   # Markdown icon list replacing the plain numbered list for visual clarity.
   sub_heading: |
-        The end goal of a CLEWs assessment is to inform policy design and planning processes, with roughly 4 main purposes:
+        The end goal of a CLEWs assessment is to **inform policy design and planning processes**, with roughly 4 main purposes:
 
         - ![Climate change impacts icon](../assets/images/icons/lucide/cloud-sun.svg){: .clews-purpose-icon }
 
           **Climate change impacts:** analyze the impacts of climate change & climate shocks. 
-          <br/>For example: What will be the impact of droughts on my crop production & energy sectors? Which are the least-cost pathways to implement our NDCs to the Paris Agreement? How can I make my agricultural sector more climate resilient?
+          <br/>For example: What will be the **impact of droughts** on my crop production & energy sectors? Which are the **least-cost pathways** to implement our NDCs to the Paris Agreement? How can I make my agricultural sector more **climate resilient**?
 
         - ![Green transition icon](../assets/images/icons/lucide/leaf.svg){: .clews-purpose-icon }
 
           **Green transition:** identify the technology deployment needed to achieve policy goals. 
-          <br/>For example: What is the least-cost pathway to achieve our renewable energy targets? How can technology reduce water losses? How can climate-smart agriculture help us increase crop yields?
+          <br/>For example: What is the least-cost pathway to achieve our **renewable energy targets**? How can technology reduce water losses? How can climate-smart agriculture help us increase **crop yields**?
 
         - ![Resource management icon](../assets/images/icons/lucide/sliders-horizontal.svg){: .clews-purpose-icon }
 
           **Resource management:** explore options to improve resource efficiency. 
-          <br/>For example: Can we reduce electricity demand by improving water efficiency? Can household energy efficiency reduce water demand in electricity generation?
+          <br/>For example: Can we reduce **electricity demand** by improving water efficiency? Can household energy efficiency reduce **water demand** in electricity generation?
 
         - ![Policy coherence icon](../assets/images/icons/lucide/scale.svg){: .clews-purpose-icon }
 
           **Policy coherence:** understand how policies interact and affect resource use, so decision-makers can identify synergies, trade-offs, and risks early. 
-          <br/>For example: What are the cross-sectoral implications of our NDCs? Do we have enough natural resources to attain simultaneously food, water, and energy security? Are our different national policies compatible or what are their trade-offs?
+          <br/>For example: What are the **cross-sectoral implications** of our NDCs? Do we have enough natural resources to attain simultaneously **food, water, and energy security**? Are our different national policies compatible or what are their trade-offs?
         {: .clews-purpose-list }
   sub_heading_video_url: "https://player.vimeo.com/video/1086915730?h=0331661007"
   sub_heading_video_title: "Vimeo Video"

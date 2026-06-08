@@ -7,7 +7,7 @@
 <div class="col-12">
   <div class="grid-header grid-header-align-{{ align }}">
     {% if heading and heading != "" %}<h2>{{ heading }}</h2>{% endif %}
-    {% if sub_heading and sub_heading != "" %}<p class="large">{{ sub_heading }}</p>{% endif %}
+    {% if sub_heading and sub_heading != "" %}<div class="grid-header-sub-heading large">{{ sub_heading | markdownify }}</div>{% endif %}
   </div>
 </div>
 {% endif %}

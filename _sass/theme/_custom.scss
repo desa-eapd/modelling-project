@@ -105,6 +105,34 @@
     }
   }
 
+  .home-model-card-link {
+    color: inherit;
+    display: block;
+    height: 100%;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    &:focus-visible {
+      border-radius: 0.25rem;
+      outline: 3px solid #009edb;
+      outline-offset: 4px;
+    }
+
+    h5 {
+      color: #000000;
+    }
+
+    &:hover h5,
+    &:focus h5 {
+      color: #009edb;
+    }
+  }
+
   .home-model-card {
     .home-model-icon {
       display: block;
@@ -176,6 +204,17 @@
     opacity: 0.92;
   }
 
+  .home-banner-heading {
+    color: #009edb;
+    font-family: var(--font-family-heading);
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    text-transform: none;
+  }
+
   .home-latest-posts-section {
     .grid-header h2 {
       color: #009edb;
@@ -199,6 +238,15 @@
       font-size: 34px;
       line-height: 1.2;
       font-family: var(--font-family-heading);
+      padding-top: 2rem;
+    }
+
+    .grid-header p {
+      color: var(--color-base-text);
+      font-size: 20px;
+      line-height: 1.36;
+      margin-top: 1rem;
+      width: 100%;
     }
   }
 
@@ -438,8 +486,11 @@
     }
 
     .info-sub-heading ul.clews-purpose-list > li > p:nth-of-type(2) strong {
-      color: #009edb;
       font-size: inherit;
+    }
+
+    .info-sub-heading ul.clews-purpose-list > li > p:nth-of-type(2) strong:first-of-type {
+      color: #009edb;
     }
 
     .info-sub-heading .clews-purpose-icon {
@@ -1489,6 +1540,13 @@
 }
 
 .page.page-post {
+  .post-categories a {
+    color: #ffffff;
+    border: 1px solid #009edb;
+    background-color: #009edb;
+    font-weight: 700;
+  }
+
   .post-title h1 {
     color: #009edb;
   }

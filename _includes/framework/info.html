@@ -33,10 +33,9 @@
             <p class="mt-1 {% if align == 'center' %}mx-auto{% endif %}">{{ sub_heading }}</p>
           {% endif %}
         {% endif %}
-        {% if sub_heading_video_url %}
-          {% comment %}Video attached to intro content, rendered before follow-up text/image blocks.{% endcomment %}
-          <div class="info-inline-video mt-2 mb-2">
-            <iframe src="{{ sub_heading_video_url }}" frameborder="0" allowfullscreen title="{{ sub_heading_video_title }}"></iframe>
+        {% if sub_heading_image %}
+          <div class="info-inline-image mt-2 mb-2">
+            <img class="img-fluid" src="{{ sub_heading_image | relative_url }}" alt="{{ heading }}" />
           </div>
         {% endif %}
         {% if sub_heading_after %}
@@ -48,9 +47,10 @@
             {% endif %}
           </div>
         {% endif %}
-        {% if sub_heading_image %}
-          <div class="info-inline-image mt-2 mb-2">
-            <img class="img-fluid" src="{{ sub_heading_image | relative_url }}" alt="{{ heading }}" />
+        {% if sub_heading_video_url %}
+          {% comment %}Video attached to intro content, rendered after any text/image blocks.{% endcomment %}
+          <div class="info-inline-video mt-2 mb-2">
+            <iframe src="{{ sub_heading_video_url }}" frameborder="0" allowfullscreen title="{{ sub_heading_video_title }}"></iframe>
           </div>
         {% endif %}
         {% if video_url %}

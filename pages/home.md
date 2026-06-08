@@ -34,40 +34,33 @@ models_cards:
   enabled: true
   heading: Key Tools for Policy Insights
   align: center
-  sub_heading: ""
+  sub_heading: "The project brings together three modelling frameworks: **CLEWs**, **OG-Core**, and **WEFM**, to help policymakers explore trade-offs, test policy options, and translate evidence into practical strategies. Through country-level customization, training, and technical support, the initiative builds long-term, in-country capacity for integrated, data-driven decision-making.
+  
+  
+  Check out the different models:"
   cards:
     - title: Optimizing Natural</br>Resources Management
-      description: How do climate, land, energy, and water use decisions impact sustainability?
+      description: How do Climate, Land, Energy, and Water use impact sustainability?
       url: https://desa-eapd.github.io/modelling-project/clews
       button_text: Explore CLEWs
       icon: /assets/images/icons/clews-icon.png
       icon_class: clews
     - title: Designing Sustainable</br>Economic Policies
-      description: How can tax and spending policies shape a better future?
+      description: How can tax & spending policies shape a better future?
       url: https://desa-eapd.github.io/modelling-project/og-core
       button_text: Explore OG-Core
       icon: /assets/images/icons/ogcore-icon.png
       icon_class: og-core
-    - title: Forecasting Economic Trends</br>& Policy Impacts
-      description: How can we prepare for economic shifts and global uncertainties?
+    - title: Forecasting Economic Trends</br>& International Trade
+      description: How can we prepare for economic shifts & global uncertainties?
       url: https://desa-eapd.github.io/modelling-project/wefm
       button_text: Explore WEFM
       icon: /assets/images/icons/wefm-icon.png
       icon_class: wefm
 
 # Course banners
+banner_heading: "Training Courses — Free & Online"
 banner_images:
-  - enabled: true
-    image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/home/OG Core banner 1.png"
-    alt: OG Core Banner
-    height: 500px
-    buttons:
-      - text: Register Now
-        url: https://capacity.desa.un.org/article/mastering-og-core-model-theory-technical-applications-and-policy-use-cases
-        external: true
-        size: large
-        style: primary
-
   - enabled: true
     image: https://desa-eapd.github.io/modelling-project/assets/images/gen/home/CLEWs Banner1.png
     alt: CLEWs Banner
@@ -75,6 +68,17 @@ banner_images:
     buttons:
       - text: Register Now
         url: https://capacity.desa.un.org/article/introduction-clews
+        external: true
+        size: large
+        style: primary
+
+  - enabled: true
+    image: "https://desa-eapd.github.io/modelling-project/assets/images/gen/home/OG Core banner 1.png"
+    alt: OG Core Banner
+    height: 500px
+    buttons:
+      - text: Register Now
+        url: https://capacity.desa.un.org/article/mastering-og-core-model-theory-technical-applications-and-policy-use-cases
         external: true
         size: large
         style: primary

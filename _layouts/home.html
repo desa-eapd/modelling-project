@@ -31,17 +31,19 @@ body_classes: page-home
         %}
         {% for item in page.models_cards.cards %}
           <div class="col-12 col-md-4 mb-4">
-            <div class="card h-100 shadow text-center p-4 home-model-card">
+            <a href="{{ item.url }}" class="home-model-card-link">
+              <div class="card h-100 shadow text-center p-4 home-model-card">
+              <span class="btn btn-primary mb-3">{{ item.button_text }}</span>
+              <h5>{{ item.title }}</h5>
+              <p>{{ item.description }}</p>
               {% if item.icon %}
                 <span
-                  class="home-model-icon home-model-icon-{{ item.icon_class | default: 'default' }} mb-3 mx-auto"
+                  class="home-model-icon home-model-icon-{{ item.icon_class | default: 'default' }} mt-auto mx-auto"
                   style="--home-model-icon-mask: url('{{ item.icon | relative_url }}');"
                   aria-hidden="true"></span>
               {% endif %}
-              <h5>{{ item.title }}</h5>
-              <p>{{ item.description }}</p>
-              <a href="{{ item.url }}" class="btn btn-primary mt-auto">{{ item.button_text }}</a>
-            </div>
+              </div>
+            </a>
           </div>
         {% endfor %}
       </div>
@@ -53,6 +55,13 @@ body_classes: page-home
 {% if page.banner_images %}
   <div class="section py-3">
     <div class="container">
+      {% if page.banner_heading %}
+        <div class="row">
+          <div class="col-12">
+            <h2 class="home-banner-heading">{{ page.banner_heading }}</h2>
+          </div>
+        </div>
+      {% endif %}
       <div class="row justify-content-center align-items-start">
         {% for banner in page.banner_images %}
           {% if banner.enabled %}
@@ -207,22 +216,6 @@ body_classes: page-home
   </div>
 {% endif %}
 
-{%- comment -%} Contact Info Section {%- endcomment -%}
-{% if page.contact_info.enabled %}
-  <div class="section">
-    <div class="container text-center">
-      {% if page.contact_info.heading %}
-        <h2>{{ page.contact_info.heading }}</h2>
-      {% endif %}
-      {% if page.contact_info.sub_heading %}
-        <div class="lead">
-          {{ page.contact_info.sub_heading }}
-        </div>
-      {% endif %}
-    </div>
-  </div>
-{% endif %}
-
 {%- comment -%} Outro Section {%- endcomment -%}
 {% if page.outro.enabled %}
   <div class="section">
@@ -280,6 +273,22 @@ body_classes: page-home
           align="center"
         %}
       </div>
+    </div>
+  </div>
+{% endif %}
+
+{%- comment -%} Contact Info Section {%- endcomment -%}
+{% if page.contact_info.enabled %}
+  <div class="section">
+    <div class="container text-center">
+      {% if page.contact_info.heading %}
+        <h2>{{ page.contact_info.heading }}</h2>
+      {% endif %}
+      {% if page.contact_info.sub_heading %}
+        <div class="lead">
+          {{ page.contact_info.sub_heading }}
+        </div>
+      {% endif %}
     </div>
   </div>
 {% endif %}
