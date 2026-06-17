@@ -27,7 +27,7 @@ intro:
   align: left
   heading: "Understanding CLEWs"
   sub_heading: |
-    CLEWs is a framework designed to map the interactions under different **climate** change scenarios (reduced rain, increased temperatures) between different **land** uses (agriculture, forests, cities), **energy** systems (coal power plants, dams, solar panels) and **water** resources (rain, rivers, and aquifers). By analysing these interactions, CLEWs can identify opportunities for synergies, highlight trade-offs, and offer options.
+    CLEWs is a framework designed to map the interactions under different **climate** change scenarios (reduced rain, increased temperatures) between different **land** uses (agriculture, forests, cities), **energy** systems (coal power plants, dams, solar panels) and **water** resources (rain, rivers, and aquifers). By analysing these interactions, CLEWs can identify opportunities for synergies, highlight trade-offs, and offer implementation options.
   sub_heading_image: "/assets/images/gen/home/Understanding_CLEWs.png"
   sub_heading_after: |
     At the most basic level, a country only needs 3 things: water, food, and energy. **Land**, energy and water to produce food; **energy** for households & industry; and **water** for drinking & industrial processes. While those 3 resources are not infinite, demand for them is ever increasing due to population growth and economic development, and the impacts of climate change further compound this challenge — hence the need for an integrated analysis of the Climate, Land, Energy, and Water systems (CLEWs) to avoid unintended cross-sectoral impacts and identify co-benefit opportunities.
@@ -48,23 +48,23 @@ purpose:
 
         - ![Climate change impacts icon](../assets/images/icons/lucide/cloud-sun.svg){: .clews-purpose-icon }
 
-          **Climate change impacts:** analyze the impacts of climate change & climate shocks. 
+          **Climate Change Impacts:** analyze the impacts of climate change & climate shocks. 
           <br/>For example: What will be the **impact of droughts** on my crop production & energy sectors? Which are the **least-cost pathways** to implement our NDCs to the Paris Agreement? How can I make my agricultural sector more **climate resilient**?
 
         - ![Green transition icon](../assets/images/icons/lucide/leaf.svg){: .clews-purpose-icon }
 
-          **Green transition:** identify the technology deployment needed to achieve policy goals. 
-          <br/>For example: What is the least-cost pathway to achieve our **renewable energy targets**? How can technology reduce water losses? How can climate-smart agriculture help us increase **crop yields**?
+          **Green Transition:** identify the technology deployment needed to achieve policy goals. 
+          <br/>For example: What are the different options to achieve our **renewable energy targets**? How much renewable generation can I add without compromising **grid flexibility** or **water & land availability**? What are the costs and the savings in emissions of **retiring early coal or oil-fired powerplants**?
 
         - ![Resource management icon](../assets/images/icons/lucide/sliders-horizontal.svg){: .clews-purpose-icon }
 
-          **Resource management:** explore options to improve resource efficiency. 
-          <br/>For example: Can we reduce **electricity demand** by improving water efficiency? Can household energy efficiency reduce **water demand** in electricity generation?
+          **Resource Management:** explore options to improve resource efficiency. 
+          <br/>For example: How can climate-smart agriculture help us increase **crop yields**? Where do resource constraints create **risks for national development plans**? What are the **consequences of converting forests &  grasslands** into agricultural or energy use?
 
         - ![Policy coherence icon](../assets/images/icons/lucide/scale.svg){: .clews-purpose-icon }
 
-          **Policy coherence:** understand how policies interact and affect resource use, so decision-makers can identify synergies, trade-offs, and risks early. 
-          <br/>For example: What are the **cross-sectoral implications** of our NDCs? Do we have enough natural resources to attain simultaneously **food, water, and energy security**? Are our different national policies compatible or what are their trade-offs?
+          **Policy Coherence:** understand how policies interact and affect resource use, so decision-makers can identify synergies, trade-offs, and risks early. 
+          <br/>For example: What are the **cross-sectoral implications** of our NDCs? Do we have enough natural resources to attain simultaneously **food, water, and energy security**? Which **low-carbon policies** also improve energy access & food security?
         {: .clews-purpose-list }
   sub_heading_video_url: "https://player.vimeo.com/video/1086915730?h=0331661007"
   sub_heading_video_title: "Vimeo Video"
