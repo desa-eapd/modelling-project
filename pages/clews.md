@@ -27,7 +27,7 @@ intro:
   align: left
   heading: "Understanding CLEWs"
   sub_heading: |
-    CLEWs is a framework designed to map the interactions under different **climate** change scenarios (e.g., reduced rain, increased temperatures) between different **land** uses (e.g., agriculture, forests, cities), **energy** systems (e.g., coal power plants, dams, solar panels), and **water** resources (e.g., rain, rivers, and aquifers). By analysing these interactions, CLEWs can identify opportunities for synergies, highlight trade-offs, and offer options.
+    CLEWs is a framework designed to map the interactions under different **climate** change scenarios (reduced rain, increased temperatures) between different **land** uses (agriculture, forests, cities), **energy** systems (coal power plants, dams, solar panels) and **water** resources (rain, rivers, and aquifers). By analysing these interactions, CLEWs can identify opportunities for synergies, highlight trade-offs, and offer options.
   sub_heading_image: "/assets/images/gen/home/Understanding_CLEWs.png"
   sub_heading_after: |
     At the most basic level, a country only needs 3 things: water, food, and energy. **Land**, energy and water to produce food; **energy** for households & industry; and **water** for drinking & industrial processes. While those 3 resources are not infinite, demand for them is ever increasing due to population growth and economic development, and the impacts of climate change further compound this challenge — hence the need for an integrated analysis of the Climate, Land, Energy, and Water systems (CLEWs) to avoid unintended cross-sectoral impacts and identify co-benefit opportunities.
