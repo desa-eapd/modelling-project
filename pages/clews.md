@@ -44,7 +44,7 @@ purpose:
   heading: "CLEWs Purpose"
   # Markdown icon list replacing the plain numbered list for visual clarity.
   sub_heading: |
-        The end goal of a CLEWs assessment is to **inform policy design and planning processes**, with roughly 4 main purposes:
+        The end goal of a CLEWs assessment is to **inform policy design & planning processes**, with roughly 4 main purposes:
 
         - ![Climate change impacts icon](../assets/images/icons/lucide/cloud-sun.svg){: .clews-purpose-icon }
 
@@ -54,12 +54,12 @@ purpose:
         - ![Green transition icon](../assets/images/icons/lucide/leaf.svg){: .clews-purpose-icon }
 
           **Green Transition:** identify the technology deployment needed to achieve policy goals. 
-          <br/>For example: What are the different options to achieve our **renewable energy targets**? How much renewable generation can I add without compromising **grid flexibility** or **water & land availability**? What are the costs and the savings in emissions of **retiring early coal or oil-fired powerplants**?
+          <br/>For example: What are the different options to achieve our **renewable energy targets**? How much renewable generation can I add without compromising **grid flexibility** or **water & land availability**? What are the costs and the savings in emissions of **retiring coal or oil-fired powerplants early**?
 
         - ![Resource management icon](../assets/images/icons/lucide/sliders-horizontal.svg){: .clews-purpose-icon }
 
           **Resource Management:** explore options to improve resource efficiency. 
-          <br/>For example: How can climate-smart agriculture help us increase **crop yields**? Where do resource constraints create **risks for national development plans**? What are the **consequences of converting forests &  grasslands** into agricultural or energy use?
+          <br/>For example: How can climate-smart agriculture help us increase **crop yields**? Which resources can create **risks for national development plans**? What are the **consequences of converting forests &  grasslands** into agricultural or energy use?
 
         - ![Policy coherence icon](../assets/images/icons/lucide/scale.svg){: .clews-purpose-icon }
 
