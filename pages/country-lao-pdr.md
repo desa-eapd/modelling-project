@@ -5,23 +5,26 @@ permalink: /country-projects/lao-pdr/
 flag: /assets/images/flags/lao-pdr.png
 ---
 
-<p><strong>When:</strong> 2024–2026</p>
+**When:** 2024–2026
 
-<p><strong>Purpose:</strong> Achieve Laos’ Green Growth Strategy’s <strong>afforestation targets</strong> while ensuring <strong>food security</strong> as per the Agriculture Development Strategy 2025 and respecting the Land Use Master Plan.</p>
+**Purpose:** Use integrated climate, land, energy, and water planning to support Lao PDR's forest-cover and green-growth goals while safeguarding food security and strengthening climate resilience.
 
-<p><strong>What happened:</strong> Through an inter-ministerial process, the team designed scenarios to assess <strong>how to achieve afforestation targets while promoting climate-resilient agriculture</strong>. The on-going, limited cross-sector coordination highlighted the need for integrated planning through frameworks like CLEWs, particularly in countries where agriculture remains central to the economy &amp; livelihoods but pose a development challenge due to rising irrigation demand and land-use change.</p>
+**Project development:** An introductory CLEWs workshop was held in Vientiane from **11–15 November 2024**, followed by advanced training from **5–7 May 2025**. The second workshop brought together more than 30 representatives from government, academia, and technical agencies to review the Lao PDR model, refine its assumptions, and identify priority scenarios on smart agriculture and the management of water for energy and food production. The resulting analysis was published in policy and technical briefs dated **June 2026**.
 
-<p><strong>Key insights:</strong> In the business-as-usual scenario, expanding forest cover reduced available agricultural land, driving more intensive irrigation and increasing both water use &amp; electricity demand for pumping. In contrast, <strong>climate-resilient rainfed agriculture reduced reliance on irrigation &amp; energy use</strong>.</p>
+**June 2026 findings:** The scenarios examine how Lao PDR could pursue its conditional target of 70% forest cover while meeting growing food demand. The results are modelled pathways rather than forecasts.
 
-<ul>
-  <li>Promote <strong>sustainable mechanization of agricultural practices</strong> to provide an extra 420,000 tonnes of rice per year while saving 8,000 km2 of land.</li>
-  <li>Plan water &amp; energy infrastructure in parallel with afforestation targets because the mechanization will result in a <strong>+51% water consumption for irrigation and +34% power consumption</strong> by 2055.</li>
-  <li>Additional power demand can be met through a minimal increase of solar (+1.2) and wind (+2.5%).</li>
-  <li>Support the <strong>shift to climate-resilient rainfed rice varieties</strong> such as nationally developed <i>thadokkham</i> varieties (TD11), in particular in the north, with a–25% cost.</li>
-</ul>
+- **Use existing farmland more productively instead of expanding it.** In the modelled pathway, increasing irrigation and mechanization could produce an additional 420,000 tonnes of rice per year by 2055 while freeing about 8,000 km² of land for other uses, including forest restoration.
+- **Plan farming, water, and electricity infrastructure together.** Agricultural intensification raises modelled irrigation-water needs by 51% and electricity needs for irrigation by 34% by 2055. Efficient irrigation and pumping systems, careful management of local water resources, and a modest increase in solar and wind generation can help meet those needs.
+- **Expand climate-resilient rainfed rice where it performs best.** The nationally developed TDK11 rice variety performs particularly well in northern Lao PDR in the scenario, increasing low-input rainfed yields and lowering production costs and water use.
+- **Strengthen coordination and national analytical capacity.** The briefs recommend regular coordination among the institutions responsible for agriculture, water, energy, environment, and land, supported by stronger systems for data collection, modeling, and scenario analysis.
 
 ![Lao PDR CLEWs project image](../../assets/images/country-projects/lao-pdr-1.png)
 
-<p><strong>Tools: </strong>OSeMOSYS</p>
+**Model:** CLEWs, implemented in OSeMOSYS
 
-<p><strong>Stakeholders:</strong> UN DESA, Royal Institute of Technology (KTH), Climate Compatible Growth (CCG), National University of Laos</p>
+**Stakeholders:** UN DESA, KTH Royal Institute of Technology, Climate Compatible Growth, National University of Laos, and national ministries and technical agencies.
+
+## Documents
+
+- [Policy brief: Enhancing Climate Resilience through Integrated Energy, Agriculture, and Water Modelling (June 2026, PDF)]({{ '/assets/briefs/PB_CLEWs_Lao%20PDR_June%202026.pdf' | relative_url }})
+- [Technical brief: Enhancing Climate Resilience through Integrated Energy, Agriculture, and Water Modelling (June 2026, PDF)]({{ '/assets/briefs/TB_CLEWs_Lao%20PDR_June%202026.pdf' | relative_url }})
