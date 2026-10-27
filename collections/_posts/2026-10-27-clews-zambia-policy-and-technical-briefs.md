@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New CLEWs Policy and Technical Briefs for Zambia"
+title: "New CLEWs Policy & Technical Briefs for Zambia"
 date: 2026-10-27
 authors: ["UNDESA"]
 categories: ["CLEWs", "Zambia"]
@@ -12,6 +12,11 @@ thumbnail: "/assets/images/gen/blog/clews-zambia-thumbnail.png"
 New CLEWs policy and technical briefs for Zambia present an integrated assessment developed following the national training process launched in April 2025. The **June 2026** publications examine what Zambia's ambitious maize, wheat, and soybean production targets could mean for land, irrigation, electricity supply, investment, and emissions through 2050.
 
 The analysis shows why agricultural & energy planning need to move together. Meeting the crop targets in the modelled pathway requires much more irrigation & electricity for pumping, while the expansion of cultivated land creates additional pressure on ecosystems & water resources. Distributed & utility-scale solar, together with onshore wind, emerge as cost-effective options for supporting agricultural electrification and diversifying a power system exposed to drought.
+
+<figure style="margin: 0.5rem 0;">
+  <img src="{{ '/assets/images/country-projects/zambia-renewable-capacity.png' | relative_url }}" alt="Installed electricity capacity under Zambia's three CLEWs scenarios in 2030 and 2050" style="display: block; width: 100%; margin: 0;" />
+  <figcaption style="margin-top: 0.2rem; font-size: 1em; line-height: 1.56; font-style: italic;">Installed electricity capacity under the increased-food-production, distributed-solar, and 33% non-hydro-renewable scenarios in 2030 and 2050.</figcaption>
+</figure>
 
 ### Key recommendations
 

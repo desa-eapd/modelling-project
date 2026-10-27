@@ -21,6 +21,11 @@ flag: /assets/images/flags/zambia.svg
 - **Reduce exposure to coal and climate-sensitive hydropower.** Compared with the agricultural-growth scenario, the faster renewable rollout reduces modelled coal generation by 26%, direct greenhouse-gas emissions by 24%, and variable electricity costs by 21% in 2050.
 - **Protect water resources and small farmers.** Because expanded irrigation increases reliance on groundwater, the briefs call for assessment of seasonal recharge and climate risks, careful spatial planning, and measures to ensure that small farmers benefit from the transition.
 
+<figure style="margin: 0.5rem 0;">
+  <img src="{{ '/assets/images/country-projects/zambia-renewable-capacity.png' | relative_url }}" alt="Installed electricity capacity under Zambia's three CLEWs scenarios in 2030 and 2050" style="display: block; width: 100%; margin: 0;" />
+  <figcaption style="margin-top: 0.2rem; font-size: 1em; line-height: 1.56; font-style: italic;">Installed electricity capacity under the increased-food-production, distributed-solar, and 33% non-hydro-renewable scenarios in 2030 and 2050.</figcaption>
+</figure>
+
 **Model:** CLEWs, implemented in OSeMOSYS
 
 **Stakeholders:** Zambian energy, agriculture, water, environment, and planning institutions; University of Zambia; Centre for Energy, Environment and Engineering Zambia; ZESCO; Energy Regulation Board; UN DESA; KTH Royal Institute of Technology; and Climate Compatible Growth.

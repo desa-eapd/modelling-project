@@ -18,7 +18,9 @@ flag: /assets/images/flags/lao-pdr.png
 - **Expand climate-resilient rainfed rice where it performs best.** The nationally developed TDK11 rice variety performs particularly well in northern Lao PDR in the scenario, increasing low-input rainfed yields and lowering production costs and water use.
 - **Strengthen coordination and national analytical capacity.** The briefs recommend regular coordination among the institutions responsible for agriculture, water, energy, environment, and land, supported by stronger systems for data collection, modeling, and scenario analysis.
 
-![Lao PDR CLEWs project image](../../assets/images/country-projects/lao-pdr-1.png)
+<div style="margin: 0.25rem 0;">
+  <img src="{{ '/assets/images/country-projects/lao-pdr-1.png' | relative_url }}" alt="Harvested rice area in northern Lao PDR under the baseline and smart-agriculture scenarios" style="display: block; width: 100%; margin: 0;" />
+</div>
 
 **Model:** CLEWs, implemented in OSeMOSYS
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New CLEWs Policy and Technical Briefs for Lao PDR"
+title: "New CLEWs Policy & Technical Briefs for Lao PDR"
 date: 2026-10-27
 authors: ["UNDESA"]
 categories: ["CLEWs", "Lao PDR"]
@@ -12,6 +12,10 @@ thumbnail: "/assets/images/gen/blog/clews-lao2-thumbnail.png"
 New CLEWs policy and technical briefs for Lao PDR present the results of an integrated assessment developed with national stakeholders through workshops in November 2024 and May 2025. The **June 2026** publications examine how Lao PDR can pursue its forest-cover & green-growth goals while maintaining food security and preparing agriculture for a changing climate.
 
 The analysis finds that using existing farmland more productively can reduce pressure to clear additional land. In the modelled pathway, expanding sustainable mechanization and irrigation could provide an additional 420,000 tonnes of rice per year by 2055 while freeing about 8,000 km² of land for other uses, including forest restoration. This transition must be planned carefully: the scenario raises water needed for irrigation by 51% and electricity needed for irrigation by 34% by 2055.
+
+<div style="margin: 0.25rem 0;">
+  <img src="{{ '/assets/images/country-projects/lao-pdr-1.png' | relative_url }}" alt="Harvested rice area in northern Lao PDR under the baseline and smart-agriculture scenarios" style="display: block; width: 100%; margin: 0;" />
+</div>
 
 ### Key recommendations
 
