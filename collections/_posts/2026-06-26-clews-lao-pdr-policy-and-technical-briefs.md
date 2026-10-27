@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New CLEWs Policy & Technical Briefs for Lao PDR"
-date: 2026-10-27
+date: 2026-06-26
 authors: ["UNDESA"]
 categories: ["CLEWs", "Lao PDR"]
 tags: [CLEWs]

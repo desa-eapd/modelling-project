@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New CLEWs Policy & Technical Briefs for Zambia"
-date: 2026-10-27
+date: 2026-07-06
 authors: ["UNDESA"]
 categories: ["CLEWs", "Zambia"]
 tags: [CLEWs]
