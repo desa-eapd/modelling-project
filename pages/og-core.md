@@ -34,6 +34,15 @@ intro:
     
     OG-Core is designed to understand these interactions and capture how people & institutions respond over time. It uses an overlapping generations framework, meaning that the economy is represented by households of different ages who make decisions over their lifetimes. This makes it possible to **examine how policies affect different generations, income groups, and future fiscal outcomes**.
 
+  buttons:
+    enabled: true
+    list:
+      - text: "Try the OG app"
+        url: "https://eapd-drb.github.io/MUIOGO/og-core/quick-guide.html"
+        external: true
+        size: large
+        style: "primary"
+
 # Section: outputs and scope
 overview:
   enabled: true
