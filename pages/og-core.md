@@ -32,7 +32,7 @@ intro:
     
     For example, a government may introduce a tax reform to raise revenue & improve fiscal sustainability. But that reform can also affect household savings, labour supply, or private investment. Similarly, population ageing can increase pension & health spending while reducing the share of working-age people, creating pressure on public finances and affecting future generations.
     
-    OG-Core is designed to understand these interactions and capture how people & institutions respond over time. It uses an overlapping generations framework, meaning that the economy is represented by households of different ages who make decisions over their lifetimes. This makes it possible to examine how policies affect different generations, income groups, and future fiscal outcomes.
+    OG-Core is designed to understand these interactions and capture how people & institutions respond over time. It uses an overlapping generations framework, meaning that the economy is represented by households of different ages who make decisions over their lifetimes. This makes it possible to **examine how policies affect different generations, income groups, and future fiscal outcomes**.
 
 # Section: outputs and scope
 overview:
