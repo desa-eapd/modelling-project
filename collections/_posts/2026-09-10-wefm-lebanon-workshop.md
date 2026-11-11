@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "National workshop on macro-fiscal modelling and forecasting for Lebanon"
-date: 2026-09-10
+date: 2026-11-10
 authors: ["UNDESA", "ESCWA"]
 categories: ["WEFM", "Lebanon"]
 tags: [wefm]
