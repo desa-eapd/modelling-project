@@ -8,7 +8,7 @@ tags: [wefm]
 description: "A four-day training in Beirut builds policymakers’ capacity to use a macro-fiscal model for forecasting and policy analysis."
 thumbnail: "/assets/images/gen/blog/wefm-lebanon-workshop-2026-thumbnail.jpg"
 ---
-**Event:** 7–10 September 2026 | Beirut, Lebanon
+<p><strong>Event:</strong> 7–10 September 2026 | Beirut, Lebanon</p>
 
 <p align="center">
   <img src="{{ '/assets/images/gen/blog/wefm-lebanon-workshop-2026-1.jpg' | relative_url }}" alt="Speakers at the national workshop on macro-fiscal modelling and forecasting for Lebanon in Beirut" width="1920" height="1280" />
